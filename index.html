@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>공모주 달력</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --surface: #ffffff;
+      --text: #1a2332;
+      --muted: #6b7a8d;
+      --border: #e2e8f0;
+      --subscribe: #dbeafe;
+      --subscribe-border: #93c5fd;
+      --subscribe-text: #1e40af;
+      --listing: #dcfce7;
+      --listing-border: #86efac;
+      --listing-text: #166534;
+      --today: #eff6ff;
+      --today-ring: #3b82f6;
+      --shadow: 0 1px 3px rgba(26, 35, 50, 0.06);
+      --radius: 12px;
+      --font: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.25rem 1rem 2.5rem;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 0.75rem 1.25rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      font-size: 1.55rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.35rem 0.45rem;
+      box-shadow: var(--shadow);
+    }
+
+    .toolbar button {
+      appearance: none;
+      border: none;
+      background: transparent;
+      color: var(--text);
+      width: 2.1rem;
+      height: 2.1rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 1.05rem;
+      display: grid;
+      place-items: center;
+      transition: background 0.15s ease;
+    }
+
+    .toolbar button:hover { background: var(--bg); }
+    .toolbar button:focus-visible {
+      outline: 2px solid var(--today-ring);
+      outline-offset: 1px;
+    }
+
+    .month-label {
+      min-width: 8.5rem;
+      text-align: center;
+      font-weight: 650;
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem 1rem;
+      margin-bottom: 1rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .dot {
+      width: 0.7rem;
+      height: 0.7rem;
+      border-radius: 4px;
+      border: 1px solid transparent;
+    }
+
+    .dot.subscribe { background: var(--subscribe); border-color: var(--subscribe-border); }
+    .dot.listing { background: var(--listing); border-color: var(--listing-border); }
+
+    .layout {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 900px) {
+      .layout { grid-template-columns: 1fr 280px; align-items: start; }
+    }
+
+    .panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    #calendarPanel {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .weekdays {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      width: 100%;
+      background: #f8fafc;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .weekdays div { padding: 0.55rem 0.15rem; min-width: 0; }
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      width: 100%;
+    }
+
+    .day {
+      min-width: 0;
+      min-height: 7.2rem;
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 0.3rem 0.2rem 0.35rem;
+      background: var(--surface);
+      vertical-align: top;
+      overflow: hidden;
+    }
+
+    .day:nth-child(5n) { border-right: none; }
+    .day.outside { background: #fafbfc; color: #a0aec0; }
+    .day.today { background: var(--today); box-shadow: inset 0 0 0 1.5px var(--today-ring); }
+
+    .day-num {
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      padding: 0 0.15rem;
+    }
+
+    .day.outside .day-num { color: #a0aec0; }
+
+    .cards { display: flex; flex-direction: column; gap: 0.25rem; }
+
+    .ipo-card {
+      border-radius: 7px;
+      border: 1px solid transparent;
+      padding: 0.28rem 0.3rem;
+      font-size: 0.68rem;
+      line-height: 1.35;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+      max-width: 100%;
+      min-width: 0;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      cursor: default;
+    }
+
+    a.ipo-card {
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a.ipo-card:hover {
+      filter: brightness(0.97);
+    }
+
+    a.ipo-card:active {
+      transform: scale(0.98);
+    }
+
+    .ipo-card.subscribe {
+      background: var(--subscribe);
+      border-color: var(--subscribe-border);
+      color: var(--subscribe-text);
+    }
+
+    .ipo-card.listing {
+      background: var(--listing);
+      border-color: var(--listing-border);
+      color: var(--listing-text);
+    }
+
+    .ipo-card .name {
+      font-weight: 700;
+      font-size: 0.7rem;
+      margin-bottom: 0.08rem;
+    }
+
+    .ipo-card .meta-line {
+      opacity: 0.92;
+      overflow-wrap: anywhere;
+      word-break: keep-all;
+    }
+
+    .side { padding: 1rem; }
+    .side h2 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
+
+    .upcoming-section { margin-bottom: 1.1rem; }
+    .upcoming-section:last-child { margin-bottom: 0; }
+
+    .upcoming-label {
+      font-size: 0.75rem;
+      font-weight: 650;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .upcoming-list { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+
+    .upcoming-item {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 0.6rem;
+      font-size: 0.8rem;
+      background: #fbfcfe;
+    }
+
+    .upcoming-item .u-name { font-weight: 700; margin-bottom: 0.15rem; }
+    .upcoming-item .u-detail { color: var(--muted); font-size: 0.74rem; }
+    .upcoming-item.empty { color: var(--muted); border-style: dashed; }
+
+    .status {
+      margin-top: 0.85rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .status.error { color: #b91c1c; }
+
+    @media (max-width: 640px) {
+      .wrap { padding: 0.75rem 0.4rem 2rem; }
+      h1 { font-size: 1.25rem; }
+      .day { min-height: 5.2rem; padding: 0.2rem 0.1rem 0.25rem; }
+      .day-num { font-size: 0.7rem; padding: 0 0.1rem; }
+      .ipo-card { font-size: 0.56rem; padding: 0.18rem 0.18rem; }
+      .ipo-card .name { font-size: 0.58rem; }
+      .ipo-card .meta-line { font-size: 0.52rem; line-height: 1.3; }
+      .weekdays { font-size: 0.65rem; }
+      .weekdays div { padding: 0.45rem 0.05rem; }
+      .month-label { min-width: 6.5rem; font-size: 0.92rem; }
+      .cards { gap: 0.18rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>공모주 달력</h1>
+        <p class="meta" id="updatedAt">데이터 불러오는 중…</p>
+      </div>
+      <div class="toolbar" role="group" aria-label="월 이동">
+        <button type="button" id="prevMonth" aria-label="이전 달">‹</button>
+        <div class="month-label" id="monthLabel">—</div>
+        <button type="button" id="nextMonth" aria-label="다음 달">›</button>
+      </div>
+    </header>
+
+    <div class="legend" aria-hidden="true">
+      <span><i class="dot subscribe"></i> 청약일</span>
+      <span><i class="dot listing"></i> 상장일</span>
+    </div>
+
+    <div class="layout">
+      <div class="panel" id="calendarPanel">
+        <div class="weekdays">
+          <div>월</div><div>화</div><div>수</div><div>목</div><div>금</div>
+        </div>
+        <div class="calendar" id="calendar"></div>
+      </div>
+
+      <aside class="panel side">
+        <h2>다가오는 일정</h2>
+        <div class="upcoming-section">
+          <div class="upcoming-label"><i class="dot subscribe"></i> 청약</div>
+          <ul class="upcoming-list" id="upcomingSubscribe"></ul>
+        </div>
+        <div class="upcoming-section">
+          <div class="upcoming-label"><i class="dot listing"></i> 상장</div>
+          <ul class="upcoming-list" id="upcomingListing"></ul>
+        </div>
+      </aside>
+    </div>
+
+    <p class="status" id="status"></p>
+  </div>
+
+  <script>
+    const WEEKDAYS_KO = ["일", "월", "화", "수", "목", "금", "토"];
+
+    let items = [];
+    let viewYear = 2026;
+    let viewMonth = 8; // 0-indexed: September 2026
+
+    function pad2(n) { return String(n).padStart(2, "0"); }
+
+    function toDateKey(d) {
+      return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+    }
+
+    function parseYMD(s) {
+      const [y, m, d] = s.split("-").map(Number);
+      return new Date(y, m - 1, d);
+    }
+
+    function formatYMDKo(s) {
+      const d = parseYMD(s);
+      return `${d.getMonth() + 1}/${d.getDate()}(${WEEKDAYS_KO[d.getDay()]})`;
+    }
+
+    function formatUpdatedAt(iso) {
+      try {
+        const d = new Date(iso);
+        if (Number.isNaN(d.getTime())) return iso;
+        const y = d.getFullYear();
+        const m = pad2(d.getMonth() + 1);
+        const day = pad2(d.getDate());
+        const h = pad2(d.getHours());
+        const mi = pad2(d.getMinutes());
+        return `데이터 갱신: ${y}-${m}-${day} ${h}:${mi}`;
+      } catch {
+        return `데이터 갱신: ${iso}`;
+      }
+    }
+
+    function displayScore(score) {
+      if (score === null || score === undefined || score === "" || score === "없음") return "없음";
+      return String(score);
+    }
+
+    function displayDeposit(dep) {
+      if (dep === null || dep === undefined || dep === "" || dep === "미확인") return "미확인";
+      return String(dep);
+    }
+
+    function abbreviateBroker(name) {
+      const s = String(name || "").trim();
+      if (!s) return "";
+      const map = [
+        [/미래에셋/, "미래"],
+        [/유진투자|유진/, "유진"],
+        [/대신/, "대신"],
+        [/키움/, "키움"],
+        [/한국투자|한투/, "한투"],
+        [/NH투자|^NH$|나무/, "NH"],
+        [/^KB|KB증권/, "KB"],
+        [/신한/, "신한"],
+        [/삼성/, "삼성"],
+        [/유안타/, "유안타"],
+        [/상상인/, "상상인"],
+        [/IBK/, "IBK"],
+        [/하나/, "하나"],
+        [/한양/, "한양"],
+      ];
+      for (const [re, short] of map) {
+        if (re.test(s)) return short;
+      }
+      return s.replace(/증권|투자증권/g, "").trim() || s;
+    }
+
+    function displayBrokers(item) {
+      const raw = item.brokers;
+      if (!raw || (Array.isArray(raw) && raw.length === 0)) return "";
+      const list = Array.isArray(raw) ? raw : String(raw).split(/[,·\/]/);
+      const shorts = [...new Set(list.map((x) => abbreviateBroker(x)).filter(Boolean))];
+      return shorts.join("·");
+    }
+
+    function eachDateInclusive(startStr, endStr) {
+      const out = [];
+      let cur = parseYMD(startStr);
+      const end = parseYMD(endStr);
+      while (cur <= end) {
+        out.push(toDateKey(cur));
+        cur = new Date(cur.getFullYear(), cur.getMonth(), cur.getDate() + 1);
+      }
+      return out;
+    }
+
+    function eventsForDate(dateKey) {
+      const events = [];
+      for (const item of items) {
+        // 청약은 기간의 마지막 날만 표시
+        if (item.subscribeEnd === dateKey) {
+          events.push({ type: "subscribe", item });
+        }
+        if (item.listDate === dateKey) {
+          events.push({ type: "listing", item });
+        }
+      }
+      return events;
+    }
+
+    function extractYoutubeId(url) {
+      if (!url) return "";
+      const s = String(url).trim();
+      let m = s.match(/[?&]v=([A-Za-z0-9_-]{11})/);
+      if (m) return m[1];
+      m = s.match(/youtu\.be\/([A-Za-z0-9_-]{11})/);
+      if (m) return m[1];
+      m = s.match(/youtube\.com\/(?:embed|shorts|live)\/([A-Za-z0-9_-]{11})/);
+      if (m) return m[1];
+      m = s.match(/^([A-Za-z0-9_-]{11})$/);
+      return m ? m[1] : "";
+    }
+
+    function extractStartSeconds(url, item) {
+      if (item && item.videoStartSeconds != null && item.videoStartSeconds !== "") {
+        const n = Number(item.videoStartSeconds);
+        if (!Number.isNaN(n) && n >= 0) return Math.floor(n);
+      }
+      if (!url) return 0;
+      const s = String(url);
+      let m = s.match(/[?&]t=(\d+)s?/i);
+      if (m) return parseInt(m[1], 10);
+      m = s.match(/[?&]start=(\d+)/i);
+      if (m) return parseInt(m[1], 10);
+      m = s.match(/[?&]t=(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s)?/i);
+      if (m && (m[1] || m[2] || m[3])) {
+        return (parseInt(m[1] || "0", 10) * 3600) + (parseInt(m[2] || "0", 10) * 60) + parseInt(m[3] || "0", 10);
+      }
+      return 0;
+    }
+
+    function youtubeWebUrl(id, startSec) {
+      if (startSec && startSec > 0) return `https://youtu.be/${id}?t=${startSec}`;
+      return `https://youtu.be/${id}`;
+    }
+
+    function youtubeAppHref(url, item) {
+      const id = extractYoutubeId(url);
+      if (!id) return url || "#";
+      const startSec = extractStartSeconds(url, item);
+      return youtubeWebUrl(id, startSec);
+    }
+
+    function openYoutubeApp(event, url, item) {
+      const id = extractYoutubeId(url);
+      if (!id) return;
+      event.preventDefault();
+      const ua = navigator.userAgent || "";
+      const startSec = extractStartSeconds(url, item);
+      // youtu.be?t= 초 단위가 앱·웹 모두에서 시점을 가장 잘 지킴
+      const stamped = youtubeWebUrl(id, startSec);
+      if (/Android/i.test(ua)) {
+        const tQuery = startSec > 0 ? `&t=${startSec}` : "";
+        window.location.href =
+          `intent://www.youtube.com/watch?v=${id}${tQuery}#Intent;scheme=https;package=com.google.android.youtube;S.browser_fallback_url=${encodeURIComponent(stamped)};end`;
+        return;
+      }
+      // iOS/기타: 유니버설 링크로 앱 실행 + 시점 유지
+      window.location.href = stamped;
+    }
+
+    function cardHtml(type, item) {
+      const cls = type === "subscribe" ? "subscribe" : "listing";
+      const score = displayScore(item.score);
+      const deposit = displayDeposit(item.minDeposit);
+      const brokers = displayBrokers(item);
+      const meta = brokers
+        ? `${escapeHtml(deposit)} · ${escapeHtml(score)} · ${escapeHtml(brokers)}`
+        : `${escapeHtml(deposit)} · ${escapeHtml(score)}`;
+      const url = item.videoUrl || item.analysisUrl || "";
+      const inner =
+        `<div class="name">${escapeHtml(item.name)}</div>` +
+        `<div class="meta-line">${meta}</div>`;
+      if (url) {
+        const href = escapeHtml(youtubeAppHref(url, item));
+        const raw = escapeHtml(url);
+        return (
+          `<a class="ipo-card ${cls}" href="${href}" data-yt="${raw}" data-id="${escapeHtml(item.id || "")}" title="${escapeHtml(item.name)} · 공모주린이 종합점수">` +
+          inner +
+          `</a>`
+        );
+      }
+      return (
+        `<div class="ipo-card ${cls}" title="${escapeHtml(item.name)}">` +
+        inner +
+        `</div>`
+      );
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function isWeekday(d) {
+      const dow = d.getDay();
+      return dow >= 1 && dow <= 5;
+    }
+
+    function renderCalendar() {
+      const label = document.getElementById("monthLabel");
+      label.textContent = `${viewYear}년 ${viewMonth + 1}월`;
+
+      const first = new Date(viewYear, viewMonth, 1);
+      // Monday of the week that contains the 1st
+      const dow = first.getDay();
+      const toMon = dow === 0 ? -6 : 1 - dow;
+      let cursor = new Date(viewYear, viewMonth, 1 + toMon);
+
+      const last = new Date(viewYear, viewMonth + 1, 0);
+      let end = new Date(last);
+      const endDow = end.getDay();
+      if (endDow === 0) end.setDate(end.getDate() - 2);
+      else if (endDow === 6) end.setDate(end.getDate() - 1);
+      else end.setDate(end.getDate() + (5 - endDow));
+
+      const todayKey = toDateKey(new Date());
+      const cal = document.getElementById("calendar");
+      cal.innerHTML = "";
+
+      while (cursor <= end) {
+        if (isWeekday(cursor)) {
+          const d = new Date(cursor);
+          const key = toDateKey(d);
+          const outside = d.getMonth() !== viewMonth;
+          const cell = document.createElement("div");
+          cell.className = "day";
+          if (outside) cell.classList.add("outside");
+          if (key === todayKey) cell.classList.add("today");
+
+          const events = eventsForDate(key);
+          cell.innerHTML =
+            `<div class="day-num">${d.getDate()}</div>` +
+            `<div class="cards">${events.map((e) => cardHtml(e.type, e.item)).join("")}</div>`;
+          cal.appendChild(cell);
+        }
+        cursor.setDate(cursor.getDate() + 1);
+      }
+    }
+
+    function renderUpcoming() {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+
+      const subs = [];
+      const lists = [];
+
+      for (const item of items) {
+        const subStart = parseYMD(item.subscribeStart);
+        const subEnd = parseYMD(item.subscribeEnd);
+        if (subEnd >= today) {
+          subs.push({ item, sortKey: subStart.getTime() });
+        }
+        const listD = parseYMD(item.listDate);
+        if (listD >= today) {
+          lists.push({ item, sortKey: listD.getTime() });
+        }
+      }
+
+      subs.sort((a, b) => a.sortKey - b.sortKey || a.item.name.localeCompare(b.item.name, "ko"));
+      lists.sort((a, b) => a.sortKey - b.sortKey || a.item.name.localeCompare(b.item.name, "ko"));
+
+      const subEl = document.getElementById("upcomingSubscribe");
+      const listEl = document.getElementById("upcomingListing");
+
+      subEl.innerHTML = subs.length
+        ? subs.slice(0, 8).map(({ item }) => {
+            const range =
+              item.subscribeStart === item.subscribeEnd
+                ? formatYMDKo(item.subscribeStart)
+                : `${formatYMDKo(item.subscribeStart)}~${formatYMDKo(item.subscribeEnd)}`;
+            return (
+              `<li class="upcoming-item">${item.videoUrl ? `<a href="${escapeHtml(youtubeAppHref(item.videoUrl, item))}" data-yt="${escapeHtml(item.videoUrl)}" data-id="${escapeHtml(item.id || "")}" style="color:inherit;text-decoration:none;display:block">` : ""}` +
+              `<div class="u-name">${escapeHtml(item.name)}</div>` +
+              `<div class="u-detail">${range} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(displayScore(item.score))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}</div>` +
+              `${item.videoUrl ? `</a>` : ""}</li>`
+            );
+          }).join("")
+        : `<li class="upcoming-item empty">예정된 청약 없음</li>`;
+
+      listEl.innerHTML = lists.length
+        ? lists.slice(0, 8).map(({ item }) => {
+            return (
+              `<li class="upcoming-item">${item.videoUrl ? `<a href="${escapeHtml(youtubeAppHref(item.videoUrl, item))}" data-yt="${escapeHtml(item.videoUrl)}" data-id="${escapeHtml(item.id || "")}" style="color:inherit;text-decoration:none;display:block">` : ""}` +
+              `<div class="u-name">${escapeHtml(item.name)}</div>` +
+              `<div class="u-detail">${formatYMDKo(item.listDate)} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(displayScore(item.score))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}</div>` +
+              `${item.videoUrl ? `</a>` : ""}</li>`
+            );
+          }).join("")
+        : `<li class="upcoming-item empty">예정된 상장 없음</li>`;
+    }
+
+    function renderAll() {
+      renderCalendar();
+      renderUpcoming();
+    }
+
+    document.getElementById("prevMonth").addEventListener("click", () => {
+      viewMonth -= 1;
+      if (viewMonth < 0) { viewMonth = 11; viewYear -= 1; }
+      renderCalendar();
+    });
+
+    document.getElementById("nextMonth").addEventListener("click", () => {
+      viewMonth += 1;
+      if (viewMonth > 11) { viewMonth = 0; viewYear += 1; }
+      renderCalendar();
+    });
+
+    async function loadData() {
+      const status = document.getElementById("status");
+      try {
+        const res = await fetch("./data/ipos.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const data = await res.json();
+        items = (Array.isArray(data.items) ? data.items : []).filter((it) => {
+          const n = String(it.name || "");
+          const id = String(it.id || "");
+          return !n.includes("실권") && !id.includes("rights");
+        });
+        document.getElementById("updatedAt").textContent = formatUpdatedAt(data.updatedAt || "");
+        // Default view: September 2026 (seed month), or first event month if empty
+        if (items.length) {
+          const first = parseYMD(items[0].subscribeStart);
+          viewYear = first.getFullYear();
+          viewMonth = first.getMonth();
+        }
+        // Prefer Sep 2026 for this seed set
+        viewYear = 2026;
+        viewMonth = 8;
+        renderAll();
+        status.textContent = `${items.length}개 종목 표시 중`;
+        status.classList.remove("error");
+      } catch (err) {
+        document.getElementById("updatedAt").textContent = "데이터를 불러오지 못했습니다";
+        status.textContent = "ipos.json을 불러올 수 없습니다. HTTP 서버로 열어 주세요.";
+        status.classList.add("error");
+        console.error(err);
+        renderAll();
+      }
+    }
+
+
+    document.addEventListener("click", (e) => {
+      const a = e.target.closest("a.ipo-card[data-yt], .upcoming-item a[data-yt]");
+      if (!a) return;
+      const url = a.getAttribute("data-yt");
+      if (!url) return;
+      const idAttr = a.getAttribute("data-id");
+      const item = (items || []).find((it) => it.id === idAttr) || (items || []).find((it) => (it.videoUrl || "") === url);
+      openYoutubeApp(e, url, item);
+    });
+
+    loadData();
+  </script>
+</body>
+</html>

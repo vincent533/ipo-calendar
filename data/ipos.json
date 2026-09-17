@@ -1,0 +1,104 @@
+{
+  "updatedAt": "2026-09-17T08:17:17+09:00",
+  "items": [
+    {
+      "id": "nhspac34",
+      "name": "NH스팩34호",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-09-01",
+      "subscribeEnd": "2026-09-02",
+      "listDate": "2026-09-10",
+      "brokers": [
+        "NH"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
+    },
+    {
+      "id": "neosapiens",
+      "name": "네오사피엔스",
+      "score": "B",
+      "minDeposit": "10만원",
+      "subscribeStart": "2026-09-10",
+      "subscribeEnd": "2026-09-11",
+      "listDate": "2026-09-21",
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": "https://youtu.be/ME9K6BI4W2o?t=408",
+      "videoStartSeconds": 408
+    },
+    {
+      "id": "wiseplanet",
+      "name": "와이즈플래닛컴퍼니",
+      "score": "E+",
+      "minDeposit": "6만원",
+      "subscribeStart": "2026-09-14",
+      "subscribeEnd": "2026-09-15",
+      "listDate": "2026-09-23",
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": "https://youtu.be/nqXlo7borXY?t=400",
+      "videoStartSeconds": 400
+    },
+    {
+      "id": "bigwave",
+      "name": "빅웨이브로보틱스",
+      "score": "A",
+      "minDeposit": "9만원",
+      "subscribeStart": "2026-09-15",
+      "subscribeEnd": "2026-09-16",
+      "listDate": "2026-09-29",
+      "brokers": [
+        "유진",
+        "미래"
+      ],
+      "videoUrl": "https://youtu.be/vMmYhsiKy_g?t=402",
+      "videoStartSeconds": 402
+    },
+    {
+      "id": "duksan-nepcores",
+      "name": "덕산넵코어스",
+      "score": "B",
+      "minDeposit": "7.3만원",
+      "subscribeStart": "2026-09-16",
+      "subscribeEnd": "2026-09-17",
+      "listDate": "2026-09-30",
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": "https://youtu.be/IUjVr8RSL1I?t=359",
+      "videoStartSeconds": 359
+    },
+    {
+      "id": "globaltech",
+      "name": "글로벌테크놀로지",
+      "score": "C+",
+      "minDeposit": "10만원",
+      "subscribeStart": "2026-09-16",
+      "subscribeEnd": "2026-09-17",
+      "listDate": "2026-09-29",
+      "brokers": [
+        "한투"
+      ],
+      "videoUrl": "https://youtu.be/F0UZZTBTtSk?t=322",
+      "videoStartSeconds": 322
+    },
+    {
+      "id": "brills",
+      "name": "브릴스",
+      "score": "A",
+      "minDeposit": "9.75만원",
+      "subscribeStart": "2026-09-17",
+      "subscribeEnd": "2026-09-18",
+      "listDate": "2026-10-01",
+      "brokers": [
+        "IBK"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=-Wp3pWkwrvQ&t=351s",
+      "videoStartSeconds": 351
+    }
+  ]
+}
