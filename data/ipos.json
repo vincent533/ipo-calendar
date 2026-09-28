@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T08:17:17+09:00",
+  "updatedAt": "2026-09-29T08:05:54+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -59,20 +59,6 @@
       "videoStartSeconds": 402
     },
     {
-      "id": "duksan-nepcores",
-      "name": "덕산넵코어스",
-      "score": "B",
-      "minDeposit": "7.3만원",
-      "subscribeStart": "2026-09-16",
-      "subscribeEnd": "2026-09-17",
-      "listDate": "2026-09-30",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": "https://youtu.be/IUjVr8RSL1I?t=359",
-      "videoStartSeconds": 359
-    },
-    {
       "id": "globaltech",
       "name": "글로벌테크놀로지",
       "score": "C+",
@@ -87,6 +73,20 @@
       "videoStartSeconds": 322
     },
     {
+      "id": "duksan-nepcores",
+      "name": "덕산넵코어스",
+      "score": "B",
+      "minDeposit": "7.3만원",
+      "subscribeStart": "2026-09-16",
+      "subscribeEnd": "2026-09-17",
+      "listDate": "2026-09-30",
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": "https://youtu.be/IUjVr8RSL1I?t=359",
+      "videoStartSeconds": 359
+    },
+    {
       "id": "brills",
       "name": "브릴스",
       "score": "A",
@@ -99,6 +99,20 @@
       ],
       "videoUrl": "https://www.youtube.com/watch?v=-Wp3pWkwrvQ&t=351s",
       "videoStartSeconds": 351
+    },
+    {
+      "id": "jincostec",
+      "name": "진코스텍",
+      "score": "B+",
+      "minDeposit": "11.75만원",
+      "subscribeStart": "2026-10-02",
+      "subscribeEnd": "2026-10-06",
+      "listDate": "2026-10-15",
+      "brokers": [
+        "하나"
+      ],
+      "videoUrl": "https://youtu.be/Ugp8XE89pFo?t=435",
+      "videoStartSeconds": 435
     }
   ]
 }
