@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T08:05:54+09:00",
+  "updatedAt": "2026-09-29T16:07:57+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -99,6 +99,20 @@
       ],
       "videoUrl": "https://www.youtube.com/watch?v=-Wp3pWkwrvQ&t=351s",
       "videoStartSeconds": 351
+    },
+    {
+      "id": "melcon",
+      "name": "멜콘",
+      "score": "A",
+      "minDeposit": "6.15만원",
+      "subscribeStart": "2026-10-01",
+      "subscribeEnd": "2026-10-02",
+      "listDate": "2026-10-15",
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": "https://youtu.be/Btdeg8oDW_k?t=376",
+      "videoStartSeconds": 376
     },
     {
       "id": "jincostec",
