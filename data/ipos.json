@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T16:07:57+09:00",
+  "updatedAt": "2026-10-07T08:10:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -127,6 +127,21 @@
       ],
       "videoUrl": "https://youtu.be/Ugp8XE89pFo?t=435",
       "videoStartSeconds": 435
+    },
+    {
+      "id": "elice-group",
+      "name": "엘리스그룹",
+      "score": "B+",
+      "minDeposit": "90.5만원",
+      "subscribeStart": "2026-10-07",
+      "subscribeEnd": "2026-10-08",
+      "listDate": "2026-10-19",
+      "brokers": [
+        "미래",
+        "삼성"
+      ],
+      "videoUrl": "https://youtu.be/8lSzkjBxWY4?t=408",
+      "videoStartSeconds": 408
     }
   ]
 }
