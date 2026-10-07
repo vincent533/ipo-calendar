@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T08:10:00+09:00",
+  "updatedAt": "2026-10-08T08:05:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -142,6 +142,20 @@
       ],
       "videoUrl": "https://youtu.be/8lSzkjBxWY4?t=408",
       "videoStartSeconds": 408
+    },
+    {
+      "id": "msbio",
+      "name": "엠에스바이오",
+      "score": "A",
+      "minDeposit": "3.9만원",
+      "subscribeStart": "2026-10-12",
+      "subscribeEnd": "2026-10-13",
+      "listDate": "2026-10-22",
+      "brokers": [
+        "KB"
+      ],
+      "videoUrl": "https://youtu.be/C2hLN45i7XM?t=371",
+      "videoStartSeconds": 371
     }
   ]
 }
