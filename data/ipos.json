@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T08:05:00+09:00",
+  "updatedAt": "2026-10-13T08:10:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -156,6 +156,21 @@
       ],
       "videoUrl": "https://youtu.be/C2hLN45i7XM?t=371",
       "videoStartSeconds": 371
+    },
+    {
+      "brokers": [
+        "대신",
+        "유진"
+      ],
+      "id": "dts",
+      "listDate": "2026-10-23",
+      "minDeposit": "9.25만원",
+      "name": "디티에스",
+      "score": "B+",
+      "subscribeEnd": "2026-10-14",
+      "subscribeStart": "2026-10-13",
+      "videoStartSeconds": 399,
+      "videoUrl": "https://youtu.be/ZOaomiNmoBE?t=399"
     }
   ]
 }
