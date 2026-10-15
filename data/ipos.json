@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T10:11:15+09:00",
+  "updatedAt": "2026-10-15T10:03:33+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -171,6 +171,20 @@
       "subscribeStart": "2026-10-13",
       "videoStartSeconds": 399,
       "videoUrl": "https://youtu.be/HAN_wfENLZg?t=399"
+    },
+    {
+      "id": "sk-spac14",
+      "name": "SK제14호스팩",
+      "score": null,
+      "minDeposit": "2만원",
+      "subscribeStart": "2026-10-15",
+      "subscribeEnd": "2026-10-16",
+      "listDate": "2026-10-27",
+      "brokers": [
+        "SK"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
     }
   ]
 }
