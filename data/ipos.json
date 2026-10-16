@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T10:03:33+09:00",
+  "updatedAt": "2026-10-16T18:07:28+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -185,6 +185,20 @@
       ],
       "videoUrl": null,
       "videoStartSeconds": null
+    },
+    {
+      "id": "tne-korea",
+      "name": "티앤이코리아",
+      "score": "B+",
+      "minDeposit": "15.3만원",
+      "subscribeStart": "2026-10-20",
+      "subscribeEnd": "2026-10-21",
+      "listDate": "2026-10-29",
+      "brokers": [
+        "신한"
+      ],
+      "videoUrl": "https://youtu.be/rJJcRe0RMUk?t=387",
+      "videoStartSeconds": 387
     }
   ]
 }
