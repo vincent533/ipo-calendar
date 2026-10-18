@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T18:07:28+09:00",
+  "updatedAt": "2026-10-19T08:07:35+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -135,7 +135,7 @@
       "minDeposit": "90.5만원",
       "subscribeStart": "2026-10-07",
       "subscribeEnd": "2026-10-08",
-      "listDate": "2026-10-19",
+      "listDate": "2026-10-20",
       "brokers": [
         "미래",
         "삼성"
@@ -199,6 +199,90 @@
       ],
       "videoUrl": "https://youtu.be/rJJcRe0RMUk?t=387",
       "videoStartSeconds": 387
+    },
+    {
+      "id": "creaits",
+      "name": "크리에이츠",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-10-20",
+      "subscribeEnd": "2026-10-21",
+      "listDate": null,
+      "brokers": [
+        "삼성"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
+    },
+    {
+      "id": "hanwha-plus-spac6",
+      "name": "한화플러스스팩6호",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-10-20",
+      "subscribeEnd": "2026-10-21",
+      "listDate": null,
+      "brokers": [
+        "한화"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
+    },
+    {
+      "id": "intellivix",
+      "name": "인텔리빅스",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-10-21",
+      "subscribeEnd": "2026-10-22",
+      "listDate": null,
+      "brokers": [
+        "미래"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
+    },
+    {
+      "id": "lablup",
+      "name": "래블업",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-10-22",
+      "subscribeEnd": "2026-10-23",
+      "listDate": null,
+      "brokers": [
+        "NH"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
+    },
+    {
+      "id": "younggwang",
+      "name": "영광",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-10-22",
+      "subscribeEnd": "2026-10-23",
+      "listDate": null,
+      "brokers": [
+        "한투"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
+    },
+    {
+      "id": "est",
+      "name": "이에스티",
+      "score": null,
+      "minDeposit": null,
+      "subscribeStart": "2026-10-22",
+      "subscribeEnd": "2026-10-23",
+      "listDate": null,
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null
     }
   ]
 }
