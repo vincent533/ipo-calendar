@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T08:07:35+09:00",
+  "updatedAt": "2026-10-19T15:59:02+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -203,16 +203,16 @@
     {
       "id": "creaits",
       "name": "크리에이츠",
-      "score": null,
-      "minDeposit": null,
+      "score": "C+",
+      "minDeposit": "15만원",
       "subscribeStart": "2026-10-20",
       "subscribeEnd": "2026-10-21",
-      "listDate": null,
+      "listDate": "2026-10-30",
       "brokers": [
         "삼성"
       ],
-      "videoUrl": null,
-      "videoStartSeconds": null
+      "videoUrl": "https://youtu.be/hGqzdObkzcU?t=351",
+      "videoStartSeconds": 351
     },
     {
       "id": "hanwha-plus-spac6",
