@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T15:59:02+09:00",
+  "updatedAt": "2026-10-21T08:08:43+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -231,16 +231,16 @@
     {
       "id": "intellivix",
       "name": "인텔리빅스",
-      "score": null,
-      "minDeposit": null,
+      "score": "B+",
+      "minDeposit": "9만원",
       "subscribeStart": "2026-10-21",
       "subscribeEnd": "2026-10-22",
-      "listDate": null,
+      "listDate": "2026-10-30",
       "brokers": [
         "미래"
       ],
-      "videoUrl": null,
-      "videoStartSeconds": null
+      "videoUrl": "https://youtu.be/diGXD2XTg4E?t=398",
+      "videoStartSeconds": 398
     },
     {
       "id": "lablup",
