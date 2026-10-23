@@ -354,8 +354,8 @@
     const WEEKDAYS_KO = ["일", "월", "화", "수", "목", "금", "토"];
 
     let items = [];
-    let viewYear = 2026;
-    let viewMonth = 8; // 0-indexed: September 2026
+    let viewYear = new Date().getFullYear();
+    let viewMonth = new Date().getMonth(); // default: current month
 
     function pad2(n) { return String(n).padStart(2, "0"); }
 
@@ -681,15 +681,10 @@
           return !n.includes("실권") && !id.includes("rights");
         });
         document.getElementById("updatedAt").textContent = formatUpdatedAt(data.updatedAt || "");
-        // Default view: September 2026 (seed month), or first event month if empty
-        if (items.length) {
-          const first = parseYMD(items[0].subscribeStart);
-          viewYear = first.getFullYear();
-          viewMonth = first.getMonth();
-        }
-        // Prefer Sep 2026 for this seed set
-        viewYear = 2026;
-        viewMonth = 8;
+        // Default view: current month (today, KST on user's device)
+        const nowD = new Date();
+        viewYear = nowD.getFullYear();
+        viewMonth = nowD.getMonth();
         renderAll();
         status.textContent = `${items.length}개 종목 표시 중`;
         status.classList.remove("error");
