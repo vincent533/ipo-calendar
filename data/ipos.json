@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T08:08:43+09:00",
+  "updatedAt": "2026-10-23T09:50:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -26,8 +26,8 @@
       "brokers": [
         "대신"
       ],
-      "videoUrl": "https://youtu.be/ME9K6BI4W2o?t=408",
-      "videoStartSeconds": 408
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "wiseplanet",
@@ -40,8 +40,8 @@
       "brokers": [
         "대신"
       ],
-      "videoUrl": "https://youtu.be/nqXlo7borXY?t=400",
-      "videoStartSeconds": 400
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "bigwave",
@@ -55,8 +55,8 @@
         "유진",
         "미래"
       ],
-      "videoUrl": "https://youtu.be/vMmYhsiKy_g?t=402",
-      "videoStartSeconds": 402
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "globaltech",
@@ -69,8 +69,8 @@
       "brokers": [
         "한투"
       ],
-      "videoUrl": "https://youtu.be/F0UZZTBTtSk?t=322",
-      "videoStartSeconds": 322
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "duksan-nepcores",
@@ -83,8 +83,8 @@
       "brokers": [
         "대신"
       ],
-      "videoUrl": "https://youtu.be/IUjVr8RSL1I?t=359",
-      "videoStartSeconds": 359
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "brills",
@@ -97,8 +97,8 @@
       "brokers": [
         "IBK"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=-Wp3pWkwrvQ&t=351s",
-      "videoStartSeconds": 351
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "melcon",
@@ -111,8 +111,8 @@
       "brokers": [
         "대신"
       ],
-      "videoUrl": "https://youtu.be/Btdeg8oDW_k?t=376",
-      "videoStartSeconds": 376
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "jincostec",
@@ -125,8 +125,8 @@
       "brokers": [
         "하나"
       ],
-      "videoUrl": "https://youtu.be/Ugp8XE89pFo?t=435",
-      "videoStartSeconds": 435
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "elice-group",
@@ -140,8 +140,8 @@
         "미래",
         "삼성"
       ],
-      "videoUrl": "https://youtu.be/8lSzkjBxWY4?t=408",
-      "videoStartSeconds": 408
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "msbio",
@@ -154,8 +154,8 @@
       "brokers": [
         "KB"
       ],
-      "videoUrl": "https://youtu.be/C2hLN45i7XM?t=371",
-      "videoStartSeconds": 371
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "brokers": [
@@ -169,8 +169,8 @@
       "score": "B+",
       "subscribeEnd": "2026-10-14",
       "subscribeStart": "2026-10-13",
-      "videoStartSeconds": 399,
-      "videoUrl": "https://youtu.be/HAN_wfENLZg?t=399"
+      "videoStartSeconds": null,
+      "videoUrl": null
     },
     {
       "id": "sk-spac14",
@@ -197,8 +197,8 @@
       "brokers": [
         "신한"
       ],
-      "videoUrl": "https://youtu.be/rJJcRe0RMUk?t=387",
-      "videoStartSeconds": 387
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "creaits",
@@ -211,8 +211,8 @@
       "brokers": [
         "삼성"
       ],
-      "videoUrl": "https://youtu.be/hGqzdObkzcU?t=351",
-      "videoStartSeconds": 351
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "hanwha-plus-spac6",
@@ -239,50 +239,50 @@
       "brokers": [
         "미래"
       ],
-      "videoUrl": "https://youtu.be/diGXD2XTg4E?t=398",
-      "videoStartSeconds": 398
+      "videoUrl": null,
+      "videoStartSeconds": null
     },
     {
       "id": "lablup",
       "name": "래블업",
-      "score": null,
-      "minDeposit": null,
+      "score": "C+",
+      "minDeposit": "9.5만원",
       "subscribeStart": "2026-10-22",
       "subscribeEnd": "2026-10-23",
-      "listDate": null,
+      "listDate": "2026-11-03",
       "brokers": [
         "NH"
       ],
-      "videoUrl": null,
-      "videoStartSeconds": null
+      "videoUrl": "https://youtu.be/8p-hoH6_aGY?t=362",
+      "videoStartSeconds": 362
     },
     {
       "id": "younggwang",
       "name": "영광",
-      "score": null,
-      "minDeposit": null,
+      "score": "B",
+      "minDeposit": "17만원",
       "subscribeStart": "2026-10-22",
       "subscribeEnd": "2026-10-23",
-      "listDate": null,
+      "listDate": "2026-11-02",
       "brokers": [
         "한투"
       ],
-      "videoUrl": null,
-      "videoStartSeconds": null
+      "videoUrl": "https://youtu.be/N7ZTr7te4MM?t=357",
+      "videoStartSeconds": 357
     },
     {
       "id": "est",
       "name": "이에스티",
-      "score": null,
-      "minDeposit": null,
+      "score": "C+",
+      "minDeposit": "12.4만원",
       "subscribeStart": "2026-10-22",
       "subscribeEnd": "2026-10-23",
-      "listDate": null,
+      "listDate": "2026-11-04",
       "brokers": [
         "대신"
       ],
-      "videoUrl": null,
-      "videoStartSeconds": null
+      "videoUrl": "https://youtu.be/v1Z-TaO-rcE?t=372",
+      "videoStartSeconds": 372
     }
   ]
 }
