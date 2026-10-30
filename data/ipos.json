@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T09:50:00+09:00",
+  "updatedAt": "2026-10-30T14:05:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -283,6 +283,20 @@
       ],
       "videoUrl": "https://youtu.be/v1Z-TaO-rcE?t=372",
       "videoStartSeconds": 372
+    },
+    {
+      "id": "dongwonparts",
+      "name": "동원파츠",
+      "score": "B+",
+      "minDeposit": "26.5만원",
+      "subscribeStart": "2026-11-02",
+      "subscribeEnd": "2026-11-03",
+      "listDate": "2026-11-10",
+      "brokers": [
+        "삼성"
+      ],
+      "videoUrl": "https://youtu.be/JcQx-glQAQo?t=322",
+      "videoStartSeconds": 322
     }
   ]
 }
