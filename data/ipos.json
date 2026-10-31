@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T18:04:16+09:00",
+  "updatedAt": "2026-10-31T19:15:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -311,6 +311,19 @@
       ],
       "videoUrl": "https://youtu.be/WUtHlTcHKhs?t=259",
       "videoStartSeconds": 259
+    },
+    {
+      "id": "nexi",
+      "name": "넥스아이",
+      "score": "확인중",
+      "minDeposit": "4만원",
+      "subscribeStart": "2026-11-03",
+      "subscribeEnd": "2026-11-04",
+      "listDate": "2026-11-12",
+      "brokers": [
+        "한투"
+      ],
+      "videoUrl": "https://youtu.be/5BkcP4yU59g"
     }
   ]
 }
