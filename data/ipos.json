@@ -315,7 +315,7 @@
     {
       "id": "nexi",
       "name": "넥스아이",
-      "score": "확인중",
+      "score": "C+",
       "minDeposit": "4만원",
       "subscribeStart": "2026-11-03",
       "subscribeEnd": "2026-11-04",
@@ -323,7 +323,22 @@
       "brokers": [
         "한투"
       ],
-      "videoUrl": "https://youtu.be/5BkcP4yU59g"
+      "videoUrl": "https://youtu.be/5BkcP4yU59g?t=314",
+      "videoStartSeconds": 314
+    },
+    {
+      "id": "optonix",
+      "name": "옵토닉스",
+      "score": "A",
+      "minDeposit": "12만원",
+      "subscribeStart": "2026-11-05",
+      "subscribeEnd": "2026-11-06",
+      "listDate": "2026-11-16",
+      "brokers": [
+        "한투"
+      ],
+      "videoUrl": "https://youtu.be/cBeCc-h7CSY?t=307",
+      "videoStartSeconds": 307
     }
   ]
 }
