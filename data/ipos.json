@@ -646,6 +646,18 @@
           "allotment": "https://kkigit.com/ipo/%EC%98%81%EA%B4%91",
           "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
         }
+      },
+      "subscribed": true,
+      "my": {
+        "sells": [
+          {
+            "shares": 2,
+            "price": 27450
+          }
+        ],
+        "fee": 2000,
+        "broker": "한투",
+        "note": "2026-11-02 09:05 체결"
       }
     },
     {
