@@ -12,11 +12,14 @@
       --muted: #6b7a8d;
       --border: #e2e8f0;
       --subscribe: #dbeafe;
-      --subscribe-border: #93c5fd;
-      --subscribe-text: #1e40af;
+      --subscribe-border: #60a5fa;
+      --subscribe-text: #1e3a8a;
+      --subscribe-strong: #2563eb;
       --listing: #dcfce7;
-      --listing-border: #86efac;
-      --listing-text: #166534;
+      --listing-border: #4ade80;
+      --listing-text: #14532d;
+      --listing-strong: #16a34a;
+      --mine: #f59e0b;
       --today: #eff6ff;
       --today-ring: #3b82f6;
       --shadow: 0 1px 3px rgba(26, 35, 50, 0.06);
@@ -374,7 +377,9 @@
       box-shadow: var(--shadow);
     }
     .filter-toggle[aria-pressed="true"] { background: #f59e0b; border-color: #d97706; color: #fff; font-weight: 700; }
-    .dot.mine { background: #fef3c7; border-color: #f59e0b; border-width: 1.5px; }
+    .dot.mine { background: #fff; border-color: #f59e0b; border-width: 2px; }
+    .dot.subscribe { border-left: 3px solid var(--subscribe-strong); }
+    .dot.listing { border-left: 3px solid var(--listing-strong); }
 
     @media (max-width: 640px) {
       .sub-toggle { min-width: 0.85rem; height: 0.85rem; font-size: 0.5rem; padding: 0 0.1rem; border-width: 1px; }
@@ -397,6 +402,134 @@
       .month-label { min-width: 6.5rem; font-size: 0.92rem; }
       .cards { gap: 0.18rem; }
     }
+
+    /* ---- 카드 종류 구분 (청약=파랑, 상장=초록) ---- */
+    .ipo-card.subscribe { border-left: 3px solid var(--subscribe-strong); }
+    .ipo-card.listing { border-left: 3px solid var(--listing-strong); }
+    .type-badge {
+      display: inline-block;
+      flex: none;
+      padding: 0 0.22rem;
+      margin-right: 0.15rem;
+      border-radius: 4px;
+      font-size: 0.56rem;
+      font-weight: 800;
+      line-height: 1.35;
+      color: #fff;
+      vertical-align: 1px;
+      letter-spacing: -0.02em;
+    }
+    .type-badge.subscribe { background: var(--subscribe-strong); }
+    .type-badge.listing { background: var(--listing-strong); }
+    .type-badge .b-short { display: none; }
+    .ipo-card.mine {
+      border-color: var(--mine);
+      border-left-width: 3px;
+      box-shadow: 0 0 0 2px var(--mine);
+      background-image: none;
+    }
+    .ipo-card.subscribe.mine { border-left-color: var(--subscribe-strong); background: #dbeafe; }
+    .ipo-card.listing.mine { border-left-color: var(--listing-strong); background: #dcfce7; }
+    .ipo-card .sub-toggle.on .lbl { display: none; }
+    .ipo-card { cursor: pointer; }
+    .ipo-card:focus-visible { outline: 2px solid var(--today-ring); outline-offset: 1px; }
+    .ipo-card .my-line {
+      margin-top: 0.1rem;
+      padding: 0.05rem 0.2rem;
+      border-radius: 4px;
+      background: #fff7ed;
+      border: 1px solid #fdba74;
+      color: #9a3412;
+      font-weight: 800;
+      font-size: 0.62rem;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+    }
+    .ipo-card .my-line.gain b { color: #dc2626; }
+    .ipo-card .my-line.loss b { color: #2563eb; }
+    .legend .badge-sample { display: inline-flex; align-items: center; gap: 0.25rem; }
+    .my-total {
+      display: inline-flex; align-items: center; gap: 0.3rem;
+      border: 1px solid #fdba74; background: #fff7ed; color: #9a3412;
+      border-radius: 999px; padding: 0.25rem 0.65rem; font-size: 0.8rem; font-weight: 700;
+    }
+    .my-total b.gain { color: #dc2626; }
+    .my-total b.loss { color: #2563eb; }
+    .my-total[hidden] { display: none; }
+
+    /* ---- 상세 패널 ---- */
+    .sheet-backdrop {
+      position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45);
+      z-index: 50; display: flex; align-items: center; justify-content: center; padding: 1rem;
+    }
+    .sheet-backdrop[hidden] { display: none; }
+    .sheet {
+      background: var(--surface); color: var(--text);
+      width: min(520px, 100%); max-height: calc(100vh - 2rem); overflow: auto;
+      border-radius: 14px; box-shadow: 0 12px 40px rgba(15,23,42,0.25);
+      padding: 1rem 1rem 1.2rem; font-size: 0.86rem;
+      -webkit-overflow-scrolling: touch;
+    }
+    .sheet-head { display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem; }
+    .sheet-head h3 { font-size: 1.1rem; font-weight: 800; flex: 1; min-width: 0; letter-spacing: -0.02em; }
+    .sheet-head .type-badge { font-size: 0.72rem; padding: 0.05rem 0.35rem; }
+    .sheet-close {
+      appearance: none; border: none; background: #f1f5f9; border-radius: 999px;
+      width: 2rem; height: 2rem; font-size: 1.1rem; cursor: pointer; flex: none; color: var(--text);
+    }
+    .sheet .sub-toggle { min-width: 2rem; height: 2rem; font-size: 0.85rem; color: var(--muted); opacity: 0.7; }
+    .sheet .sub-toggle.on { color: #fff; opacity: 1; }
+    .sheet .sub-toggle .lbl { display: none; }
+    .sheet .sub-toggle.on .lbl { display: inline; margin-left: 0.15rem; }
+    .sheet-sec { border-top: 1px solid var(--border); padding-top: 0.7rem; margin-top: 0.7rem; }
+    .sheet-sec h4 { font-size: 0.86rem; font-weight: 800; margin-bottom: 0.4rem; }
+    .sheet .kv { color: var(--muted); font-size: 0.8rem; }
+    .sheet .kv b { color: var(--text); font-weight: 650; }
+    .sheet ul.lines { list-style: none; display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.82rem; }
+    .sheet .src { font-size: 0.72rem; color: var(--muted); margin-top: 0.35rem; }
+    .sheet .src a { color: var(--muted); }
+    .sheet .yt-btn {
+      display: flex; align-items: center; justify-content: center; gap: 0.35rem;
+      margin-top: 0.6rem; padding: 0.55rem; border-radius: 10px;
+      background: #ef4444; color: #fff; font-weight: 750; text-decoration: none; font-size: 0.86rem;
+    }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem 0.6rem; }
+    .form-grid label, .sell-row label { display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.74rem; color: var(--muted); }
+    .sheet input[type="number"], .sheet input[type="text"] {
+      font: inherit; font-size: 16px; /* iOS 확대 방지 */
+      padding: 0.4rem 0.5rem; border: 1px solid var(--border); border-radius: 8px; width: 100%;
+      color: var(--text); background: #fff;
+    }
+    .sell-rows { display: flex; flex-direction: column; gap: 0.4rem; margin: 0.5rem 0 0.35rem; }
+    .sell-row { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 0.45rem; align-items: end; }
+    .row-del, .row-add, .my-clear {
+      appearance: none; font: inherit; font-size: 0.8rem; cursor: pointer;
+      border: 1px solid var(--border); background: #f8fafc; border-radius: 8px; padding: 0.42rem 0.6rem; color: var(--text);
+    }
+    .row-del { padding: 0.42rem 0.55rem; }
+    .cost-box { margin-top: 0.55rem; padding: 0.5rem 0.6rem; background: #f8fafc; border: 1px solid var(--border); border-radius: 10px; font-size: 0.78rem; }
+    .cost-box .chk { display: flex; align-items: center; gap: 0.35rem; font-weight: 650; color: var(--text); }
+    .cost-box .rate { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.35rem; color: var(--muted); }
+    .cost-box .rate input { width: 6.5rem; }
+    .my-calc { margin-top: 0.6rem; padding: 0.6rem; border-radius: 10px; background: #fff7ed; border: 1px solid #fdba74; }
+    .my-calc .big { font-size: 1.15rem; font-weight: 850; }
+    .my-calc .big.gain { color: #dc2626; }
+    .my-calc .big.loss { color: #2563eb; }
+    .my-calc .brk { font-size: 0.75rem; color: #7c2d12; margin-top: 0.2rem; line-height: 1.5; }
+    .my-actions { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; margin-top: 0.5rem; font-size: 0.72rem; color: var(--muted); }
+    @media (max-width: 640px) {
+      .sheet-backdrop { align-items: flex-end; padding: 0; }
+      .sheet { width: 100%; max-height: 88vh; border-radius: 16px 16px 0 0; padding: 0.9rem 0.9rem calc(1.1rem + env(safe-area-inset-bottom)); }
+      .type-badge { font-size: 0.46rem; padding: 0 0.12rem; margin-right: 0.08rem; border-radius: 3px; }
+      .type-badge .b-long { display: none; }
+      .type-badge .b-short { display: inline; }
+      .sheet .type-badge .b-long { display: inline; }
+      .sheet .type-badge .b-short { display: none; }
+      .ipo-card.subscribe, .ipo-card.listing { border-left-width: 2.5px; }
+      .ipo-card.mine { box-shadow: 0 0 0 1.5px var(--mine); }
+      .ipo-card .my-line { font-size: 0.5rem; padding: 0.03rem 0.1rem; }
+      .my-total { font-size: 0.72rem; padding: 0.22rem 0.55rem; }
+    }
   </style>
 </head>
 <body>
@@ -414,9 +547,11 @@
     </header>
 
     <div class="legend">
-      <span aria-hidden="true"><i class="dot subscribe"></i> 청약일</span>
-      <span aria-hidden="true"><i class="dot listing"></i> 상장일</span>
-      <span aria-hidden="true"><i class="dot mine"></i> 내가 청약 (카드의 ✓ 눌러 표시)</span>
+      <span class="badge-sample"><span class="type-badge subscribe"><span class="b-long">청약</span><span class="b-short">청</span></span> 청약 마감일 (파랑)</span>
+      <span class="badge-sample"><span class="type-badge listing"><span class="b-long">상장</span><span class="b-short">상</span></span> 상장일 (초록)</span>
+      <span aria-hidden="true"><i class="dot mine"></i> 주황 테두리 = 내가 청약 (✓)</span>
+      <span aria-hidden="true">카드 탭 → 상세·내 매도 입력</span>
+      <span class="my-total" id="myTotal" hidden></span>
       <button type="button" class="filter-toggle" id="mineOnly" aria-pressed="false">✓ 청약한 종목만</button>
     </div>
 
@@ -442,6 +577,10 @@
     </div>
 
     <p class="status" id="status"></p>
+  </div>
+
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden>
+    <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
   </div>
 
   <script>
@@ -698,24 +837,19 @@
       const meta = brokers
         ? `${escapeHtml(deposit)} · ${escapeHtml(score)} · ${escapeHtml(brokers)}`
         : `${escapeHtml(deposit)} · ${escapeHtml(score)}`;
-      const url = item.videoUrl || item.analysisUrl || "";
       const res = type === "listing" ? resultInfo(item) : null;
+      const my = type === "listing" && isMine(item) ? myCalc(item) : null;
+      const badge = type === "subscribe"
+        ? `<span class="type-badge subscribe"><span class="b-long">청약</span><span class="b-short">청</span></span>`
+        : `<span class="type-badge listing"><span class="b-long">상장</span><span class="b-short">상</span></span>`;
       const inner =
-        `<div class="name-row"><div class="name">${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
+        `<div class="name-row"><div class="name">${badge}${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
         `<div class="meta-line">${meta}</div>` +
-        (res ? `<div class="result-line ${res.cls}">${escapeHtml(res.short)}</div>` : "");
-      const tip = res ? `${item.name}\n${res.detail}` : null;
-      if (url) {
-        const href = escapeHtml(youtubeAppHref(url, item));
-        const raw = escapeHtml(url);
-        return (
-          `<a class="ipo-card ${cls}" href="${href}" data-yt="${raw}" data-id="${escapeHtml(item.id || "")}" title="${escapeHtml(tip || (item.name + " · 공모주린이 종합점수"))}">` +
-          inner +
-          `</a>`
-        );
-      }
+        (res ? `<div class="result-line ${res.cls}">${res.cls === "pending" ? "" : "예상 "}${escapeHtml(res.short)}</div>` : "") +
+        (my && my.ok ? `<div class="my-line ${my.profit > 0 ? "gain" : my.profit < 0 ? "loss" : ""}">내 손익 <b>${escapeHtml(fmtWon(my.profit))}</b></div>` : "");
+      const tip = `${type === "subscribe" ? "[청약 마감]" : "[상장]"} ${item.name} · 탭하면 상세`;
       return (
-        `<div class="ipo-card ${cls}" title="${escapeHtml(tip || item.name)}">` +
+        `<div class="ipo-card ${cls}" role="button" tabindex="0" data-open="${escapeHtml(itemKey(item))}" data-type="${type}" title="${escapeHtml(tip)}">` +
         inner +
         `</div>`
       );
@@ -828,9 +962,265 @@
         : `<li class="upcoming-item empty">예정된 상장 없음</li>`;
     }
 
+
+    // ---- 내 매도 기록 (localStorage + ipos.json의 my 기본값) ----
+    const MY_KEY = "ipoCalendar.my.v1";
+    const COST_KEY = "ipoCalendar.sellCost.v1";
+    // 2026.1.1 이후 양도분: 코스닥 0.20%, 코스피 0.05%+농특세 0.15% = 0.20% (증권거래세법 시행령 제5조)
+    const SELL_TAX_RATE = 0.002;
+    const DEFAULT_SELL_FEE_PCT = 0.015; // 매도 수수료율(%) 기본값, 사용자 수정 가능
+    // 온라인 청약수수료 기본값(일반 등급, 원) — 배정 시 기준
+    const BROKER_SUB_FEE = { 한투: 2000, 미래: 2000, KB: 1500, 신한: 2000, 삼성: 2000, 대신: 2000, NH: 2000, 유진: 2000, 하나: 2000, 한화: 2000, SK: 2000 };
+    function loadJSON(k, d) { try { return JSON.parse(localStorage.getItem(k) || "null") || d; } catch { return d; } }
+    let myMap = loadJSON(MY_KEY, {});
+    let costCfg = Object.assign({ on: true, feePct: DEFAULT_SELL_FEE_PCT }, loadJSON(COST_KEY, {}));
+    function saveMy() { try { localStorage.setItem(MY_KEY, JSON.stringify(myMap)); } catch {} }
+    function saveCost() { try { localStorage.setItem(COST_KEY, JSON.stringify(costCfg)); } catch {} }
+    function num(v) { if (v === "" || v == null) return null; const n = Number(String(v).replace(/[,\s원주]/g, "")); return Number.isFinite(n) ? n : null; }
+    function jsonMy(item) {
+      const m = item.my;
+      if (!m || typeof m !== "object") return null;
+      let sells = Array.isArray(m.sells) ? m.sells.map((x) => ({ shares: num(x.shares), price: num(x.price ?? x.sellPrice) })) : [];
+      if (!sells.length && (m.shares != null || m.sellPrice != null)) sells = [{ shares: num(m.shares), price: num(m.sellPrice) }];
+      return { sells, fee: num(m.fee), offer: num(m.offerPrice) };
+    }
+    function defaultSubFee(item) {
+      if (item.result && item.result.fee != null) return item.result.fee;
+      const b = (Array.isArray(item.brokers) ? item.brokers : []).map(abbreviateBroker);
+      const mine = b.find((x) => BROKER_SUB_FEE[x] != null);
+      return mine ? BROKER_SUB_FEE[mine] : null;
+    }
+    function myRecord(item) {
+      const k = itemKey(item);
+      const local = myMap[k];
+      const fromJson = jsonMy(item);
+      const base = local || fromJson || { sells: [], fee: null, offer: null };
+      return {
+        sells: (base.sells && base.sells.length ? base.sells : [{ shares: null, price: null }]).map((x) => ({ shares: x.shares, price: x.price })),
+        fee: base.fee,
+        offer: base.offer,
+        source: local ? "local" : fromJson ? "json" : "none",
+      };
+    }
+    function offerOf(item, rec) {
+      if (rec && rec.offer != null) return rec.offer;
+      if (item.result && item.result.offerPrice != null) return item.result.offerPrice;
+      return null;
+    }
+    function myCalc(item) {
+      const rec = myRecord(item);
+      const offer = offerOf(item, rec);
+      const sells = rec.sells.filter((x) => x.shares > 0 && x.price > 0);
+      const fee = rec.fee != null ? rec.fee : defaultSubFee(item);
+      if (!sells.length || offer == null) return { ok: false, rec, offer, fee };
+      let shares = 0, proceeds = 0, tax = 0, sellFee = 0;
+      for (const x of sells) {
+        const amt = x.shares * x.price;
+        shares += x.shares; proceeds += amt;
+        tax += Math.floor(amt * SELL_TAX_RATE);
+        sellFee += Math.floor(amt * (Number(costCfg.feePct) || 0) / 100);
+      }
+      const gross = proceeds - shares * offer;
+      const costs = costCfg.on ? tax + sellFee : 0;
+      const profit = gross - (fee || 0) - costs;
+      return { ok: true, rec, offer, fee, shares, proceeds, avg: proceeds / shares, gross, tax, sellFee, costs, profit };
+    }
+    function renderMyTotal() {
+      const el = document.getElementById("myTotal");
+      let sum = 0, n = 0;
+      for (const it of items) {
+        if (!isMine(it)) continue;
+        const c = myCalc(it);
+        if (c.ok) { sum += c.profit; n += 1; }
+      }
+      if (!n) { el.hidden = true; return; }
+      el.hidden = false;
+      el.innerHTML = `내 실제 손익 합계 <b class="${sum > 0 ? "gain" : sum < 0 ? "loss" : ""}">${escapeHtml(fmtWon(sum))}</b> <span style="font-weight:500">(${n}종목)</span>`;
+    }
+
+    // ---- 상세 패널 ----
+    let sheetKey = null;
+    let sheetType = null;
+    function openSheet(k, type) {
+      sheetKey = k; sheetType = type;
+      renderSheet();
+      document.getElementById("sheetBackdrop").hidden = false;
+      document.body.style.overflow = "hidden";
+      const c = document.querySelector("#sheet .sheet-close");
+      if (c) c.focus({ preventScroll: true });
+    }
+    function closeSheet() {
+      const k = sheetKey;
+      sheetKey = null;
+      document.getElementById("sheetBackdrop").hidden = true;
+      document.body.style.overflow = "";
+      const card = k && document.querySelector(`.ipo-card[data-open="${CSS.escape(k)}"]`);
+      if (card) card.focus({ preventScroll: true });
+    }
+    function v(n) { return n == null ? "" : String(n); }
+    function renderSheet() {
+      const item = items.find((it) => itemKey(it) === sheetKey);
+      const el = document.getElementById("sheet");
+      if (!item) { el.innerHTML = ""; return; }
+      const isSub = sheetType === "subscribe";
+      const range = item.subscribeStart === item.subscribeEnd ? formatYMDKo(item.subscribeStart) : `${formatYMDKo(item.subscribeStart)}~${formatYMDKo(item.subscribeEnd)}`;
+      const res = resultInfo(item);
+      const r = item.result;
+      const rec = myRecord(item);
+      const url = item.videoUrl || item.analysisUrl || "";
+      const defFee = defaultSubFee(item);
+      const offer = offerOf(item, rec);
+      let html = `<div class="sheet-head">` +
+        `<span class="type-badge ${isSub ? "subscribe" : "listing"}"><span class="b-long">${isSub ? "청약" : "상장"}</span><span class="b-short">${isSub ? "청" : "상"}</span></span>` +
+        `<h3 id="sheetTitle">${escapeHtml(item.name)}</h3>${toggleHtml(item)}` +
+        `<button type="button" class="sheet-close" aria-label="닫기">×</button></div>` +
+        `<div class="kv">청약 <b>${escapeHtml(range)}</b> · 상장 <b>${escapeHtml(item.listDate ? formatYMDKo(item.listDate) : "미정")}</b><br>` +
+        `최소증거금 <b>${escapeHtml(displayDeposit(item.minDeposit))}</b> · 점수 <b>${escapeHtml(displayScore(item.score))}</b>${displayBrokers(item) ? ` · <b>${escapeHtml(displayBrokers(item))}</b>` : ""}</div>`;
+      if (url) {
+        html += `<a class="yt-btn" href="${escapeHtml(youtubeAppHref(url, item))}" data-yt-btn="${escapeHtml(url)}">▶ 공모주린이 종합점수 영상</a>`;
+      }
+      html += `<div class="sheet-sec"><h4>상장 결과 (예상 · 최소청약 기준)</h4>`;
+      if (res && r) {
+        html += `<ul class="lines">${res.detail.split("\n").map((l) => `<li>${escapeHtml(l)}</li>`).join("")}</ul>`;
+        const src = r.source || {};
+        const links = [["가격", src.prices], ["배정", src.allotment], ["수수료", src.fee]].filter((x) => x[1]);
+        if (links.length) html += `<div class="src">출처: ${links.map(([n, u]) => `<a href="${escapeHtml(u)}" target="_blank" rel="noopener">${n}</a>`).join(" · ")}</div>`;
+      } else if (res) {
+        html += `<div class="kv">결과 확인중</div>`;
+      } else {
+        html += `<div class="kv">아직 상장 전이에요.</div>`;
+      }
+      html += `</div>`;
+      html += `<div class="sheet-sec"><h4>내 매도 기록 → 실제 손익</h4>` +
+        `<div class="form-grid">` +
+        `<label>공모가 (원)<input type="number" inputmode="numeric" min="0" data-f="offer" value="${escapeHtml(v(rec.offer))}" placeholder="${escapeHtml(v(r && r.offerPrice) || "공모가")}"></label>` +
+        `<label>청약수수료 (원)<input type="number" inputmode="numeric" min="0" data-f="fee" value="${escapeHtml(v(rec.fee))}" placeholder="${defFee != null ? defFee + " (기본)" : "증권사 수수료"}"></label>` +
+        `</div><div class="sell-rows">` +
+        rec.sells.map((x, i) => `<div class="sell-row" data-i="${i}">` +
+          `<label>${i === 0 ? "매도 주수" : `매도 주수 ${i + 1}`}<input type="number" inputmode="numeric" min="0" data-f="shares" value="${escapeHtml(v(x.shares))}" placeholder="주"></label>` +
+          `<label>${i === 0 ? "매도가 (원)" : `매도가 ${i + 1}`}<input type="number" inputmode="numeric" min="0" data-f="price" value="${escapeHtml(v(x.price))}" placeholder="원"></label>` +
+          `<button type="button" class="row-del" data-del="${i}" aria-label="이 줄 삭제">✕</button></div>`).join("") +
+        `</div><button type="button" class="row-add">+ 나눠 판 매도 추가</button>` +
+        `<div class="cost-box"><label class="chk"><input type="checkbox" data-cost="on" ${costCfg.on ? "checked" : ""}> 매도 비용 반영 (증권거래세 0.20% + 매도수수료)</label>` +
+        `<div class="rate">매도수수료율<input type="number" inputmode="decimal" step="0.001" min="0" data-cost="feePct" value="${escapeHtml(v(costCfg.feePct))}">% <span>(모든 종목 공통)</span></div></div>` +
+        `<div class="my-calc" id="myCalc"></div>` +
+        `<div class="my-actions"><span>${rec.source === "json" ? "기본값: 사이트 데이터(ipos.json)" : rec.source === "local" ? "이 기기에 저장됨" : "입력하면 이 기기에 자동 저장"}</span>` +
+        `<button type="button" class="my-clear">${rec.source === "local" && jsonMy(item) ? "사이트 값으로 되돌리기" : "내 기록 지우기"}</button></div>` +
+        `</div>`;
+      el.innerHTML = html;
+      renderMyCalcBox(item);
+    }
+    function renderMyCalcBox(item) {
+      const box = document.getElementById("myCalc");
+      if (!box) return;
+      const c = myCalc(item);
+      if (!c.ok) {
+        box.innerHTML = `<div class="brk">${c.offer == null ? "공모가와 " : ""}매도 주수·매도가를 넣으면 실제 손익을 계산해요.${isMine(item) ? "" : " (입력하면 ✓ 청약 표시돼요)"}</div>`;
+        return;
+      }
+      const W = (n) => Math.round(n).toLocaleString("ko-KR") + "원";
+      box.innerHTML = `<div>내 실제 손익</div><div class="big ${c.profit > 0 ? "gain" : c.profit < 0 ? "loss" : ""}">${escapeHtml(fmtWon(c.profit))}</div>` +
+        `<div class="brk">${c.shares.toLocaleString("ko-KR")}주 × (평균 매도가 ${W(c.avg)} − 공모가 ${W(c.offer)}) = ${escapeHtml(fmtWon(c.gross))}<br>` +
+        `− 청약수수료 ${c.fee != null ? W(c.fee) : "0원(미입력)"}` +
+        (costCfg.on ? `<br>− 증권거래세 ${W(c.tax)} (0.20%) − 매도수수료 ${W(c.sellFee)} (${Number(costCfg.feePct) || 0}%)` : `<br>매도 비용 미반영`) + `</div>`;
+    }
+    function persistFromSheet() {
+      const item = items.find((it) => itemKey(it) === sheetKey);
+      if (!item) return;
+      const sheet = document.getElementById("sheet");
+      const sells = [...sheet.querySelectorAll(".sell-row")].map((row) => ({
+        shares: num(row.querySelector('[data-f="shares"]').value),
+        price: num(row.querySelector('[data-f="price"]').value),
+      }));
+      const rec = { sells, fee: num(sheet.querySelector('[data-f="fee"]').value), offer: num(sheet.querySelector('[data-f="offer"]').value) };
+      myMap[itemKey(item)] = rec;
+      saveMy();
+      if (sells.some((x) => x.shares > 0) && !isMine(item)) {
+        setMine(itemKey(item), true);
+        const t = sheet.querySelector(".sheet-head .sub-toggle");
+        if (t) { t.classList.add("on"); t.setAttribute("aria-pressed", "true"); }
+      }
+      renderMyCalcBox(item);
+      renderCalendar();
+      renderUpcoming();
+      renderMyTotal();
+    }
+    document.getElementById("sheetBackdrop").addEventListener("click", (e) => {
+      if (e.target.id === "sheetBackdrop" || e.target.closest(".sheet-close")) { closeSheet(); return; }
+      const yt = e.target.closest("[data-yt-btn]");
+      if (yt) {
+        const item = items.find((it) => itemKey(it) === sheetKey);
+        openYoutubeApp(e, yt.getAttribute("data-yt-btn"), item);
+        return;
+      }
+      const item = items.find((it) => itemKey(it) === sheetKey);
+      if (!item) return;
+      if (e.target.closest(".row-add")) {
+        persistFromSheet();
+        myMap[itemKey(item)].sells.push({ shares: null, price: null });
+        saveMy(); renderSheet();
+        const rows = document.querySelectorAll("#sheet .sell-row");
+        const last = rows[rows.length - 1];
+        if (last) last.querySelector("input").focus();
+        return;
+      }
+      const del = e.target.closest("[data-del]");
+      if (del) {
+        persistFromSheet();
+        const rec = myMap[itemKey(item)];
+        rec.sells.splice(Number(del.getAttribute("data-del")), 1);
+        saveMy(); renderSheet(); renderAll();
+        return;
+      }
+      if (e.target.closest(".my-clear")) {
+        delete myMap[itemKey(item)];
+        saveMy(); renderSheet(); renderAll();
+      }
+    });
+    document.getElementById("sheet").addEventListener("input", (e) => {
+      const t = e.target;
+      if (t.matches("[data-cost]")) {
+        const k = t.getAttribute("data-cost");
+        if (k === "on") costCfg.on = t.checked;
+        else costCfg.feePct = num(t.value) ?? 0;
+        saveCost();
+        const item = items.find((it) => itemKey(it) === sheetKey);
+        if (item) renderMyCalcBox(item);
+        renderCalendar(); renderMyTotal();
+        return;
+      }
+      if (t.matches("[data-f]")) persistFromSheet();
+    });
+    document.getElementById("sheet").addEventListener("change", (e) => {
+      if (e.target.matches('[data-cost="on"]')) e.target.dispatchEvent(new Event("input", { bubbles: true }));
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && sheetKey) closeSheet();
+    });
+    // 카드 탭 → 상세 패널 (✓ 토글은 캡처 단계에서 먼저 처리되어 여기까지 오지 않음)
+    document.getElementById("calendar").addEventListener("click", (e) => {
+      const card = e.target.closest(".ipo-card[data-open]");
+      if (!card) return;
+      openSheet(card.getAttribute("data-open"), card.getAttribute("data-type"));
+    });
+    document.getElementById("calendar").addEventListener("keydown", (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      if (e.target.closest(".sub-toggle")) return;
+      const card = e.target.closest(".ipo-card[data-open]");
+      if (!card) return;
+      e.preventDefault();
+      openSheet(card.getAttribute("data-open"), card.getAttribute("data-type"));
+    });
+
     function renderAll() {
       renderCalendar();
       renderUpcoming();
+      renderMyTotal();
+      if (sheetKey) {
+        const t = document.querySelector("#sheet .sheet-head .sub-toggle");
+        const item = items.find((it) => itemKey(it) === sheetKey);
+        if (t && item) { const on = isMine(item); t.classList.toggle("on", on); t.setAttribute("aria-pressed", String(on)); }
+      }
       const f = document.getElementById("mineOnly");
       f.setAttribute("aria-pressed", String(mineOnly));
       const st = document.getElementById("status");
