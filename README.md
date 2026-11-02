@@ -63,3 +63,9 @@ ipo-calendar/
 ├── data/ipos.json  # IPO 시드 데이터
 └── README.md
 ```
+
+## 캘린더 구독 · 배포
+- 구독 피드: `webcal://vincent533.github.io/ipo-calendar/calendar.ics` (사이트의 📅 내 캘린더에 추가 버튼)
+- `data/ipos.json` 수정 후 `./deploy.sh ["메시지"]` → `scripts/build_ics.py`로 calendar.ics 재생성 → 커밋 → push
+- ipos.json을 다시 쓸 때 `code`, `refundDate`, `demand`, `listDateSource`, `result` 필드를 유지할 것
+- 체결 문자 붙여넣기는 브라우저 안에서만 처리, 계좌번호·계좌명은 저장하지 않음

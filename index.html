@@ -530,6 +530,76 @@
       .ipo-card .my-line { font-size: 0.5rem; padding: 0.03rem 0.1rem; }
       .my-total { font-size: 0.72rem; padding: 0.22rem 0.55rem; }
     }
+
+    /* ---- 도구 버튼 줄 ---- */
+    .actions { display: flex; gap: 0.4rem; margin: -0.35rem 0 0.8rem; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+    .act-btn {
+      appearance: none; flex: none; font: inherit; font-size: 0.8rem; font-weight: 700; cursor: pointer;
+      border: 1px solid var(--border); background: var(--surface); color: var(--text);
+      border-radius: 999px; padding: 0.38rem 0.75rem; box-shadow: var(--shadow); white-space: nowrap;
+    }
+    .act-btn:active { transform: scale(0.98); }
+    /* ---- 청약 추천 배지 ---- */
+    .rec-badge { display: inline-block; padding: 0 0.25rem; border-radius: 4px; font-size: 0.58rem; font-weight: 800; line-height: 1.4; vertical-align: 1px; white-space: nowrap; }
+    .rec-badge.buy { background: #dc2626; color: #fff; }
+    .rec-badge.small { background: #f59e0b; color: #fff; }
+    .rec-badge.hold { background: #64748b; color: #fff; }
+    .rec-badge.tbd { background: #e2e8f0; color: #475569; }
+    .noacct { display: inline-block; padding: 0 0.2rem; border-radius: 4px; font-size: 0.55rem; font-weight: 700; line-height: 1.4; border: 1px dashed #94a3b8; color: #475569; background: #fff; white-space: nowrap; }
+    .ipo-card .rec-line { margin-top: 0.08rem; display: flex; flex-wrap: wrap; gap: 0.12rem; }
+    /* ---- 날짜별 묶인 돈 / 환불 ---- */
+    .day-money { font-size: 0.6rem; font-weight: 750; line-height: 1.3; margin: -0.1rem 0 0.2rem; padding: 0 0.15rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .day-money.tied { color: #b45309; }
+    .day-money.refund { color: #0f766e; }
+    /* ---- 패널: 추천/묶인 돈 ---- */
+    .rec-head { display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.35rem; }
+    .rec-head .rec-badge { font-size: 0.8rem; padding: 0.08rem 0.45rem; border-radius: 6px; }
+    .rec-head .noacct { font-size: 0.72rem; padding: 0.05rem 0.35rem; }
+    table.rec-tbl { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    table.rec-tbl td { padding: 0.22rem 0.15rem; border-bottom: 1px solid #f1f5f9; vertical-align: top; }
+    table.rec-tbl td.pt { text-align: right; font-weight: 800; white-space: nowrap; }
+    table.rec-tbl td.pt.plus { color: #dc2626; } table.rec-tbl td.pt.minus { color: #2563eb; }
+    .rule { margin-top: 0.4rem; font-size: 0.72rem; color: var(--muted); line-height: 1.5; background: #f8fafc; border-radius: 8px; padding: 0.4rem 0.5rem; }
+    .rule summary { cursor: pointer; font-weight: 700; color: var(--text); }
+    .disclaim { margin-top: 0.3rem; font-size: 0.7rem; color: #b91c1c; font-weight: 700; }
+    .money-box { padding: 0.5rem 0.6rem; background: #fffbeb; border: 1px solid #fcd34d; border-radius: 10px; font-size: 0.8rem; line-height: 1.55; }
+    .money-box .hint { color: #92400e; font-size: 0.76rem; margin-top: 0.25rem; }
+    .money-box label { display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.74rem; color: var(--muted); margin-top: 0.4rem; }
+    /* ---- 수익 요약 / 붙여넣기 / 캘린더 ---- */
+    .sum-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+    .sum-card { border: 1px solid var(--border); border-radius: 10px; padding: 0.55rem 0.6rem; background: #fbfcfe; }
+    .sum-card .lab { font-size: 0.72rem; color: var(--muted); font-weight: 650; }
+    .sum-card .val { font-size: 1.1rem; font-weight: 850; letter-spacing: -0.02em; }
+    .sum-card.exp { background: #f8fafc; border-style: dashed; }
+    .gain-t { color: #dc2626; } .loss-t { color: #2563eb; }
+    table.sum-tbl { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    table.sum-tbl th { text-align: left; font-size: 0.7rem; color: var(--muted); font-weight: 650; padding: 0.25rem 0.2rem; border-bottom: 1px solid var(--border); }
+    table.sum-tbl td { padding: 0.3rem 0.2rem; border-bottom: 1px solid #f1f5f9; }
+    table.sum-tbl td.r, table.sum-tbl th.r { text-align: right; white-space: nowrap; }
+    .month-nav { display: flex; align-items: center; justify-content: space-between; gap: 0.4rem; margin-bottom: 0.5rem; }
+    .month-nav button { appearance: none; border: 1px solid var(--border); background: #fff; border-radius: 999px; width: 2rem; height: 2rem; cursor: pointer; font-size: 1rem; }
+    .sheet textarea { font: inherit; font-size: 16px; width: 100%; min-height: 7.5rem; padding: 0.5rem; border: 1px solid var(--border); border-radius: 8px; resize: vertical; }
+    .btn-row { display: flex; gap: 0.4rem; margin-top: 0.5rem; }
+    .btn-primary, .btn-sub { appearance: none; font: inherit; font-size: 0.86rem; font-weight: 750; border-radius: 10px; padding: 0.55rem 0.8rem; cursor: pointer; flex: 1; text-align: center; text-decoration: none; }
+    .btn-primary { background: #2563eb; color: #fff; border: 1px solid #1d4ed8; }
+    .btn-primary[disabled] { opacity: 0.45; cursor: default; }
+    .btn-sub { background: #f8fafc; color: var(--text); border: 1px solid var(--border); }
+    .pv-list { list-style: none; display: flex; flex-direction: column; gap: 0.35rem; margin-top: 0.6rem; }
+    .pv-item { border: 1px solid var(--border); border-radius: 8px; padding: 0.45rem 0.55rem; font-size: 0.8rem; display: flex; gap: 0.5rem; align-items: flex-start; }
+    .pv-item.ok { border-color: #86efac; background: #f0fdf4; }
+    .pv-item.skip { opacity: 0.7; background: #f8fafc; }
+    .pv-item .st { flex: none; font-size: 0.7rem; font-weight: 800; padding: 0.05rem 0.35rem; border-radius: 4px; background: #e2e8f0; color: #334155; }
+    .pv-item.ok .st { background: #16a34a; color: #fff; }
+    .pv-item select { font: inherit; font-size: 16px; margin-top: 0.25rem; max-width: 100%; }
+    .note-s { font-size: 0.72rem; color: var(--muted); margin-top: 0.4rem; line-height: 1.5; }
+    .cal-url { font-size: 0.72rem; word-break: break-all; background: #f8fafc; border: 1px solid var(--border); border-radius: 8px; padding: 0.35rem 0.45rem; margin-top: 0.4rem; user-select: all; }
+    @media (max-width: 640px) {
+      .actions { margin: -0.4rem 0 0.6rem; }
+      .act-btn { font-size: 0.74rem; padding: 0.34rem 0.65rem; }
+      .rec-badge, .noacct { font-size: 0.46rem; padding: 0 0.1rem; border-radius: 3px; }
+      .day-money { font-size: 0.48rem; margin: -0.12rem 0 0.15rem; padding: 0 0.05rem; letter-spacing: -0.03em; }
+      .sum-card .val { font-size: 1rem; }
+    }
   </style>
 </head>
 <body>
@@ -550,9 +620,15 @@
       <span class="badge-sample"><span class="type-badge subscribe"><span class="b-long">청약</span><span class="b-short">청</span></span> 청약 마감일 (파랑)</span>
       <span class="badge-sample"><span class="type-badge listing"><span class="b-long">상장</span><span class="b-short">상</span></span> 상장일 (초록)</span>
       <span aria-hidden="true"><i class="dot mine"></i> 주황 테두리 = 내가 청약 (✓)</span>
-      <span aria-hidden="true">카드 탭 → 상세·내 매도 입력</span>
+      <span aria-hidden="true">카드 탭 → 상세·추천·내 매도</span>
       <span class="my-total" id="myTotal" hidden></span>
       <button type="button" class="filter-toggle" id="mineOnly" aria-pressed="false">✓ 청약한 종목만</button>
+    </div>
+
+    <div class="actions" role="toolbar" aria-label="도구">
+      <button type="button" class="act-btn" data-tool="summary">📊 수익 요약</button>
+      <button type="button" class="act-btn" data-tool="paste">📋 체결 문자 붙여넣기</button>
+      <button type="button" class="act-btn" data-tool="cal">📅 내 캘린더에 추가</button>
     </div>
 
     <div class="layout">
@@ -845,6 +921,7 @@
       const inner =
         `<div class="name-row"><div class="name">${badge}${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
         `<div class="meta-line">${meta}</div>` +
+        (type === "subscribe" ? `<div class="rec-line">${recBadgeHtml(item, true)}</div>` : "") +
         (res ? `<div class="result-line ${res.cls}">${res.cls === "pending" ? "" : "예상 "}${escapeHtml(res.short)}</div>` : "") +
         (my && my.ok ? `<div class="my-line ${my.profit > 0 ? "gain" : my.profit < 0 ? "loss" : ""}">내 손익 <b>${escapeHtml(fmtWon(my.profit))}</b></div>` : "");
       const tip = `${type === "subscribe" ? "[청약 마감]" : "[상장]"} ${item.name} · 탭하면 상세`;
@@ -888,6 +965,7 @@
       const todayKey = toDateKey(new Date());
       const cal = document.getElementById("calendar");
       cal.innerHTML = "";
+      const money = moneyByDate();
 
       while (cursor <= end) {
         if (isWeekday(cursor)) {
@@ -900,8 +978,11 @@
           if (key === todayKey) cell.classList.add("today");
 
           const events = eventsForDate(key);
+          const tied = money.tied[key], rf = money.refund[key];
           cell.innerHTML =
             `<div class="day-num">${d.getDate()}</div>` +
+            (tied ? `<div class="day-money tied" title="${escapeHtml(tied.items.map((x) => x.name).join(", "))} 증거금 묶임">🔒묶인 돈 ${escapeHtml(fmtMan(tied.sum))}</div>` : "") +
+            (rf ? `<div class="day-money refund" title="${escapeHtml(rf.items.map((x) => x.name).join(", "))} 환불">↩환불 ${escapeHtml(fmtMan(rf.sum))}</div>` : "") +
             `<div class="cards">${events.map((e) => cardHtml(e.type, e.item)).join("")}</div>`;
           cal.appendChild(cell);
         }
@@ -944,7 +1025,8 @@
             return (
               `<li class="upcoming-item${isMine(item) ? " mine" : ""}">${item.videoUrl ? `<a href="${escapeHtml(youtubeAppHref(item.videoUrl, item))}" data-yt="${escapeHtml(item.videoUrl)}" data-id="${escapeHtml(item.id || "")}" style="color:inherit;text-decoration:none;display:block">` : ""}` +
               `<div class="u-head"><div class="u-name">${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
-              `<div class="u-detail">${range} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(displayScore(item.score))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}</div>` +
+              `<div class="u-detail">${range} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(displayScore(item.score))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}${item.refundDate ? " · 환불 " + formatYMDKo(item.refundDate) : ""}</div>` +
+              `<div class="rec-line" style="margin-top:0.2rem;display:flex;gap:0.2rem">${recBadgeHtml(item, false)}</div>` +
               `${item.videoUrl ? `</a>` : ""}</li>`
             );
           }).join("")
@@ -980,9 +1062,9 @@
     function jsonMy(item) {
       const m = item.my;
       if (!m || typeof m !== "object") return null;
-      let sells = Array.isArray(m.sells) ? m.sells.map((x) => ({ shares: num(x.shares), price: num(x.price ?? x.sellPrice) })) : [];
+      let sells = Array.isArray(m.sells) ? m.sells.map((x) => ({ shares: num(x.shares), price: num(x.price ?? x.sellPrice), orderNo: x.orderNo != null ? String(x.orderNo) : null, fillKey: x.fillKey || (x.orderNo != null ? String(x.orderNo) : null), time: x.time || null })) : [];
       if (!sells.length && (m.shares != null || m.sellPrice != null)) sells = [{ shares: num(m.shares), price: num(m.sellPrice) }];
-      return { sells, fee: num(m.fee), offer: num(m.offerPrice) };
+      return { sells, fee: num(m.fee), offer: num(m.offerPrice), deposit: num(m.deposit) };
     }
     function defaultSubFee(item) {
       if (item.result && item.result.fee != null) return item.result.fee;
@@ -996,9 +1078,10 @@
       const fromJson = jsonMy(item);
       const base = local || fromJson || { sells: [], fee: null, offer: null };
       return {
-        sells: (base.sells && base.sells.length ? base.sells : [{ shares: null, price: null }]).map((x) => ({ shares: x.shares, price: x.price })),
+        sells: (base.sells && base.sells.length ? base.sells : [{ shares: null, price: null }]).map((x) => ({ shares: x.shares, price: x.price, orderNo: x.orderNo || null, fillKey: x.fillKey || x.orderNo || null, time: x.time || null })),
         fee: base.fee,
         offer: base.offer,
+        deposit: base.deposit != null ? base.deposit : null,
         source: local ? "local" : fromJson ? "json" : "none",
       };
     }
@@ -1038,12 +1121,337 @@
       el.innerHTML = `내 실제 손익 합계 <b class="${sum > 0 ? "gain" : sum < 0 ? "loss" : ""}">${escapeHtml(fmtWon(sum))}</b> <span style="font-weight:500">(${n}종목)</span>`;
     }
 
+    // ---- 청약 추천 (단순 규칙 · 투자 권유 아님) ----
+    const MY_BROKERS = ["한투", "대신", "신한", "KB", "NH", "미래", "유진", "키움"];
+    function brokerList(item) {
+      const raw = Array.isArray(item.brokers) ? item.brokers : String(item.brokers || "").split(/[,·\/]/);
+      return [...new Set(raw.map(abbreviateBroker).filter(Boolean))];
+    }
+    function hasAccount(item) {
+      const b = brokerList(item);
+      return !b.length || b.some((x) => MY_BROKERS.includes(x));
+    }
+    const SCORE_PT = { "A+": 2, A: 2, "A-": 2, "B+": 1, B: 1, "B-": 1, "C+": 0, C: 0, "C-": 0, "D+": -1, D: -1, "E+": -1, E: -1 };
+    function recInfo(item) {
+      const d = item.demand || {};
+      const rows = [];
+      const add = (k, val, pt) => rows.push({ k, val, pt });
+      const comp = d.instCompetition;
+      if (comp == null) add("기관 경쟁률", "확인중", 0);
+      else add("기관 경쟁률", `${comp.toLocaleString("ko-KR")}:1`, comp >= 1000 ? 2 : comp >= 500 ? 1 : comp >= 100 ? -1 : -2);
+      const lk = d.lockupPct;
+      if (lk == null) add("의무보유 확약", "확인중", 0);
+      else add("의무보유 확약", `${lk}%`, lk >= 15 ? 2 : lk >= 5 ? 1 : lk < 1 ? -1 : 0);
+      const fl = d.floatPct;
+      if (fl == null) add("유통가능 물량", "확인중", 0);
+      else add("유통가능 물량", `${fl}%`, fl <= 25 ? 1 : fl > 35 ? -1 : 0);
+      const o = d.offerPrice, lo = d.bandLow, hi = d.bandHigh;
+      if (o == null || hi == null) add("확정 공모가", "확인중", 0);
+      else {
+        const W = (n) => n.toLocaleString("ko-KR");
+        const band = lo === hi ? `${W(hi)}원 고정` : `밴드 ${W(lo)}~${W(hi)}`;
+        const pos = o > hi ? "상단 초과" : o === hi ? "상단" : o < lo ? "밴드 하단 미만" : o === lo ? "하단" : "밴드 내";
+        add("확정 공모가", `${W(o)}원 · ${pos} (${band})`, o >= hi ? 1 : o < lo ? -2 : o === lo ? -1 : 0);
+      }
+      const sc = item.score == null || item.score === "" ? null : String(item.score).trim();
+      add("종합점수", sc || "없음", sc && SCORE_PT[sc] != null ? SCORE_PT[sc] : 0);
+      const total = rows.reduce((s, r) => s + r.pt, 0);
+      let label, cls;
+      if (comp == null) { label = "확인중"; cls = "tbd"; }
+      else if (total >= 5) { label = "청약 추천"; cls = "buy"; }
+      else if (total >= 2) { label = "소액"; cls = "small"; }
+      else { label = "보류"; cls = "hold"; }
+      const short = { buy: "추천", small: "소액", hold: "보류", tbd: "확인중" }[cls];
+      return { rows, total, label, short, cls, account: hasAccount(item), brokers: brokerList(item) };
+    }
+    const REC_RULE_HTML =
+      `<b>점수 합계 → 5점 이상 '청약 추천' · 2~4점 '소액' · 1점 이하 '보류'</b><br>` +
+      `기관 경쟁률 1000:1↑ +2 · 500↑ +1 · 100 미만 −2 · 그 외 100~500 −1<br>` +
+      `의무보유 확약 15%↑ +2 · 5%↑ +1 · 1% 미만 −1<br>` +
+      `유통가능 물량 25% 이하 +1 · 35% 초과 −1<br>` +
+      `확정 공모가 상단 이상 +1 · 하단 −1 · 밴드 미만 −2<br>` +
+      `종합점수 A +2 · B/B+ +1 · C +0 · D/E −1<br>` +
+      `데이터: 38커뮤니케이션 종목 상세(증권신고서 기준). 값이 없으면 '확인중'(0점).`;
+    function recBadgeHtml(item, compact) {
+      const r = recInfo(item);
+      return `<span class="rec-badge ${r.cls}">${escapeHtml(compact ? r.short : r.label)}</span>` +
+        (r.account ? "" : `<span class="noacct">계좌 없음</span>`);
+    }
+
+    // ---- 증거금 · 환불 · 묶인 돈 ----
+    function parseWon(s) {
+      if (s == null) return null;
+      if (typeof s === "number") return s;
+      const t = String(s).replace(/[,\s]/g, "");
+      let m = t.match(/^([\d.]+)만원?$/);
+      if (m) return Math.round(parseFloat(m[1]) * 10000);
+      m = t.match(/^(\d+)원?$/);
+      return m ? parseInt(m[1], 10) : null;
+    }
+    function fmtMan(n) {
+      if (n == null) return "확인중";
+      const m = n / 10000;
+      return (Math.round(m * 100) / 100).toLocaleString("ko-KR") + "만원";
+    }
+    function depositOf(item) {
+      const loc = myMap[itemKey(item)];
+      if (loc && loc.deposit != null) return loc.deposit;
+      return parseWon(item.minDeposit);
+    }
+    function addDays(key, n) { const d = parseYMD(key); d.setDate(d.getDate() + n); return toDateKey(d); }
+    // 마감일에 청약한다고 가정: 마감일 ~ 환불 전날까지 묶임, 환불일에 돌아옴
+    function moneyByDate() {
+      const tied = {}, refund = {};
+      for (const it of items) {
+        if (!isMine(it) || !it.subscribeEnd || !it.refundDate) continue;
+        const dep = depositOf(it);
+        if (dep == null) continue;
+        let k = it.subscribeEnd;
+        while (k < it.refundDate) {
+          (tied[k] = tied[k] || { sum: 0, items: [] }).sum += dep; tied[k].items.push(it);
+          k = addDays(k, 1);
+        }
+        (refund[it.refundDate] = refund[it.refundDate] || { sum: 0, items: [] }).sum += dep;
+        refund[it.refundDate].items.push(it);
+      }
+      return { tied, refund };
+    }
+    function reuseHint(item) {
+      if (!item.refundDate) return "환불일 확인중";
+      const later = items.filter((o) => o !== item && o.subscribeEnd && o.subscribeEnd >= item.refundDate && o.subscribeStart <= addDays(item.refundDate, 14))
+        .sort((a, b) => a.subscribeEnd.localeCompare(b.subscribeEnd));
+      const blocked = items.filter((o) => o !== item && o.subscribeEnd && o.subscribeEnd > item.subscribeEnd && o.subscribeEnd < item.refundDate);
+      const parts = [];
+      if (blocked.length) parts.push(`환불 전 마감이라 같은 돈 못 씀: ${blocked.map((o) => `${o.name}(${formatYMDKo(o.subscribeEnd)} 마감)`).join(", ")}`);
+      if (later.length) parts.push(`환불금 재사용 가능: ${later.slice(0, 3).map((o) => `${o.name}(${formatYMDKo(o.subscribeStart)}~${formatYMDKo(o.subscribeEnd)})`).join(", ")}`);
+      if (!parts.length) parts.push("환불일 이후 2주 내 예정된 청약 없음");
+      return parts.join("<br>");
+    }
+
+    // ---- 체결 문자 파서 (계좌번호·계좌명은 읽지도 저장하지도 않음) ----
+    const BROKER_TAGS = /(한국투자|한투|키움|미래에셋|NH|나무|KB|신한|대신|크레온|삼성|유진|하나|IBK|토스)/;
+    function splitMessages(text) {
+      const t = String(text || "").replace(/\r/g, "");
+      let chunks = t.split(/\n\s*\n+/);
+      const out = [];
+      for (const c of chunks) {
+        const parts = c.split(/(?=\[[^\]\n]{0,30}(?:체결|증권|투자|Web발신|웹발신)[^\]\n]{0,30}\])/);
+        for (const p of parts) {
+          const s = p.trim();
+          if (!s) continue;
+          // '[Web발신]' 다음 줄에 '[한국투자증권 체결안내]'가 오면 합침
+          if (out.length && /^\[(?:Web|웹)발신\]\s*$/.test(out[out.length - 1])) out[out.length - 1] += "\n" + s;
+          else out.push(s);
+        }
+      }
+      return out;
+    }
+    function pickNum(s, res) {
+      for (const re of res) { const m = s.match(re); if (m) return parseInt(m[1].replace(/,/g, ""), 10); }
+      return null;
+    }
+    function parseFill(raw) {
+      // 계좌 관련 부분은 먼저 지워 버림
+      const s = String(raw)
+        .replace(/(계좌번호|계좌|계좌명|고객명|성명)\s*[:：]?\s*[^\s*\/|,]+/g, " ")
+        .replace(/\d{2,}\*+\d*(-\d+)?/g, " ");
+      const isSell = /매도/.test(s) && !/매수체결|매수\s*체결|현금매수|신용매수/.test(s);
+      const isBuy = /매수/.test(s) && !isSell;
+      let code = null;
+      let m = s.match(/\(A?([0-9][0-9A-Z]{5})\)/) || s.match(/종목코드\s*[:：]?\s*A?([0-9][0-9A-Z]{5})/) || s.match(/\bA([0-9]{6})\b/);
+      if (m) code = m[1];
+      let name = null;
+      m = s.match(/종목명?\s*[:：]\s*([^\s*\/|,(]+)/) || s.match(/종목\s+([^\s*\/|,(]+)/);
+      if (m) name = m[1].trim();
+      if (!name) { m = s.match(/([가-힣A-Za-z0-9&]+)\s*\(A?[0-9][0-9A-Z]{5}\)/); if (m) name = m[1]; }
+      const qty = pickNum(s, [/(?<!총)체결수량\s*[:：]?\s*([\d,]+)/, /체결\s*[:：]?\s*([\d,]+)\s*주/, /수량\s*[:：]?\s*([\d,]+)/, /([\d,]+)\s*주(?!문)/]);
+      const price = pickNum(s, [/체결단가\s*[:：]?\s*([\d,]+)/, /체결가(?:격)?\s*[:：]?\s*([\d,]+)/, /단가\s*[:：]?\s*([\d,]+)/, /가격\s*[:：]?\s*([\d,]+)/, /([\d,]{4,})\s*원/]);
+      const orderQty = pickNum(s, [/주문수량\s*[:：]?\s*([\d,]+)/]);
+      const totalQty = pickNum(s, [/총체결수량\s*[:：]?\s*([\d,]+)/]);
+      m = s.match(/(?:원?주문번호|주문No\.?|주문)\s*[:：]?\s*(\d{3,})/);
+      const orderNo = m ? m[1] : null;
+      m = s.match(/(?:^|[^\d])(\d{1,2}:\d{2})(?::\d{2})?/);
+      const time = m ? m[1] : null;
+      const partial = orderQty != null && totalQty != null && totalQty < orderQty;
+      const fillKey = orderNo ? (partial ? `${orderNo}:${totalQty}` : orderNo) : `t${time || ""}|${qty}|${price}`;
+      return { isSell, isBuy, code, name, qty, price, orderNo, time, fillKey, partial };
+    }
+    function normName(s) { return String(s || "").replace(/\s|\(주\)|㈜|주식회사/g, "").toLowerCase(); }
+    function matchItem(f, raw) {
+      if (f.code) { const it = items.find((x) => x.code && x.code === f.code); if (it) return it; }
+      const n = normName(f.name);
+      if (n) {
+        const it = items.find((x) => normName(x.name) === n) || items.find((x) => n.includes(normName(x.name)) || normName(x.name).includes(n));
+        if (it) return it;
+      }
+      const t = normName(raw);
+      return items.find((x) => normName(x.name).length >= 2 && t.includes(normName(x.name))) || null;
+    }
+    function existingFillKeys(item) {
+      const rec = myRecord(item);
+      const keys = new Set();
+      for (const x of rec.sells) if (x.orderNo) keys.add(String(x.fillKey || x.orderNo));
+      const j = jsonMy(item);
+      if (j) for (const x of j.sells) if (x.orderNo) keys.add(String(x.fillKey || x.orderNo));
+      return keys;
+    }
+    function parseFillMessages(text) {
+      const seen = new Set();
+      return splitMessages(text).map((raw) => {
+        const f = parseFill(raw);
+        const item = matchItem(f, raw);
+        let status = "ok", why = "";
+        if (!f.isSell) { status = "skip"; why = f.isBuy ? "매수 체결 (제외)" : "매도 체결 문자가 아님"; }
+        else if (!f.qty || !f.price) { status = "skip"; why = "수량·단가를 못 읽음"; }
+        else if (!item) { status = "nomatch"; why = "공모주 목록에서 종목을 못 찾음"; }
+        else if (existingFillKeys(item).has(f.fillKey) || seen.has(item.id + "#" + f.fillKey)) { status = "dup"; why = "이미 추가된 주문번호"; }
+        if (item && status !== "skip") seen.add(item.id + "#" + f.fillKey);
+        return { ...f, itemId: item ? itemKey(item) : null, status, why };
+      });
+    }
+    function applyFills(fills) {
+      let n = 0;
+      for (const f of fills) {
+        if (f.status !== "ok" || !f.itemId) continue;
+        const item = items.find((x) => itemKey(x) === f.itemId);
+        if (!item) continue;
+        const k = itemKey(item);
+        const base = myRecord(item);
+        const rec = myMap[k] || { sells: base.sells, fee: base.fee, offer: base.offer, deposit: base.deposit };
+        rec.sells = (rec.sells || []).filter((x) => x.shares > 0 || x.price > 0);
+        rec.sells.push({ shares: f.qty, price: f.price, orderNo: f.orderNo || null, fillKey: f.fillKey, time: f.time || null });
+        myMap[k] = rec;
+        if (!isMine(item)) setMine(k, true);
+        n++;
+      }
+      saveMy();
+      return n;
+    }
+
+    // ---- 월별 수익 요약 ----
+    function monthOf(key) { return key ? key.slice(0, 7) : ""; }
+    function summaryData(y, m) {
+      const ym = `${y}-${pad2(m + 1)}`;
+      const yy = String(y);
+      let mAct = 0, yAct = 0, mN = 0, yN = 0, mExpAll = 0, mExpMine = 0, mExpN = 0, mExpMineN = 0, feeUnknown = 0;
+      const ranking = [], openRank = [];
+      const byMonth = {};
+      for (const it of items) {
+        const mk = monthOf(it.listDate);
+        if (!mk) continue;
+        const c = isMine(it) ? myCalc(it) : null;
+        const bm = (byMonth[mk] = byMonth[mk] || { act: 0, actN: 0, exp: 0, expMine: 0 });
+        if (c && c.ok) {
+          bm.act += c.profit; bm.actN++;
+          if (mk.startsWith(yy)) { yAct += c.profit; yN++; }
+          if (mk === ym) { mAct += c.profit; mN++; }
+          if (mk.startsWith(yy)) ranking.push({ it, profit: c.profit, pct: (c.profit / (c.shares * c.offer)) * 100, shares: c.shares });
+        }
+        const r = it.result;
+        if (r && r.profitWon != null) {
+          bm.exp += r.profitWon; if (isMine(it)) bm.expMine += r.profitWon;
+          if (mk === ym) {
+            mExpAll += r.profitWon; mExpN++;
+            if (isMine(it)) { mExpMine += r.profitWon; mExpMineN++; }
+            if (!r.profitIncludesFee) feeUnknown++;
+          }
+        }
+        if (mk === ym && r && r.openReturnPct != null) openRank.push({ it, pct: r.openReturnPct, exp: r.profitWon });
+      }
+      ranking.sort((a, b) => b.pct - a.pct);
+      openRank.sort((a, b) => b.pct - a.pct);
+      return { ym, mAct, yAct, mN, yN, mExpAll, mExpMine, mExpN, mExpMineN, feeUnknown, ranking, openRank, byMonth };
+    }
+    let sumY = null, sumM = null;
+    function gl(n) { return n > 0 ? "gain-t" : n < 0 ? "loss-t" : ""; }
+    function renderSummary(el) {
+      if (sumY == null) { sumY = viewYear; sumM = viewMonth; }
+      const s = summaryData(sumY, sumM);
+      let h = `<div class="sheet-head"><h3 id="sheetTitle">📊 수익 요약</h3><button type="button" class="sheet-close" aria-label="닫기">×</button></div>` +
+        `<div class="month-nav"><button type="button" data-sum-nav="-1" aria-label="이전 달">‹</button><b>${sumY}년 ${sumM + 1}월</b><button type="button" data-sum-nav="1" aria-label="다음 달">›</button></div>` +
+        `<div class="sum-cards">` +
+        `<div class="sum-card"><div class="lab">이번 달 실제 손익</div><div class="val ${gl(s.mAct)}">${s.mN ? escapeHtml(fmtWon(s.mAct)) : "—"}</div><div class="kv">${s.mN}종목 · 내 매도 입력 기준</div></div>` +
+        `<div class="sum-card"><div class="lab">${sumY}년 누적 실제 손익</div><div class="val ${gl(s.yAct)}">${s.yN ? escapeHtml(fmtWon(s.yAct)) : "—"}</div><div class="kv">${s.yN}종목</div></div>` +
+        `<div class="sum-card exp"><div class="lab">예상 · ✓종목 최소청약</div><div class="val ${gl(s.mExpMine)}">${s.mExpMineN ? escapeHtml(fmtWon(s.mExpMine)) : "—"}</div><div class="kv">${s.mExpMineN}종목</div></div>` +
+        `<div class="sum-card exp"><div class="lab">예상 · 전 종목 최소청약</div><div class="val ${gl(s.mExpAll)}">${s.mExpN ? escapeHtml(fmtWon(s.mExpAll)) : "—"}</div><div class="kv">${s.mExpN}종목</div></div>` +
+        `</div><div class="note-s">'예상'은 실제 손익이 아니라 최소청약 균등배정 기대 주수 × (시초가 − 공모가) − 청약수수료 가정치예요. 월 구분은 상장일 기준.${s.feeUnknown ? ` 수수료 확인중 ${s.feeUnknown}종목 포함.` : ""}</div>`;
+      h += `<div class="sheet-sec"><h4>내 종목 수익률 순위 (${sumY}년)</h4>`;
+      h += s.ranking.length
+        ? `<table class="sum-tbl"><tr><th>#</th><th>종목</th><th class="r">수익률</th><th class="r">손익</th></tr>` +
+          s.ranking.map((x, i) => `<tr><td>${i + 1}</td><td>${escapeHtml(x.it.name)} <span class="kv">${x.shares}주</span></td><td class="r ${gl(x.pct)}">${escapeHtml(fmtPct(x.pct))}</td><td class="r ${gl(x.profit)}">${escapeHtml(fmtWon(x.profit))}</td></tr>`).join("") + `</table>`
+        : `<div class="kv">아직 입력한 매도 기록이 없어요. 카드 탭 → 내 매도 입력, 또는 📋 체결 문자 붙여넣기.</div>`;
+      h += `</div><div class="sheet-sec"><h4>${sumM + 1}월 상장 · 시초가 수익률 순위 (예상)</h4>`;
+      h += s.openRank.length
+        ? `<table class="sum-tbl"><tr><th>#</th><th>종목</th><th class="r">시초</th><th class="r">최소청약 예상</th></tr>` +
+          s.openRank.map((x, i) => `<tr><td>${i + 1}</td><td>${escapeHtml(x.it.name)}${isMine(x.it) ? " ✓" : ""}</td><td class="r ${gl(x.pct)}">${escapeHtml(fmtPct(x.pct))}</td><td class="r">${x.exp != null ? escapeHtml(fmtWon(x.exp)) : "확인중"}</td></tr>`).join("") + `</table>`
+        : `<div class="kv">이 달 상장 결과 없음 (확인중)</div>`;
+      const months = Object.keys(s.byMonth).filter((k) => k.startsWith(String(sumY))).sort();
+      h += `</div><div class="sheet-sec"><h4>${sumY}년 월별</h4><table class="sum-tbl"><tr><th>월</th><th class="r">실제</th><th class="r">예상(✓)</th><th class="r">예상(전체)</th></tr>` +
+        months.map((k) => { const b = s.byMonth[k]; return `<tr><td>${Number(k.slice(5))}월</td><td class="r ${gl(b.act)}">${b.actN ? escapeHtml(fmtWon(b.act)) : "—"}</td><td class="r">${escapeHtml(fmtWon(b.expMine))}</td><td class="r">${escapeHtml(fmtWon(b.exp))}</td></tr>`; }).join("") +
+        `</table></div>`;
+      el.innerHTML = h;
+    }
+
+    // ---- 체결 문자 붙여넣기 화면 ----
+    let pasteFills = [];
+    function renderPaste(el) {
+      let h = `<div class="sheet-head"><h3 id="sheetTitle">📋 체결 문자 붙여넣기</h3><button type="button" class="sheet-close" aria-label="닫기">×</button></div>` +
+        `<div class="kv">증권사 매도 체결 문자를 그대로 붙여넣으세요. 여러 개도 한 번에 돼요 (한투·키움·미래·NH·KB·신한·대신·삼성 등).</div>` +
+        `<textarea id="pasteBox" placeholder="[한국투자증권 체결안내]09:05 *종목명:영광(359410) *매매구분:현금매도체결 *체결수량:2주 *체결단가:27,450원 *주문번호:3716100"></textarea>` +
+        `<div class="btn-row"><button type="button" class="btn-sub" data-paste="parse">미리보기</button><button type="button" class="btn-primary" data-paste="apply" ${pasteFills.some((f) => f.status === "ok") ? "" : "disabled"}>내 매도에 추가</button></div>` +
+        `<div class="note-s">🔒 계좌번호·계좌명은 읽지 않고 저장하지 않아요. 종목·수량·단가·주문번호·시각만 이 기기(브라우저)에 저장되고, 붙여넣은 원문은 추가 후 지워져요. 같은 주문번호는 두 번 추가되지 않아요.</div>`;
+      if (pasteFills.length) {
+        const opts = (sel) => `<option value="">종목 선택…</option>` + items.slice().sort((a, b) => (b.listDate || "").localeCompare(a.listDate || "")).map((it) => `<option value="${escapeHtml(itemKey(it))}" ${sel === itemKey(it) ? "selected" : ""}>${escapeHtml(it.name)}</option>`).join("");
+        h += `<ul class="pv-list">` + pasteFills.map((f, i) => {
+          const it = f.itemId && items.find((x) => itemKey(x) === f.itemId);
+          const st = { ok: "추가", dup: "중복", skip: "제외", nomatch: "매칭 실패" }[f.status];
+          const W = (n) => n == null ? "?" : n.toLocaleString("ko-KR");
+          return `<li class="pv-item ${f.status === "ok" ? "ok" : "skip"}"><span class="st">${st}</span><div>` +
+            `<b>${escapeHtml(it ? it.name : f.name || "종목?")}</b>${f.code ? ` <span class="kv">${escapeHtml(f.code)}</span>` : ""} · ${f.isSell ? "매도" : f.isBuy ? "매수" : "?"} ${W(f.qty)}주 × ${W(f.price)}원` +
+            `<div class="kv">${f.time ? escapeHtml(f.time) + " · " : ""}주문번호 ${escapeHtml(f.orderNo || "없음")}${f.partial ? " (부분체결)" : ""}${f.why ? " · " + escapeHtml(f.why) : ""}</div>` +
+            (f.status === "nomatch" && f.isSell ? `<select data-pv-pick="${i}">${opts("")}</select>` : "") +
+            `</div></li>`;
+        }).join("") + `</ul>`;
+      }
+      el.innerHTML = h;
+    }
+
+    // ---- 내 캘린더에 추가 ----
+    const ICS_PATH = "vincent533.github.io/ipo-calendar/calendar.ics";
+    function renderCal(el) {
+      const webcal = `webcal://${ICS_PATH}`;
+      const google = `https://calendar.google.com/calendar/r?cid=${webcal}`;
+      el.innerHTML = `<div class="sheet-head"><h3 id="sheetTitle">📅 내 캘린더에 추가</h3><button type="button" class="sheet-close" aria-label="닫기">×</button></div>` +
+        `<div class="kv">청약(시작~마감, 마감일 오전 9시 알림)과 상장일(오전 8:30 알림)이 휴대폰 캘린더에 자동으로 들어와요. 데이터가 바뀌면 캘린더도 따라 갱신돼요.</div>` +
+        `<div class="btn-row"><a class="btn-primary" href="${escapeHtml(webcal)}">아이폰 · 맥 (webcal)</a><a class="btn-sub" href="${escapeHtml(google)}" target="_blank" rel="noopener">Google 캘린더</a></div>` +
+        `<div class="note-s">📱 아이폰: 왼쪽 버튼 → '구독' 누르면 끝. 🤖 안드로이드: 오른쪽 버튼으로 Google 캘린더에 추가(PC 브라우저에서 한 번 누르면 휴대폰에도 동기화, 알림은 Google 기본 알림 사용).</div>` +
+        `<div class="cal-url">https://${escapeHtml(ICS_PATH)}</div>`;
+    }
+
     // ---- 상세 패널 ----
     let sheetKey = null;
     let sheetType = null;
+    let sheetMode = null; // item | summary | paste | cal
+    let pasteText = "";
+    let pasteMsg = "";
+    function showSheet() {
+      document.getElementById("sheetBackdrop").hidden = false;
+      document.body.style.overflow = "hidden";
+      const c = document.querySelector("#sheet .sheet-close");
+      if (c) c.focus({ preventScroll: true });
+    }
+    function openTool(mode) {
+      sheetMode = mode; sheetKey = null;
+      if (mode === "summary") { sumY = viewYear; sumM = viewMonth; }
+      renderSheet();
+      showSheet();
+      document.getElementById("sheet").scrollTop = 0;
+    }
     function openSheet(k, type) {
+      sheetMode = "item";
       sheetKey = k; sheetType = type;
       renderSheet();
+      document.getElementById("sheet").scrollTop = 0;
       document.getElementById("sheetBackdrop").hidden = false;
       document.body.style.overflow = "hidden";
       const c = document.querySelector("#sheet .sheet-close");
@@ -1051,7 +1459,7 @@
     }
     function closeSheet() {
       const k = sheetKey;
-      sheetKey = null;
+      sheetKey = null; sheetMode = null;
       document.getElementById("sheetBackdrop").hidden = true;
       document.body.style.overflow = "";
       const card = k && document.querySelector(`.ipo-card[data-open="${CSS.escape(k)}"]`);
@@ -1059,8 +1467,17 @@
     }
     function v(n) { return n == null ? "" : String(n); }
     function renderSheet() {
-      const item = items.find((it) => itemKey(it) === sheetKey);
       const el = document.getElementById("sheet");
+      if (sheetMode === "summary") return renderSummary(el);
+      if (sheetMode === "paste") {
+        renderPaste(el);
+        const ta = document.getElementById("pasteBox");
+        if (ta) ta.value = pasteText;
+        if (pasteMsg) { const n = document.createElement("div"); n.className = "disclaim"; n.style.color = "#15803d"; n.textContent = pasteMsg; el.querySelector(".btn-row").after(n); }
+        return;
+      }
+      if (sheetMode === "cal") return renderCal(el);
+      const item = items.find((it) => itemKey(it) === sheetKey);
       if (!item) { el.innerHTML = ""; return; }
       const isSub = sheetType === "subscribe";
       const range = item.subscribeStart === item.subscribeEnd ? formatYMDKo(item.subscribeStart) : `${formatYMDKo(item.subscribeStart)}~${formatYMDKo(item.subscribeEnd)}`;
@@ -1074,11 +1491,13 @@
         `<span class="type-badge ${isSub ? "subscribe" : "listing"}"><span class="b-long">${isSub ? "청약" : "상장"}</span><span class="b-short">${isSub ? "청" : "상"}</span></span>` +
         `<h3 id="sheetTitle">${escapeHtml(item.name)}</h3>${toggleHtml(item)}` +
         `<button type="button" class="sheet-close" aria-label="닫기">×</button></div>` +
-        `<div class="kv">청약 <b>${escapeHtml(range)}</b> · 상장 <b>${escapeHtml(item.listDate ? formatYMDKo(item.listDate) : "미정")}</b><br>` +
+        `<div class="kv">청약 <b>${escapeHtml(range)}</b> · 환불 <b>${escapeHtml(item.refundDate ? formatYMDKo(item.refundDate) : "확인중")}</b> · 상장 <b>${escapeHtml(item.listDate ? formatYMDKo(item.listDate) : "미정")}</b><br>` +
         `최소증거금 <b>${escapeHtml(displayDeposit(item.minDeposit))}</b> · 점수 <b>${escapeHtml(displayScore(item.score))}</b>${displayBrokers(item) ? ` · <b>${escapeHtml(displayBrokers(item))}</b>` : ""}</div>`;
       if (url) {
         html += `<a class="yt-btn" href="${escapeHtml(youtubeAppHref(url, item))}" data-yt-btn="${escapeHtml(url)}">▶ 공모주린이 종합점수 영상</a>`;
       }
+      const listed = item.listDate && item.listDate <= toDateKey(new Date());
+      if (!listed) html += recSectionHtml(item) + moneySectionHtml(item, rec);
       html += `<div class="sheet-sec"><h4>상장 결과 (예상 · 최소청약 기준)</h4>`;
       if (res && r) {
         html += `<ul class="lines">${res.detail.split("\n").map((l) => `<li>${escapeHtml(l)}</li>`).join("")}</ul>`;
@@ -1096,7 +1515,7 @@
         `<label>공모가 (원)<input type="number" inputmode="numeric" min="0" data-f="offer" value="${escapeHtml(v(rec.offer))}" placeholder="${escapeHtml(v(r && r.offerPrice) || "공모가")}"></label>` +
         `<label>청약수수료 (원)<input type="number" inputmode="numeric" min="0" data-f="fee" value="${escapeHtml(v(rec.fee))}" placeholder="${defFee != null ? defFee + " (기본)" : "증권사 수수료"}"></label>` +
         `</div><div class="sell-rows">` +
-        rec.sells.map((x, i) => `<div class="sell-row" data-i="${i}">` +
+        rec.sells.map((x, i) => `<div class="sell-row" data-i="${i}" data-order="${escapeHtml(x.orderNo || "")}" data-fill="${escapeHtml(x.fillKey || "")}" data-time="${escapeHtml(x.time || "")}"${x.orderNo ? ` title="주문번호 ${escapeHtml(x.orderNo)}"` : ""}>` +
           `<label>${i === 0 ? "매도 주수" : `매도 주수 ${i + 1}`}<input type="number" inputmode="numeric" min="0" data-f="shares" value="${escapeHtml(v(x.shares))}" placeholder="주"></label>` +
           `<label>${i === 0 ? "매도가 (원)" : `매도가 ${i + 1}`}<input type="number" inputmode="numeric" min="0" data-f="price" value="${escapeHtml(v(x.price))}" placeholder="원"></label>` +
           `<button type="button" class="row-del" data-del="${i}" aria-label="이 줄 삭제">✕</button></div>`).join("") +
@@ -1107,6 +1526,7 @@
         `<div class="my-actions"><span>${rec.source === "json" ? "기본값: 사이트 데이터(ipos.json)" : rec.source === "local" ? "이 기기에 저장됨" : "입력하면 이 기기에 자동 저장"}</span>` +
         `<button type="button" class="my-clear">${rec.source === "local" && jsonMy(item) ? "사이트 값으로 되돌리기" : "내 기록 지우기"}</button></div>` +
         `</div>`;
+      if (listed) html += recSectionHtml(item) + moneySectionHtml(item, rec);
       el.innerHTML = html;
       renderMyCalcBox(item);
     }
@@ -1128,11 +1548,16 @@
       const item = items.find((it) => itemKey(it) === sheetKey);
       if (!item) return;
       const sheet = document.getElementById("sheet");
+      const prev = myRecord(item);
       const sells = [...sheet.querySelectorAll(".sell-row")].map((row) => ({
         shares: num(row.querySelector('[data-f="shares"]').value),
         price: num(row.querySelector('[data-f="price"]').value),
+        orderNo: row.getAttribute("data-order") || null,
+        fillKey: row.getAttribute("data-fill") || null,
+        time: row.getAttribute("data-time") || null,
       }));
-      const rec = { sells, fee: num(sheet.querySelector('[data-f="fee"]').value), offer: num(sheet.querySelector('[data-f="offer"]').value) };
+      const depEl = sheet.querySelector("[data-dep]");
+      const rec = { sells, fee: num(sheet.querySelector('[data-f="fee"]').value), offer: num(sheet.querySelector('[data-f="offer"]').value), deposit: depEl ? num(depEl.value) : prev.deposit };
       myMap[itemKey(item)] = rec;
       saveMy();
       if (sells.some((x) => x.shares > 0) && !isMine(item)) {
@@ -1141,12 +1566,63 @@
         if (t) { t.classList.add("on"); t.setAttribute("aria-pressed", "true"); }
       }
       renderMyCalcBox(item);
+      const mb = document.getElementById("moneyInfo");
+      if (mb) mb.innerHTML = moneyInfoHtml(item);
       renderCalendar();
       renderUpcoming();
       renderMyTotal();
     }
+    function recSectionHtml(item) {
+      const r = recInfo(item);
+      const d = item.demand || {};
+      return `<div class="sheet-sec"><h4>청약 판단 (단순 규칙)</h4>` +
+        `<div class="rec-head"><span class="rec-badge ${r.cls}">${escapeHtml(r.label)}</span><b>${r.total > 0 ? "+" : ""}${r.total}점</b>` +
+        (r.account ? `<span class="kv">${escapeHtml(r.brokers.join("·"))} 계좌 있음</span>` : `<span class="noacct">계좌 없음 (${escapeHtml(r.brokers.join("·"))})</span>`) + `</div>` +
+        `<table class="rec-tbl">${r.rows.map((x) => `<tr><td>${escapeHtml(x.k)}</td><td>${escapeHtml(x.val)}</td><td class="pt ${x.pt > 0 ? "plus" : x.pt < 0 ? "minus" : ""}">${x.pt > 0 ? "+" : ""}${x.pt}</td></tr>`).join("")}</table>` +
+        `<details class="rule"><summary>규칙 보기</summary>${REC_RULE_HTML}</details>` +
+        (d.source ? `<div class="src">출처: <a href="${escapeHtml(d.source)}" target="_blank" rel="noopener">38커뮤니케이션</a>${item.listDateSource ? ` · <a href="${escapeHtml(item.listDateSource)}" target="_blank" rel="noopener">상장일 기사</a>` : ""}</div>` : "") +
+        `<div class="disclaim">※ 투자 권유 아님 — 공개 수치로 만든 참고용 점수예요. 판단과 책임은 본인에게 있어요.</div></div>`;
+    }
+    function moneyInfoHtml(item) {
+      const dep = depositOf(item);
+      if (!item.refundDate) return `환불일 확인중`;
+      const last = addDays(item.refundDate, -1);
+      let lastBiz = parseYMD(last); while (!isWeekday(lastBiz)) lastBiz.setDate(lastBiz.getDate() - 1);
+      const span = item.subscribeEnd === toDateKey(lastBiz) ? formatYMDKo(item.subscribeEnd) : `${formatYMDKo(item.subscribeEnd)}~${formatYMDKo(toDateKey(lastBiz))}`;
+      const m = moneyByDate();
+      const same = m.tied[item.subscribeEnd];
+      return `환불일 <b>${escapeHtml(formatYMDKo(item.refundDate))}</b> · 증거금 <b>${escapeHtml(fmtMan(dep))}</b> 묶임 <b>${escapeHtml(span)}</b> <span class="kv">(마감일 청약 가정)</span>` +
+        (isMine(item) && same ? `<br>${escapeHtml(formatYMDKo(item.subscribeEnd))} ✓종목 묶인 돈 합계 <b>${escapeHtml(fmtMan(same.sum))}</b> (${escapeHtml(same.items.map((x) => x.name).join("·"))})` : isMine(item) ? "" : `<br><span class="kv">✓ 표시하면 달력의 날짜별 '묶인 돈'에 합산돼요.</span>`) +
+        `<div class="hint">💡 ${reuseHint(item)}</div>`;
+    }
+    function moneySectionHtml(item, rec) {
+      const minDep = parseWon(item.minDeposit);
+      return `<div class="sheet-sec"><h4>환불일 · 묶인 돈</h4><div class="money-box"><div id="moneyInfo">${moneyInfoHtml(item)}</div>` +
+        `<label>내 청약 증거금 (원) — 비우면 최소증거금<input type="number" inputmode="numeric" min="0" step="1000" data-dep value="${escapeHtml(v(rec.deposit))}" placeholder="${minDep != null ? minDep.toLocaleString("ko-KR") + " (최소)" : "확인중"}"></label></div></div>`;
+    }
     document.getElementById("sheetBackdrop").addEventListener("click", (e) => {
       if (e.target.id === "sheetBackdrop" || e.target.closest(".sheet-close")) { closeSheet(); return; }
+      const nav = e.target.closest("[data-sum-nav]");
+      if (nav) {
+        sumM += Number(nav.getAttribute("data-sum-nav"));
+        if (sumM < 0) { sumM = 11; sumY -= 1; } else if (sumM > 11) { sumM = 0; sumY += 1; }
+        renderSheet(); return;
+      }
+      const pb = e.target.closest("[data-paste]");
+      if (pb) {
+        const ta = document.getElementById("pasteBox");
+        if (pb.getAttribute("data-paste") === "parse") {
+          pasteText = ta ? ta.value : "";
+          pasteFills = parseFillMessages(pasteText);
+          pasteMsg = pasteFills.length ? "" : "읽을 수 있는 체결 문자가 없어요.";
+        } else {
+          const n = applyFills(pasteFills);
+          pasteFills = []; pasteText = "";
+          pasteMsg = `${n}건을 내 매도에 추가했어요.`;
+          renderAll();
+        }
+        renderSheet(); return;
+      }
       const yt = e.target.closest("[data-yt-btn]");
       if (yt) {
         const item = items.find((it) => itemKey(it) === sheetKey);
@@ -1189,13 +1665,27 @@
         renderCalendar(); renderMyTotal();
         return;
       }
-      if (t.matches("[data-f]")) persistFromSheet();
+      if (t.matches("[data-f]") || t.matches("[data-dep]")) persistFromSheet();
+      if (t.id === "pasteBox") pasteText = t.value;
     });
     document.getElementById("sheet").addEventListener("change", (e) => {
+      const pick = e.target.closest("[data-pv-pick]");
+      if (pick) {
+        const f = pasteFills[Number(pick.getAttribute("data-pv-pick"))];
+        const item = items.find((x) => itemKey(x) === pick.value);
+        if (f && item) {
+          f.itemId = itemKey(item);
+          const dup = existingFillKeys(item).has(f.fillKey) || pasteFills.some((g) => g !== f && g.status === "ok" && g.itemId === f.itemId && g.fillKey === f.fillKey);
+          f.status = dup ? "dup" : "ok"; f.why = dup ? "이미 추가된 주문번호" : "직접 선택";
+          const ta = document.getElementById("pasteBox"); if (ta) pasteText = ta.value;
+          renderSheet();
+        }
+        return;
+      }
       if (e.target.matches('[data-cost="on"]')) e.target.dispatchEvent(new Event("input", { bubbles: true }));
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && sheetKey) closeSheet();
+      if (e.key === "Escape" && sheetMode) closeSheet();
     });
     // 카드 탭 → 상세 패널 (✓ 토글은 캡처 단계에서 먼저 처리되어 여기까지 오지 않음)
     document.getElementById("calendar").addEventListener("click", (e) => {
@@ -1248,6 +1738,10 @@
     document.addEventListener("keydown", (e) => {
       if ((e.key === "Enter" || e.key === " ") && e.target.closest && e.target.closest(".sub-toggle")) handleMineToggle(e);
     }, true);
+    document.querySelector(".actions").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-tool]");
+      if (b) openTool(b.getAttribute("data-tool"));
+    });
     document.getElementById("mineOnly").addEventListener("click", () => {
       mineOnly = !mineOnly;
       try { localStorage.setItem(MINE_FILTER_KEY, mineOnly ? "1" : "0"); } catch {}

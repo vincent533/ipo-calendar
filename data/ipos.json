@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-02T10:30:00+09:00",
+  "updatedAt": "2026-11-02T23:13:00+09:00",
   "items": [
     {
       "id": "nhspac34",
       "name": "NH스팩34호",
       "score": null,
-      "minDeposit": null,
+      "minDeposit": "2만원",
       "subscribeStart": "2026-09-01",
       "subscribeEnd": "2026-09-02",
       "listDate": "2026-09-10",
@@ -34,6 +34,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%97%94%EC%97%90%EC%9D%B4%EC%B9%98%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8134%ED%98%B8",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "0197V0",
+      "market": "코스닥",
+      "refundDate": "2026-09-04",
+      "demand": {
+        "bandLow": 2000,
+        "bandHigh": 2000,
+        "offerPrice": 2000,
+        "instCompetition": 1160.7,
+        "lockupPct": 0.0,
+        "floatPct": null,
+        "floatShares": null,
+        "marginPct": 100,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2312&l=&page=1"
       }
     },
     {
@@ -69,6 +83,20 @@
           "allotment": "https://kkigit.com/ipo/%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4",
           "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
         }
+      },
+      "code": "0161M0",
+      "market": "코스닥",
+      "refundDate": "2026-09-15",
+      "demand": {
+        "bandLow": 13800,
+        "bandHigh": 15800,
+        "offerPrice": 10000,
+        "instCompetition": 219.56,
+        "lockupPct": 8.98,
+        "floatPct": 28.66,
+        "floatShares": 3495095,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2308&l=&page=1"
       }
     },
     {
@@ -104,6 +132,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%99%80%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B%EC%BB%B4%ED%8D%BC%EB%8B%88",
           "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
         }
+      },
+      "code": "0010S0",
+      "market": "코스닥",
+      "refundDate": "2026-09-17",
+      "demand": {
+        "bandLow": 10000,
+        "bandHigh": 12000,
+        "offerPrice": 12000,
+        "instCompetition": 1248.47,
+        "lockupPct": 3.65,
+        "floatPct": 21.12,
+        "floatShares": 2112650,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2311&l=&page=1"
       }
     },
     {
@@ -140,6 +182,20 @@
           "allotment": "https://kkigit.com/ipo/%EB%B9%85%EC%9B%A8%EC%9D%B4%EB%B8%8C%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "0035S0",
+      "market": "코스닥",
+      "refundDate": "2026-09-18",
+      "demand": {
+        "bandLow": 15000,
+        "bandHigh": 18000,
+        "offerPrice": 18000,
+        "instCompetition": 1109.37,
+        "lockupPct": 18.14,
+        "floatPct": 30.07,
+        "floatShares": 3201985,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2294&l=&page=1"
       }
     },
     {
@@ -175,6 +231,20 @@
           "allotment": "https://kkigit.com/ipo/%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80",
           "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
         }
+      },
+      "code": "486510",
+      "market": "코스닥",
+      "refundDate": "2026-09-21",
+      "demand": {
+        "bandLow": 13000,
+        "bandHigh": 15000,
+        "offerPrice": 10000,
+        "instCompetition": 123.19,
+        "lockupPct": 0.27,
+        "floatPct": 22.26,
+        "floatShares": 4359571,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2310&l=&page=1"
       }
     },
     {
@@ -210,6 +280,20 @@
           "allotment": "https://kkigit.com/ipo/%EB%8D%95%EC%82%B0%EB%84%B5%EC%BD%94%EC%96%B4%EC%8A%A4",
           "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
         }
+      },
+      "code": "266690",
+      "market": "코스닥",
+      "refundDate": "2026-09-21",
+      "demand": {
+        "bandLow": 12400,
+        "bandHigh": 14600,
+        "offerPrice": 14600,
+        "instCompetition": 868.64,
+        "lockupPct": 4.05,
+        "floatPct": null,
+        "floatShares": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2309&l=&page=1"
       }
     },
     {
@@ -232,19 +316,33 @@
         "minShares": 10,
         "allottedShares": 1.32,
         "allotmentAvg": 1.32,
-        "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨) · IBK 온라인 수수료 출처마다 1,500원/2,000원으로 달라 확인중 (수수료 차감 전 금액)",
+        "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨)",
         "lottery": true,
-        "fee": null,
+        "fee": 1500,
         "feeBroker": "IBK",
         "feeWaivedIfNotAllotted": true,
-        "feeExpected": null,
-        "profitWon": 55836,
-        "profitIncludesFee": false,
+        "feeExpected": 1500,
+        "profitWon": 54336,
+        "profitIncludesFee": true,
         "source": {
           "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
           "allotment": "https://kkigit.com/ipo/%EB%B8%8C%EB%A6%B4%EC%8A%A4",
-          "fee": null
+          "fee": "https://m.ibks.com/ikd/IKD040101.do"
         }
+      },
+      "code": "468670",
+      "market": "코스닥",
+      "refundDate": "2026-09-22",
+      "demand": {
+        "bandLow": 16500,
+        "bandHigh": 19500,
+        "offerPrice": 19500,
+        "instCompetition": 1187.74,
+        "lockupPct": 21.75,
+        "floatPct": null,
+        "floatShares": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2307&l=&page=1"
       }
     },
     {
@@ -280,6 +378,20 @@
           "allotment": "https://kkigit.com/ipo/%EB%A9%9C%EC%BD%98",
           "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
         }
+      },
+      "code": "179880",
+      "market": "코스닥",
+      "refundDate": "2026-10-07",
+      "demand": {
+        "bandLow": 10700,
+        "bandHigh": 12300,
+        "offerPrice": 12300,
+        "instCompetition": 1136.84,
+        "lockupPct": 36.07,
+        "floatPct": 34.57,
+        "floatShares": 4346680,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2315&l=&page=1"
       }
     },
     {
@@ -315,6 +427,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%A7%84%EC%BD%94%EC%8A%A4%ED%85%8D",
           "fee": "https://www.hanaw.com/main/bank/subscription/OB_060301_T1L.cmd"
         }
+      },
+      "code": "250030",
+      "market": "코스닥",
+      "refundDate": "2026-10-08",
+      "demand": {
+        "bandLow": 19500,
+        "bandHigh": 23500,
+        "offerPrice": 23500,
+        "instCompetition": 1097.62,
+        "lockupPct": 5.29,
+        "floatPct": 58.44,
+        "floatShares": 2212851,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2320&l=&page=1"
       }
     },
     {
@@ -351,6 +477,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%97%98%EB%A6%AC%EC%8A%A4%EA%B7%B8%EB%A3%B9",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "0158S0",
+      "market": "코스닥",
+      "refundDate": "2026-10-13",
+      "demand": {
+        "bandLow": 70400,
+        "bandHigh": 90500,
+        "offerPrice": 90500,
+        "instCompetition": 388.84,
+        "lockupPct": 13.7,
+        "floatPct": 20.81,
+        "floatShares": 2311880,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2316&l=&page=1"
       }
     },
     {
@@ -386,6 +526,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%97%A0%EC%97%90%EC%8A%A4%EB%B0%94%EC%9D%B4%EC%98%A4",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "0013Y0",
+      "market": "코스닥",
+      "refundDate": "2026-10-15",
+      "demand": {
+        "bandLow": 6800,
+        "bandHigh": 7800,
+        "offerPrice": 7800,
+        "instCompetition": 1096.56,
+        "lockupPct": 30.62,
+        "floatPct": 23.33,
+        "floatShares": 6347310,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2324&l=&page=1"
       }
     },
     {
@@ -422,6 +576,20 @@
           "allotment": "https://kkigit.com/ipo/%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4",
           "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
         }
+      },
+      "code": "0015M0",
+      "market": "코스닥",
+      "refundDate": "2026-10-16",
+      "demand": {
+        "bandLow": 17000,
+        "bandHigh": 18500,
+        "offerPrice": 18500,
+        "instCompetition": 983.98,
+        "lockupPct": 13.31,
+        "floatPct": null,
+        "floatShares": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2326&l=&page=1"
       }
     },
     {
@@ -457,6 +625,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%A6%9D%EA%B6%8C%EC%A0%9C14%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
           "fee": "https://www.sks.co.kr/main/subscription/static/SB_01006_T02.htm"
         }
+      },
+      "code": "0205H0",
+      "market": "코스닥",
+      "refundDate": "2026-10-20",
+      "demand": {
+        "bandLow": 2000,
+        "bandHigh": 2000,
+        "offerPrice": 2000,
+        "instCompetition": 1228.38,
+        "lockupPct": 0.0,
+        "floatPct": null,
+        "floatShares": null,
+        "marginPct": 100,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2319&l=&page=1"
       }
     },
     {
@@ -492,6 +674,20 @@
           "allotment": "https://kkigit.com/ipo/%ED%8B%B0%EC%95%A4%EC%9D%B4%EC%BD%94%EB%A6%AC%EC%95%84",
           "fee": "https://m.shinhansec.com/mweb/pssb/pssg/ppssg0001"
         }
+      },
+      "code": "0053F0",
+      "market": "코스닥",
+      "refundDate": "2026-10-23",
+      "demand": {
+        "bandLow": 12600,
+        "bandHigh": 15300,
+        "offerPrice": 15300,
+        "instCompetition": 1041.02,
+        "lockupPct": 29.52,
+        "floatPct": 31.29,
+        "floatShares": 3551856,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2322&l=&page=1"
       }
     },
     {
@@ -527,13 +723,27 @@
           "allotment": "https://kkigit.com/ipo/%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "439270",
+      "market": "코스닥",
+      "refundDate": "2026-10-23",
+      "demand": {
+        "bandLow": 15000,
+        "bandHigh": 18000,
+        "offerPrice": 15000,
+        "instCompetition": 240.46,
+        "lockupPct": 0.0,
+        "floatPct": 39.47,
+        "floatShares": 5176832,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2323&l=&page=1"
       }
     },
     {
       "id": "hanwha-plus-spac6",
       "name": "한화플러스스팩6호",
       "score": null,
-      "minDeposit": null,
+      "minDeposit": "2만원",
       "subscribeStart": "2026-10-20",
       "subscribeEnd": "2026-10-21",
       "listDate": "2026-10-30",
@@ -562,6 +772,20 @@
           "allotment": "https://kkigit.com/ipo/%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "0127E0",
+      "market": "코스닥",
+      "refundDate": "2026-10-23",
+      "demand": {
+        "bandLow": 2000,
+        "bandHigh": 2000,
+        "offerPrice": 2000,
+        "instCompetition": 1256.48,
+        "lockupPct": 0.0,
+        "floatPct": null,
+        "floatShares": null,
+        "marginPct": 100,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2330&l=&page=1"
       }
     },
     {
@@ -597,6 +821,20 @@
           "allotment": "https://kkigit.com/ipo/%EC%9D%B8%ED%85%94%EB%A6%AC%EB%B9%85%EC%8A%A4",
           "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
         }
+      },
+      "code": "420610",
+      "market": "코스닥",
+      "refundDate": "2026-10-26",
+      "demand": {
+        "bandLow": 7600,
+        "bandHigh": 9000,
+        "offerPrice": 9000,
+        "instCompetition": 1234.3,
+        "lockupPct": 6.14,
+        "floatPct": 23.95,
+        "floatShares": 2715067,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2328&l=&page=1"
       }
     },
     {
@@ -611,7 +849,21 @@
         "NH"
       ],
       "videoUrl": "https://youtu.be/8p-hoH6_aGY?t=362",
-      "videoStartSeconds": 362
+      "videoStartSeconds": 362,
+      "code": "0147B0",
+      "market": "코스닥",
+      "refundDate": "2026-10-27",
+      "demand": {
+        "bandLow": 19000,
+        "bandHigh": 22000,
+        "offerPrice": 19000,
+        "instCompetition": 284.53,
+        "lockupPct": 2.09,
+        "floatPct": 35.57,
+        "floatShares": 5172746,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2335&l=&page=1"
+      }
     },
     {
       "id": "younggwang",
@@ -652,12 +904,27 @@
         "sells": [
           {
             "shares": 2,
-            "price": 27450
+            "price": 27450,
+            "orderNo": "3716100"
           }
         ],
         "fee": 2000,
         "broker": "한투",
         "note": "2026-11-02 09:05 체결"
+      },
+      "code": "359410",
+      "market": "코스닥",
+      "refundDate": "2026-10-27",
+      "demand": {
+        "bandLow": 14000,
+        "bandHigh": 17000,
+        "offerPrice": 17000,
+        "instCompetition": 1000.07,
+        "lockupPct": 0.87,
+        "floatPct": 31.75,
+        "floatShares": 2870800,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2333&l=&page=1"
       }
     },
     {
@@ -672,7 +939,21 @@
         "대신"
       ],
       "videoUrl": "https://youtu.be/v1Z-TaO-rcE?t=372",
-      "videoStartSeconds": 372
+      "videoStartSeconds": 372,
+      "code": "495910",
+      "market": "코스닥",
+      "refundDate": "2026-10-27",
+      "demand": {
+        "bandLow": 10600,
+        "bandHigh": 12400,
+        "offerPrice": 12400,
+        "instCompetition": 630.1,
+        "lockupPct": 0.24,
+        "floatPct": 37.7,
+        "floatShares": 5243400,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2332&l=&page=1"
+      }
     },
     {
       "id": "dongwonparts",
@@ -686,7 +967,21 @@
         "삼성"
       ],
       "videoUrl": "https://youtu.be/JcQx-glQAQo?t=322",
-      "videoStartSeconds": 322
+      "videoStartSeconds": 322,
+      "code": "0162D0",
+      "market": "코스닥",
+      "refundDate": "2026-11-05",
+      "demand": {
+        "bandLow": 23000,
+        "bandHigh": 26500,
+        "offerPrice": 26500,
+        "instCompetition": 840.86,
+        "lockupPct": 16.61,
+        "floatPct": 29.47,
+        "floatShares": 2734201,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2339&l=&page=1"
+      }
     },
     {
       "id": "barofarm",
@@ -700,7 +995,20 @@
         "미래"
       ],
       "videoUrl": "https://youtu.be/WUtHlTcHKhs?t=259",
-      "videoStartSeconds": 259
+      "videoStartSeconds": 259,
+      "market": "코스닥",
+      "refundDate": "2026-11-05",
+      "demand": {
+        "bandLow": 16400,
+        "bandHigh": 20200,
+        "offerPrice": 16400,
+        "instCompetition": 152.36,
+        "lockupPct": 0.03,
+        "floatPct": 30.38,
+        "floatShares": 3629716,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2325&l=&page=1"
+      }
     },
     {
       "id": "nexi",
@@ -714,7 +1022,21 @@
         "한투"
       ],
       "videoUrl": "https://youtu.be/5BkcP4yU59g?t=314",
-      "videoStartSeconds": 314
+      "videoStartSeconds": 314,
+      "code": "493410",
+      "market": "코스닥",
+      "refundDate": "2026-11-06",
+      "demand": {
+        "bandLow": 10500,
+        "bandHigh": 13000,
+        "offerPrice": 8000,
+        "instCompetition": 66.58,
+        "lockupPct": 0.06,
+        "floatPct": 37.03,
+        "floatShares": 16947525,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2336&l=&page=1"
+      }
     },
     {
       "id": "optonix",
@@ -723,12 +1045,27 @@
       "minDeposit": "12만원",
       "subscribeStart": "2026-11-05",
       "subscribeEnd": "2026-11-06",
-      "listDate": "2026-11-16",
+      "listDate": "2026-11-17",
       "brokers": [
         "한투"
       ],
       "videoUrl": "https://youtu.be/cBeCc-h7CSY?t=307",
-      "videoStartSeconds": 307
+      "videoStartSeconds": 307,
+      "code": "493260",
+      "market": "코스닥",
+      "refundDate": "2026-11-10",
+      "demand": {
+        "bandLow": 10000,
+        "bandHigh": 12000,
+        "offerPrice": 12000,
+        "instCompetition": 1201.81,
+        "lockupPct": 5.62,
+        "floatPct": 22.71,
+        "floatShares": 2172890,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2338&l=&page=1"
+      },
+      "listDateSource": "https://www.thelec.kr/news/articleView.html?idxno=64577"
     }
   ]
 }
