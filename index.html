@@ -1138,7 +1138,7 @@
       const add = (k, val, pt) => rows.push({ k, val, pt });
       const comp = d.instCompetition;
       if (comp == null) add("기관 경쟁률", "확인중", 0);
-      else add("기관 경쟁률", `${comp.toLocaleString("ko-KR")}:1`, comp >= 1000 ? 2 : comp >= 500 ? 1 : comp >= 100 ? -1 : -2);
+      else add("기관 경쟁률", `${comp.toLocaleString("ko-KR")}:1`, comp >= 1000 ? 2 : comp >= 500 ? 1 : comp >= 200 ? 0 : comp >= 100 ? -1 : -2);
       const lk = d.lockupPct;
       if (lk == null) add("의무보유 확약", "확인중", 0);
       else add("의무보유 확약", `${lk}%`, lk >= 15 ? 2 : lk >= 5 ? 1 : lk < 1 ? -1 : 0);
@@ -1166,7 +1166,7 @@
     }
     const REC_RULE_HTML =
       `<b>점수 합계 → 5점 이상 '청약 추천' · 2~4점 '소액' · 1점 이하 '보류'</b><br>` +
-      `기관 경쟁률 1000:1↑ +2 · 500↑ +1 · 100 미만 −2 · 그 외 100~500 −1<br>` +
+      `기관 경쟁률 1000:1↑ +2 · 500↑ +1 · 200~500 0 · 100~200 −1 · 100 미만 −2<br>` +
       `의무보유 확약 15%↑ +2 · 5%↑ +1 · 1% 미만 −1<br>` +
       `유통가능 물량 25% 이하 +1 · 35% 초과 −1<br>` +
       `확정 공모가 상단 이상 +1 · 하단 −1 · 밴드 미만 −2<br>` +
