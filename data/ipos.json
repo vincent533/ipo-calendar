@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:15:00+09:00",
+  "updatedAt": "2026-11-02T10:30:00+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -13,7 +13,28 @@
         "NH"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 2000,
+        "openPrice": 4000,
+        "openReturnPct": 100.0,
+        "minShares": 10,
+        "allottedShares": 10,
+        "allotmentAvg": 22.71,
+        "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주 → 균등 평균(22.71주)이 신청량보다 많아 10주 전량 배정",
+        "lottery": false,
+        "fee": 2000,
+        "feeBroker": "NH",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 18000,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%97%94%EC%97%90%EC%9D%B4%EC%B9%98%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8134%ED%98%B8",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "id": "neosapiens",
@@ -27,7 +48,28 @@
         "대신"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 10000,
+        "openPrice": 25250,
+        "openReturnPct": 152.5,
+        "minShares": 20,
+        "allottedShares": 2.33,
+        "allotmentAvg": 2.33,
+        "allotmentNote": "균등 평균 2.33주 (2주 확정 + 33% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "대신",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 33532,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4",
+          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+        }
+      }
     },
     {
       "id": "wiseplanet",
@@ -41,7 +83,28 @@
         "대신"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 12000,
+        "openPrice": 42750,
+        "openReturnPct": 256.25,
+        "minShares": 10,
+        "allottedShares": 1.21,
+        "allotmentAvg": 1.21,
+        "allotmentNote": "균등 평균 1.21주 (1주 확정 + 21% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "대신",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 35208,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%99%80%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B%EC%BB%B4%ED%8D%BC%EB%8B%88",
+          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+        }
+      }
     },
     {
       "id": "bigwave",
@@ -56,7 +119,28 @@
         "미래"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 18000,
+        "openPrice": 56000,
+        "openReturnPct": 211.11,
+        "minShares": 10,
+        "allottedShares": 0.81,
+        "allotmentAvg": 0.81,
+        "allotmentNote": "균등 평균 0.81주 (81% 확률로 1주 추첨, 기대값) · 유진·미래 합산 평균(증권사별 건수 미공개). 미래 수수료는 미배정 면제 문구 미확인 → 전액 차감",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "미래",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 28780,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EB%B9%85%EC%9B%A8%EC%9D%B4%EB%B8%8C%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "id": "globaltech",
@@ -70,7 +154,28 @@
         "한투"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 10000,
+        "openPrice": 21150,
+        "openReturnPct": 111.5,
+        "minShares": 20,
+        "allottedShares": 6.47,
+        "allotmentAvg": 6.47,
+        "allotmentNote": "균등 평균 6.47주 (6주 확정 + 47% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "한투",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 70140,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80",
+          "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
+        }
+      }
     },
     {
       "id": "duksan-nepcores",
@@ -84,7 +189,28 @@
         "대신"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 14600,
+        "openPrice": 27100,
+        "openReturnPct": 85.62,
+        "minShares": 10,
+        "allottedShares": 2.82,
+        "allotmentAvg": 2.82,
+        "allotmentNote": "균등 평균 2.82주 (2주 확정 + 82% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "대신",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 33250,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EB%8D%95%EC%82%B0%EB%84%B5%EC%BD%94%EC%96%B4%EC%8A%A4",
+          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+        }
+      }
     },
     {
       "id": "brills",
@@ -98,7 +224,28 @@
         "IBK"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 19500,
+        "openPrice": 61800,
+        "openReturnPct": 216.92,
+        "minShares": 10,
+        "allottedShares": 1.32,
+        "allotmentAvg": 1.32,
+        "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨) · IBK 온라인 수수료 출처마다 1,500원/2,000원으로 달라 확인중 (수수료 차감 전 금액)",
+        "lottery": true,
+        "fee": null,
+        "feeBroker": "IBK",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": null,
+        "profitWon": 55836,
+        "profitIncludesFee": false,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EB%B8%8C%EB%A6%B4%EC%8A%A4",
+          "fee": null
+        }
+      }
     },
     {
       "id": "melcon",
@@ -112,7 +259,28 @@
         "대신"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 12300,
+        "openPrice": 27400,
+        "openReturnPct": 122.76,
+        "minShares": 10,
+        "allottedShares": 1.23,
+        "allotmentAvg": 1.23,
+        "allotmentNote": "균등 평균 1.23주 (1주 확정 + 23% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "대신",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 16573,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EB%A9%9C%EC%BD%98",
+          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+        }
+      }
     },
     {
       "id": "jincostec",
@@ -126,7 +294,28 @@
         "하나"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 23500,
+        "openPrice": 24000,
+        "openReturnPct": 2.13,
+        "minShares": 10,
+        "allottedShares": 0.72,
+        "allotmentAvg": 0.72,
+        "allotmentNote": "균등 평균 0.72주 (72% 확률로 1주 추첨, 기대값)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "하나",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 1440,
+        "profitWon": -1080,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%A7%84%EC%BD%94%EC%8A%A4%ED%85%8D",
+          "fee": "https://www.hanaw.com/main/bank/subscription/OB_060301_T1L.cmd"
+        }
+      }
     },
     {
       "id": "elice-group",
@@ -141,7 +330,28 @@
         "삼성"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 90500,
+        "openPrice": 75700,
+        "openReturnPct": -16.35,
+        "minShares": 20,
+        "allottedShares": 0.96,
+        "allotmentAvg": 0.96,
+        "allotmentNote": "균등 평균 0.96주 (96% 확률로 1주 추첨, 기대값) · 미래·삼성 합산 평균(증권사별 건수 미공개). 미래 수수료는 미배정 면제 문구 미확인 → 전액 차감",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "미래",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": -16208,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%97%98%EB%A6%AC%EC%8A%A4%EA%B7%B8%EB%A3%B9",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "id": "msbio",
@@ -155,7 +365,28 @@
         "KB"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 7800,
+        "openPrice": 16000,
+        "openReturnPct": 105.13,
+        "minShares": 10,
+        "allottedShares": 1.75,
+        "allotmentAvg": 1.75,
+        "allotmentNote": "균등 평균 1.75주 (1주 확정 + 75% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 1500,
+        "feeBroker": "KB",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 1500,
+        "profitWon": 12850,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%97%A0%EC%97%90%EC%8A%A4%EB%B0%94%EC%9D%B4%EC%98%A4",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "brokers": [
@@ -170,7 +401,28 @@
       "subscribeEnd": "2026-10-14",
       "subscribeStart": "2026-10-13",
       "videoStartSeconds": null,
-      "videoUrl": null
+      "videoUrl": null,
+      "result": {
+        "offerPrice": 18500,
+        "openPrice": 32350,
+        "openReturnPct": 74.86,
+        "minShares": 10,
+        "allottedShares": 1.16,
+        "allotmentAvg": 1.16,
+        "allotmentNote": "균등 평균 1.16주 (1주 확정 + 16% 확률로 1주 추첨) · 대신·유진 합산 평균(증권사별 건수 미공개)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "대신",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 14066,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4",
+          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+        }
+      }
     },
     {
       "id": "sk-spac14",
@@ -184,7 +436,28 @@
         "SK"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 2000,
+        "openPrice": 4065,
+        "openReturnPct": 103.25,
+        "minShares": 10,
+        "allottedShares": 10,
+        "allotmentAvg": 11.63,
+        "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주. 청약 미달(1.00:1)로 신청량 전량 배정",
+        "lottery": false,
+        "fee": 2000,
+        "feeBroker": "SK",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 18650,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%A6%9D%EA%B6%8C%EC%A0%9C14%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
+          "fee": "https://www.sks.co.kr/main/subscription/static/SB_01006_T02.htm"
+        }
+      }
     },
     {
       "id": "tne-korea",
@@ -198,7 +471,28 @@
         "신한"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 15300,
+        "openPrice": 30350,
+        "openReturnPct": 98.37,
+        "minShares": 20,
+        "allottedShares": 1.44,
+        "allotmentAvg": 1.44,
+        "allotmentNote": "균등 평균 1.44주 (1주 확정 + 44% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "신한",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 19672,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%ED%8B%B0%EC%95%A4%EC%9D%B4%EC%BD%94%EB%A6%AC%EC%95%84",
+          "fee": "https://m.shinhansec.com/mweb/pssb/pssg/ppssg0001"
+        }
+      }
     },
     {
       "id": "creaits",
@@ -212,7 +506,28 @@
         "삼성"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 15000,
+        "openPrice": 12000,
+        "openReturnPct": -20.0,
+        "minShares": 20,
+        "allottedShares": 8.73,
+        "allotmentAvg": 8.73,
+        "allotmentNote": "균등 평균 8.73주 (8주 확정 + 73% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "삼성",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": -28190,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "id": "hanwha-plus-spac6",
@@ -226,7 +541,28 @@
         "한화"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 2000,
+        "openPrice": 2810,
+        "openReturnPct": 40.5,
+        "minShares": 10,
+        "allottedShares": 10,
+        "allotmentAvg": 13.77,
+        "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주 → 균등 평균(13.77주)이 신청량보다 많아 10주 전량 배정",
+        "lottery": false,
+        "fee": 2000,
+        "feeBroker": "한화",
+        "feeWaivedIfNotAllotted": true,
+        "feeExpected": 2000,
+        "profitWon": 6100,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "id": "intellivix",
@@ -240,7 +576,28 @@
         "미래"
       ],
       "videoUrl": null,
-      "videoStartSeconds": null
+      "videoStartSeconds": null,
+      "result": {
+        "offerPrice": 9000,
+        "openPrice": 19290,
+        "openReturnPct": 114.33,
+        "minShares": 20,
+        "allottedShares": 1.32,
+        "allotmentAvg": 1.32,
+        "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "미래",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 11583,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%9D%B8%ED%85%94%EB%A6%AC%EB%B9%85%EC%8A%A4",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
+      }
     },
     {
       "id": "lablup",
@@ -268,7 +625,28 @@
         "한투"
       ],
       "videoUrl": "https://youtu.be/N7ZTr7te4MM?t=357",
-      "videoStartSeconds": 357
+      "videoStartSeconds": 357,
+      "result": {
+        "offerPrice": 17000,
+        "openPrice": 21350,
+        "openReturnPct": 25.59,
+        "minShares": 20,
+        "allottedShares": 1.62,
+        "allotmentAvg": 1.62,
+        "allotmentNote": "균등 평균 1.62주 (1주 확정 + 62% 확률로 1주 추첨)",
+        "lottery": true,
+        "fee": 2000,
+        "feeBroker": "한투",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 5047,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+          "allotment": "https://kkigit.com/ipo/%EC%98%81%EA%B4%91",
+          "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
+        }
+      }
     },
     {
       "id": "est",

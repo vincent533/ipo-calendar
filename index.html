@@ -248,6 +248,19 @@
       word-break: keep-all;
     }
 
+    .ipo-card .result-line {
+      margin-top: 0.12rem;
+      padding-top: 0.1rem;
+      border-top: 1px dashed currentColor;
+      font-weight: 700;
+      font-size: 0.62rem;
+      overflow-wrap: anywhere;
+      word-break: keep-all;
+    }
+    .ipo-card .result-line.gain { color: #dc2626; }
+    .ipo-card .result-line.loss { color: #2563eb; }
+    .ipo-card .result-line.pending, .ipo-card .result-line.flat { opacity: 0.75; font-weight: 600; }
+
     .side { padding: 1rem; }
     .side h2 {
       font-size: 0.95rem;
@@ -378,6 +391,7 @@
       .ipo-card { font-size: 0.56rem; padding: 0.18rem 0.18rem; }
       .ipo-card .name { font-size: 0.58rem; }
       .ipo-card .meta-line { font-size: 0.52rem; line-height: 1.3; }
+      .ipo-card .result-line { font-size: 0.5rem; line-height: 1.3; }
       .weekdays { font-size: 0.65rem; }
       .weekdays div { padding: 0.45rem 0.05rem; }
       .month-label { min-width: 6.5rem; font-size: 0.92rem; }
@@ -623,6 +637,59 @@
       window.location.href = stamped;
     }
 
+    function fmtWon(n) {
+      const v = Math.round(n);
+      return (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toLocaleString("ko-KR") + "원";
+    }
+    function fmtPct(p) {
+      return (p > 0 ? "+" : p < 0 ? "−" : "") + Math.abs(p).toFixed(1).replace(/\.0$/, "") + "%";
+    }
+    function fmtShares(n) {
+      return Number.isInteger(n) ? `${n}주` : `${n}주`;
+    }
+    // 상장 결과: 시초가 수익률 · 최소청약 기준 균등 배정 · 수수료 차감 손익
+    function resultInfo(item) {
+      const r = item.result;
+      const todayKey = toDateKey(new Date());
+      if (!r) {
+        if (item.listDate && item.listDate <= todayKey) {
+          return { short: "결과 확인중", detail: "상장 결과 확인중", cls: "pending" };
+        }
+        return null;
+      }
+      const parts = [];
+      const det = [];
+      if (r.openReturnPct != null) {
+        parts.push(`시초 ${fmtPct(r.openReturnPct)}`);
+        det.push(`공모가 ${Number(r.offerPrice).toLocaleString("ko-KR")}원 → 시초가 ${Number(r.openPrice).toLocaleString("ko-KR")}원 (${fmtPct(r.openReturnPct)})`);
+      } else {
+        parts.push("시초 확인중");
+      }
+      if (r.allottedShares != null) {
+        parts.push(`${fmtShares(r.allottedShares)}${r.lottery ? "(추첨)" : ""}`);
+        det.push(`최소청약 ${r.minShares != null ? r.minShares + "주" : "확인중"} 기준 배정: ${r.allotmentNote || fmtShares(r.allottedShares)}`);
+      } else {
+        parts.push("배정 확인중");
+      }
+      if (r.fee != null) {
+        let f = `청약수수료 ${r.feeBroker || ""} ${Number(r.fee).toLocaleString("ko-KR")}원`;
+        f += r.feeWaivedIfNotAllotted ? " (미배정 시 면제" : " (청약 건당";
+        if (r.feeExpected != null && r.feeExpected !== r.fee) f += `, 기대 ${Number(r.feeExpected).toLocaleString("ko-KR")}원`;
+        det.push(f + ")");
+      } else {
+        det.push(`청약수수료 ${r.feeBroker || ""} 확인중 (손익은 수수료 차감 전)`);
+      }
+      let cls = "pending";
+      if (r.profitWon != null) {
+        parts.push(fmtWon(r.profitWon) + (r.profitIncludesFee ? "" : "(수수료 확인중)"));
+        det.push(`예상 손익(시초가 매도): ${fmtWon(r.profitWon)}${r.profitIncludesFee ? " · 수수료 차감" : " · 수수료 미차감"}${r.lottery ? " · 추첨 포함 기대값" : ""}`);
+        cls = r.profitWon > 0 ? "gain" : r.profitWon < 0 ? "loss" : "flat";
+      } else {
+        parts.push("손익 확인중");
+      }
+      return { short: parts.join(" · "), detail: det.join("\n"), cls };
+    }
+
     function cardHtml(type, item) {
       const cls = (type === "subscribe" ? "subscribe" : "listing") + (isMine(item) ? " mine" : "");
       const score = displayScore(item.score);
@@ -632,20 +699,23 @@
         ? `${escapeHtml(deposit)} · ${escapeHtml(score)} · ${escapeHtml(brokers)}`
         : `${escapeHtml(deposit)} · ${escapeHtml(score)}`;
       const url = item.videoUrl || item.analysisUrl || "";
+      const res = type === "listing" ? resultInfo(item) : null;
       const inner =
         `<div class="name-row"><div class="name">${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
-        `<div class="meta-line">${meta}</div>`;
+        `<div class="meta-line">${meta}</div>` +
+        (res ? `<div class="result-line ${res.cls}">${escapeHtml(res.short)}</div>` : "");
+      const tip = res ? `${item.name}\n${res.detail}` : null;
       if (url) {
         const href = escapeHtml(youtubeAppHref(url, item));
         const raw = escapeHtml(url);
         return (
-          `<a class="ipo-card ${cls}" href="${href}" data-yt="${raw}" data-id="${escapeHtml(item.id || "")}" title="${escapeHtml(item.name)} · 공모주린이 종합점수">` +
+          `<a class="ipo-card ${cls}" href="${href}" data-yt="${raw}" data-id="${escapeHtml(item.id || "")}" title="${escapeHtml(tip || (item.name + " · 공모주린이 종합점수"))}">` +
           inner +
           `</a>`
         );
       }
       return (
-        `<div class="ipo-card ${cls}" title="${escapeHtml(item.name)}">` +
+        `<div class="ipo-card ${cls}" title="${escapeHtml(tip || item.name)}">` +
         inner +
         `</div>`
       );
