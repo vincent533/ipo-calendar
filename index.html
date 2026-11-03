@@ -634,6 +634,7 @@
     .ipo-card .l1 { display: flex; align-items: center; gap: 0.2rem; min-width: 0; font-weight: 700; }
     .ipo-card .l1 .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .ipo-card .type-badge { margin: 0; font-size: 0.66rem; padding: 0 0.2rem; line-height: 1.35; }
+    .ipo-card .l3 { font-size: 0.68rem; color: #1e3a8a; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0.05rem; }
     .ipo-card .l2 { display: flex; align-items: center; justify-content: space-between; gap: 0.2rem; min-width: 0; margin-top: 0.05rem; }
     .ipo-card .l2 .info { display: flex; align-items: center; gap: 0.2rem; min-width: 0; overflow: hidden; white-space: nowrap; font-weight: 650; }
     .ipo-card .sc { opacity: 0.85; font-weight: 600; }
@@ -1022,6 +1023,7 @@
         `<div class="ipo-card ${cls}" role="button" tabindex="0" data-open="${escapeHtml(itemKey(item))}" data-type="${type}" title="${escapeHtml(tip)}">` +
         `<div class="l1">${badge}<span class="nm">${escapeHtml(item.name)}</span></div>` +
         `<div class="l2"><span class="info">${info}</span>${toggleHtml(item)}</div>` +
+        (type === "subscribe" ? `<div class="l3">${escapeHtml((recInfo(item).brokers || []).join("·") || "증권사 확인중")} · ${escapeHtml(displayDeposit(item.minDeposit))}</div>` : "") +
         `</div>`
       );
     }
@@ -1220,7 +1222,7 @@
     }
 
     // ---- 청약 추천 (단순 규칙 · 투자 권유 아님) ----
-    const MY_BROKERS = ["한투", "대신", "신한", "KB", "NH", "미래", "유진", "키움"];
+    const MY_BROKERS = ["한투", "대신", "신한", "KB", "NH", "미래", "유진", "키움", "삼성"];
     function brokerList(item) {
       const raw = Array.isArray(item.brokers) ? item.brokers : String(item.brokers || "").split(/[,·\/]/);
       return [...new Set(raw.map(abbreviateBroker).filter(Boolean))];
