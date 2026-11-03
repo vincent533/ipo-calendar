@@ -863,6 +863,27 @@
         "floatShares": 5172746,
         "marginPct": 50,
         "source": "https://www.38.co.kr/html/fund/?o=v&no=2335&l=&page=1"
+      },
+      "result": {
+        "offerPrice": 19000,
+        "openPrice": 19000,
+        "openReturnPct": 0.0,
+        "minShares": 10,
+        "allottedShares": 10,
+        "allotmentAvg": 12.9,
+        "allotmentNote": "10주 전량 배정 · 최소 10주(증거금 9.5만원) → 균등 평균(12.90주)이 신청량보다 많아 10주 전량 배정",
+        "lottery": false,
+        "fee": 2000,
+        "feeBroker": "NH",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": -2000,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.ajunews.com/view/20261103092537241",
+          "allotment": "https://kkigit.com/ipo/%EB%9E%98%EB%B8%94%EC%97%85",
+          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+        }
       }
     },
     {

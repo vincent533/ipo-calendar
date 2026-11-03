@@ -645,9 +645,10 @@ DTSTAMP:20261102T141300Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:[상장] 래블업
-DESCRIPTION:상장일 2026-11-03\n종합점수 C+\n최소증거금 9.5만
- 원\n주관사 NH\n확정공모가 19\,000원\n기관경쟁률 284.53:1\n
- 달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-03\n시초가 수익률 +0.0%\n종합점수 C
+ +\n최소증거금 9.5만원\n주관사 NH\n확정공모가 19\,000원\n
+ 기관경쟁률 284.53:1\n달력 https://vincent533.github.io/ipo-calendar
+ /
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
