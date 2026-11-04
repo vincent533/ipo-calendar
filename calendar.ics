@@ -717,9 +717,10 @@ DTSTAMP:20261102T141300Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:[상장] 이에스티
-DESCRIPTION:상장일 2026-11-04\n종합점수 C+\n최소증거금 12.4만
- 원\n주관사 대신\n확정공모가 12\,400원\n기관경쟁률 630.1:1
- \n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-04\n시초가 수익률 +28.1%\n종합점수 
+ C+\n최소증거금 12.4만원\n주관사 대신\n확정공모가 12\,400
+ 원\n기관경쟁률 630.1:1\n달력 https://vincent533.github.io/ipo-cale
+ ndar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -830,6 +831,41 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:넥스아이 오늘 상장
+TRIGGER;RELATED=START:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ykmc-sub@vincent533.github.io
+DTSTAMP:20261102T141300Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261106
+SUMMARY:[청약] 영광와이케이엠씨
+DESCRIPTION:청약 2026-11-04 ~ 2026-11-05\n환불일 2026-11-09\n상장일
+  2026-11-16\n종합점수 B+\n최소증거금 11만원\n주관사 대신\n
+ 확정공모가 11\,000원\n기관경쟁률 1\,163.34:1\n달력 https://vi
+ ncent533.github.io/ipo-calendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:영광와이케이엠씨 청약 마감일
+TRIGGER;RELATED=START:P1DT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ykmc-list@vincent533.github.io
+DTSTAMP:20261102T141300Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:[상장] 영광와이케이엠씨
+DESCRIPTION:상장일 2026-11-16\n종합점수 B+\n최소증거금 11만원
+ \n주관사 대신\n확정공모가 11\,000원\n기관경쟁률 1\,163.34:
+ 1\n달력 https://vincent533.github.io/ipo-calendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:영광와이케이엠씨 오늘 상장
 TRIGGER;RELATED=START:PT8H30M
 END:VALARM
 END:VEVENT
