@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T23:13:00+09:00",
+  "updatedAt": "2026-11-05T14:59:03+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -1064,7 +1064,8 @@
         "floatShares": 3629716,
         "marginPct": 50,
         "source": "https://www.38.co.kr/html/fund/?o=v&no=2325&l=&page=1"
-      }
+      },
+      "code": "952366"
     },
     {
       "id": "nexi",
@@ -1150,6 +1151,35 @@
         "source": "https://www.38.co.kr/html/fund/?o=v&no=2338&l=&page=1"
       },
       "listDateSource": "https://www.thelec.kr/news/articleView.html?idxno=64577"
+    },
+    {
+      "id": "alrobot",
+      "name": "에이엘로봇",
+      "score": "B+",
+      "minDeposit": "8.8만원",
+      "subscribeStart": "2026-11-06",
+      "subscribeEnd": "2026-11-09",
+      "listDate": "2026-11-18",
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": "https://youtu.be/GPMn-P_xkVY?t=327",
+      "videoStartSeconds": 327,
+      "code": "471800",
+      "market": "코스닥",
+      "refundDate": "2026-11-11",
+      "demand": {
+        "bandLow": 15700,
+        "bandHigh": 17600,
+        "offerPrice": 17600,
+        "instCompetition": 871.74,
+        "lockupPct": 1.13,
+        "floatPct": 35.01,
+        "floatShares": 4218360,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2331&l=&page=1"
+      },
+      "listDateSource": "https://www.newsis.com/view/NISX20261104_0003855174"
     }
   ]
 }
