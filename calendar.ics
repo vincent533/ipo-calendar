@@ -753,9 +753,10 @@ DTSTAMP:20261110T001019Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[상장] 동원파츠
-DESCRIPTION:상장일 2026-11-10\n종합점수 B+\n최소증거금 26.5만
- 원\n주관사 삼성\n확정공모가 26\,500원\n기관경쟁률 840.86:
- 1\n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-10\n시초가 수익률 +92.8%\n종합점수 
+ B+\n최소증거금 26.5만원\n주관사 삼성\n확정공모가 26\,500
+ 원\n기관경쟁률 840.86:1\n달력 https://vincent533.github.io/ipo-cal
+ endar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -936,6 +937,41 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:에이엘로봇 오늘 상장
+TRIGGER;RELATED=START:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hanaaero-sub@vincent533.github.io
+DTSTAMP:20261110T001019Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261112
+SUMMARY:[청약] 하나에어로다이내믹스
+DESCRIPTION:청약 2026-11-10 ~ 2026-11-11\n환불일 2026-11-13\n상장일
+  2026-11-20\n종합점수 A\n최소증거금 2.85만원\n주관사 IBK\n
+ 확정공모가 5\,700원\n기관경쟁률 1\,051:1\n달력 https://vincen
+ t533.github.io/ipo-calendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:하나에어로다이내믹스 청약 마감일
+TRIGGER;RELATED=START:P1DT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hanaaero-list@vincent533.github.io
+DTSTAMP:20261110T001019Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:[상장] 하나에어로다이내믹스
+DESCRIPTION:상장일 2026-11-20\n종합점수 A\n최소증거금 2.85만
+ 원\n주관사 IBK\n확정공모가 5\,700원\n기관경쟁률 1\,051:1\n
+ 달력 https://vincent533.github.io/ipo-calendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:하나에어로다이내믹스 오늘 상장
 TRIGGER;RELATED=START:PT8H30M
 END:VALARM
 END:VEVENT

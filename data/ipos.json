@@ -1042,6 +1042,25 @@
         ],
         "fee": 2000,
         "offerPrice": 26500
+      },
+      "result": {
+        "offerPrice": 26500,
+        "openPrice": 51100,
+        "openReturnPct": 92.83,
+        "minShares": 10,
+        "allottedShares": 2,
+        "allotmentAvg": 2,
+        "allotmentNote": "균등 2주 배정(실제, 비례 0)",
+        "lottery": false,
+        "fee": 2000,
+        "feeBroker": "삼성",
+        "feeWaivedIfNotAllotted": false,
+        "feeExpected": 2000,
+        "profitWon": 47200,
+        "profitIncludesFee": true,
+        "source": {
+          "prices": "https://www.hankyung.com/article/2026111066536"
+        }
       }
     },
     {
@@ -1185,6 +1204,32 @@
         "source": "https://www.38.co.kr/html/fund/?o=v&no=2331&l=&page=1"
       },
       "listDateSource": "https://www.newsis.com/view/NISX20261104_0003855174"
+    },
+    {
+      "id": "hanaaero",
+      "name": "하나에어로다이내믹스",
+      "score": "A",
+      "minDeposit": "2.85만원",
+      "subscribeStart": "2026-11-10",
+      "subscribeEnd": "2026-11-11",
+      "listDate": "2026-11-20",
+      "brokers": [
+        "IBK"
+      ],
+      "videoUrl": "https://youtu.be/BjNuXyDitPU?t=283",
+      "videoStartSeconds": 283,
+      "market": "코스닥",
+      "refundDate": "2026-11-13",
+      "demand": {
+        "bandLow": 4700,
+        "bandHigh": 5700,
+        "offerPrice": 5700,
+        "instCompetition": 1051,
+        "lockupPct": 4.16,
+        "floatPct": 30.05,
+        "marginPct": 50,
+        "source": "https://youtu.be/BjNuXyDitPU"
+      }
     }
   ]
 }
