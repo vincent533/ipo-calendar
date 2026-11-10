@@ -1187,6 +1187,7 @@
     function offerOf(item, rec) {
       if (rec && rec.offer != null) return rec.offer;
       if (item.result && item.result.offerPrice != null) return item.result.offerPrice;
+      if (item.demand && item.demand.offerPrice != null) return item.demand.offerPrice;
       return null;
     }
     function myCalc(item) {
