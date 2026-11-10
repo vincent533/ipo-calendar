@@ -1032,8 +1032,12 @@
         "refund": 212000,
         "sells": [
           {
-            "shares": 2,
-            "price": null
+            "shares": 1,
+            "price": 51000
+          },
+          {
+            "shares": 1,
+            "price": 52800
           }
         ],
         "fee": 2000
