@@ -1,1235 +1,1275 @@
 {
-  "updatedAt": "2026-11-10T09:10:19+09:00",
-  "items": [
-    {
-      "id": "nhspac34",
-      "name": "NH스팩34호",
-      "score": null,
-      "minDeposit": "2만원",
-      "subscribeStart": "2026-09-01",
-      "subscribeEnd": "2026-09-02",
-      "listDate": "2026-09-10",
-      "brokers": [
-        "NH"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 2000,
-        "openPrice": 4000,
-        "openReturnPct": 100.0,
-        "minShares": 10,
-        "allottedShares": 10,
-        "allotmentAvg": 22.71,
-        "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주 → 균등 평균(22.71주)이 신청량보다 많아 10주 전량 배정",
-        "lottery": false,
-        "fee": 2000,
-        "feeBroker": "NH",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 18000,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%97%94%EC%97%90%EC%9D%B4%EC%B9%98%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8134%ED%98%B8",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "0197V0",
-      "market": "코스닥",
-      "refundDate": "2026-09-04",
-      "demand": {
-        "bandLow": 2000,
-        "bandHigh": 2000,
-        "offerPrice": 2000,
-        "instCompetition": 1160.7,
-        "lockupPct": 0.0,
-        "floatPct": null,
-        "floatShares": null,
-        "marginPct": 100,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2312&l=&page=1"
-      }
-    },
-    {
-      "id": "neosapiens",
-      "name": "네오사피엔스",
-      "score": "B",
-      "minDeposit": "10만원",
-      "subscribeStart": "2026-09-10",
-      "subscribeEnd": "2026-09-11",
-      "listDate": "2026-09-21",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 10000,
-        "openPrice": 25250,
-        "openReturnPct": 152.5,
-        "minShares": 20,
-        "allottedShares": 2.33,
-        "allotmentAvg": 2.33,
-        "allotmentNote": "균등 평균 2.33주 (2주 확정 + 33% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "대신",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 33532,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4",
-          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
-        }
-      },
-      "code": "0161M0",
-      "market": "코스닥",
-      "refundDate": "2026-09-15",
-      "demand": {
-        "bandLow": 13800,
-        "bandHigh": 15800,
-        "offerPrice": 10000,
-        "instCompetition": 219.56,
-        "lockupPct": 8.98,
-        "floatPct": 28.66,
-        "floatShares": 3495095,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2308&l=&page=1"
-      }
-    },
-    {
-      "id": "wiseplanet",
-      "name": "와이즈플래닛컴퍼니",
-      "score": "E+",
-      "minDeposit": "6만원",
-      "subscribeStart": "2026-09-14",
-      "subscribeEnd": "2026-09-15",
-      "listDate": "2026-09-23",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 12000,
-        "openPrice": 42750,
-        "openReturnPct": 256.25,
-        "minShares": 10,
-        "allottedShares": 1.21,
-        "allotmentAvg": 1.21,
-        "allotmentNote": "균등 평균 1.21주 (1주 확정 + 21% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "대신",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 35208,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%99%80%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B%EC%BB%B4%ED%8D%BC%EB%8B%88",
-          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
-        }
-      },
-      "code": "0010S0",
-      "market": "코스닥",
-      "refundDate": "2026-09-17",
-      "demand": {
-        "bandLow": 10000,
-        "bandHigh": 12000,
-        "offerPrice": 12000,
-        "instCompetition": 1248.47,
-        "lockupPct": 3.65,
-        "floatPct": 21.12,
-        "floatShares": 2112650,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2311&l=&page=1"
-      }
-    },
-    {
-      "id": "bigwave",
-      "name": "빅웨이브로보틱스",
-      "score": "A",
-      "minDeposit": "9만원",
-      "subscribeStart": "2026-09-15",
-      "subscribeEnd": "2026-09-16",
-      "listDate": "2026-09-29",
-      "brokers": [
-        "유진",
-        "미래"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 18000,
-        "openPrice": 56000,
-        "openReturnPct": 211.11,
-        "minShares": 10,
-        "allottedShares": 0.81,
-        "allotmentAvg": 0.81,
-        "allotmentNote": "균등 평균 0.81주 (81% 확률로 1주 추첨, 기대값) · 유진·미래 합산 평균(증권사별 건수 미공개). 미래 수수료는 미배정 면제 문구 미확인 → 전액 차감",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "미래",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 28780,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EB%B9%85%EC%9B%A8%EC%9D%B4%EB%B8%8C%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "0035S0",
-      "market": "코스닥",
-      "refundDate": "2026-09-18",
-      "demand": {
-        "bandLow": 15000,
-        "bandHigh": 18000,
-        "offerPrice": 18000,
-        "instCompetition": 1109.37,
-        "lockupPct": 18.14,
-        "floatPct": 30.07,
-        "floatShares": 3201985,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2294&l=&page=1"
-      }
-    },
-    {
-      "id": "globaltech",
-      "name": "글로벌테크놀로지",
-      "score": "C+",
-      "minDeposit": "10만원",
-      "subscribeStart": "2026-09-16",
-      "subscribeEnd": "2026-09-17",
-      "listDate": "2026-09-29",
-      "brokers": [
-        "한투"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 10000,
-        "openPrice": 21150,
-        "openReturnPct": 111.5,
-        "minShares": 20,
-        "allottedShares": 6.47,
-        "allotmentAvg": 6.47,
-        "allotmentNote": "균등 평균 6.47주 (6주 확정 + 47% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "한투",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 70140,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80",
-          "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
-        }
-      },
-      "code": "486510",
-      "market": "코스닥",
-      "refundDate": "2026-09-21",
-      "demand": {
-        "bandLow": 13000,
-        "bandHigh": 15000,
-        "offerPrice": 10000,
-        "instCompetition": 123.19,
-        "lockupPct": 0.27,
-        "floatPct": 22.26,
-        "floatShares": 4359571,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2310&l=&page=1"
-      }
-    },
-    {
-      "id": "duksan-nepcores",
-      "name": "덕산넵코어스",
-      "score": "B",
-      "minDeposit": "7.3만원",
-      "subscribeStart": "2026-09-16",
-      "subscribeEnd": "2026-09-17",
-      "listDate": "2026-09-30",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 14600,
-        "openPrice": 27100,
-        "openReturnPct": 85.62,
-        "minShares": 10,
-        "allottedShares": 2.82,
-        "allotmentAvg": 2.82,
-        "allotmentNote": "균등 평균 2.82주 (2주 확정 + 82% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "대신",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 33250,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EB%8D%95%EC%82%B0%EB%84%B5%EC%BD%94%EC%96%B4%EC%8A%A4",
-          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
-        }
-      },
-      "code": "266690",
-      "market": "코스닥",
-      "refundDate": "2026-09-21",
-      "demand": {
-        "bandLow": 12400,
-        "bandHigh": 14600,
-        "offerPrice": 14600,
-        "instCompetition": 868.64,
-        "lockupPct": 4.05,
-        "floatPct": null,
-        "floatShares": null,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2309&l=&page=1"
-      }
-    },
-    {
-      "id": "brills",
-      "name": "브릴스",
-      "score": "A",
-      "minDeposit": "9.75만원",
-      "subscribeStart": "2026-09-17",
-      "subscribeEnd": "2026-09-18",
-      "listDate": "2026-10-01",
-      "brokers": [
-        "IBK"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 19500,
-        "openPrice": 61800,
-        "openReturnPct": 216.92,
-        "minShares": 10,
-        "allottedShares": 1.32,
-        "allotmentAvg": 1.32,
-        "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 1500,
-        "feeBroker": "IBK",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 1500,
-        "profitWon": 54336,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EB%B8%8C%EB%A6%B4%EC%8A%A4",
-          "fee": "https://m.ibks.com/ikd/IKD040101.do"
-        }
-      },
-      "code": "468670",
-      "market": "코스닥",
-      "refundDate": "2026-09-22",
-      "demand": {
-        "bandLow": 16500,
-        "bandHigh": 19500,
-        "offerPrice": 19500,
-        "instCompetition": 1187.74,
-        "lockupPct": 21.75,
-        "floatPct": null,
-        "floatShares": null,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2307&l=&page=1"
-      }
-    },
-    {
-      "id": "melcon",
-      "name": "멜콘",
-      "score": "A",
-      "minDeposit": "6.15만원",
-      "subscribeStart": "2026-10-01",
-      "subscribeEnd": "2026-10-02",
-      "listDate": "2026-10-15",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 12300,
-        "openPrice": 27400,
-        "openReturnPct": 122.76,
-        "minShares": 10,
-        "allottedShares": 1.23,
-        "allotmentAvg": 1.23,
-        "allotmentNote": "균등 평균 1.23주 (1주 확정 + 23% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "대신",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 16573,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EB%A9%9C%EC%BD%98",
-          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
-        }
-      },
-      "code": "179880",
-      "market": "코스닥",
-      "refundDate": "2026-10-07",
-      "demand": {
-        "bandLow": 10700,
-        "bandHigh": 12300,
-        "offerPrice": 12300,
-        "instCompetition": 1136.84,
-        "lockupPct": 36.07,
-        "floatPct": 34.57,
-        "floatShares": 4346680,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2315&l=&page=1"
-      }
-    },
-    {
-      "id": "jincostec",
-      "name": "진코스텍",
-      "score": "B+",
-      "minDeposit": "11.75만원",
-      "subscribeStart": "2026-10-02",
-      "subscribeEnd": "2026-10-06",
-      "listDate": "2026-10-15",
-      "brokers": [
-        "하나"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 23500,
-        "openPrice": 24000,
-        "openReturnPct": 2.13,
-        "minShares": 10,
-        "allottedShares": 0.72,
-        "allotmentAvg": 0.72,
-        "allotmentNote": "균등 평균 0.72주 (72% 확률로 1주 추첨, 기대값)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "하나",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 1440,
-        "profitWon": -1080,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%A7%84%EC%BD%94%EC%8A%A4%ED%85%8D",
-          "fee": "https://www.hanaw.com/main/bank/subscription/OB_060301_T1L.cmd"
-        }
-      },
-      "code": "250030",
-      "market": "코스닥",
-      "refundDate": "2026-10-08",
-      "demand": {
-        "bandLow": 19500,
-        "bandHigh": 23500,
-        "offerPrice": 23500,
-        "instCompetition": 1097.62,
-        "lockupPct": 5.29,
-        "floatPct": 58.44,
-        "floatShares": 2212851,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2320&l=&page=1"
-      }
-    },
-    {
-      "id": "elice-group",
-      "name": "엘리스그룹",
-      "score": "B+",
-      "minDeposit": "90.5만원",
-      "subscribeStart": "2026-10-07",
-      "subscribeEnd": "2026-10-08",
-      "listDate": "2026-10-20",
-      "brokers": [
-        "미래",
-        "삼성"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 90500,
-        "openPrice": 75700,
-        "openReturnPct": -16.35,
-        "minShares": 20,
-        "allottedShares": 0.96,
-        "allotmentAvg": 0.96,
-        "allotmentNote": "균등 평균 0.96주 (96% 확률로 1주 추첨, 기대값) · 미래·삼성 합산 평균(증권사별 건수 미공개). 미래 수수료는 미배정 면제 문구 미확인 → 전액 차감",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "미래",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": -16208,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%97%98%EB%A6%AC%EC%8A%A4%EA%B7%B8%EB%A3%B9",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "0158S0",
-      "market": "코스닥",
-      "refundDate": "2026-10-13",
-      "demand": {
-        "bandLow": 70400,
-        "bandHigh": 90500,
-        "offerPrice": 90500,
-        "instCompetition": 388.84,
-        "lockupPct": 13.7,
-        "floatPct": 20.81,
-        "floatShares": 2311880,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2316&l=&page=1"
-      }
-    },
-    {
-      "id": "msbio",
-      "name": "엠에스바이오",
-      "score": "A",
-      "minDeposit": "3.9만원",
-      "subscribeStart": "2026-10-12",
-      "subscribeEnd": "2026-10-13",
-      "listDate": "2026-10-22",
-      "brokers": [
-        "KB"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 7800,
-        "openPrice": 16000,
-        "openReturnPct": 105.13,
-        "minShares": 10,
-        "allottedShares": 1.75,
-        "allotmentAvg": 1.75,
-        "allotmentNote": "균등 평균 1.75주 (1주 확정 + 75% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 1500,
-        "feeBroker": "KB",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 1500,
-        "profitWon": 12850,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%97%A0%EC%97%90%EC%8A%A4%EB%B0%94%EC%9D%B4%EC%98%A4",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "0013Y0",
-      "market": "코스닥",
-      "refundDate": "2026-10-15",
-      "demand": {
-        "bandLow": 6800,
-        "bandHigh": 7800,
-        "offerPrice": 7800,
-        "instCompetition": 1096.56,
-        "lockupPct": 30.62,
-        "floatPct": 23.33,
-        "floatShares": 6347310,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2324&l=&page=1"
-      }
-    },
-    {
-      "brokers": [
-        "대신",
-        "유진"
-      ],
-      "id": "dts",
-      "listDate": "2026-10-23",
-      "minDeposit": "9.25만원",
-      "name": "디티에스",
-      "score": "B+",
-      "subscribeEnd": "2026-10-14",
-      "subscribeStart": "2026-10-13",
-      "videoStartSeconds": null,
-      "videoUrl": null,
-      "result": {
-        "offerPrice": 18500,
-        "openPrice": 32350,
-        "openReturnPct": 74.86,
-        "minShares": 10,
-        "allottedShares": 1.16,
-        "allotmentAvg": 1.16,
-        "allotmentNote": "균등 평균 1.16주 (1주 확정 + 16% 확률로 1주 추첨) · 대신·유진 합산 평균(증권사별 건수 미공개)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "대신",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 14066,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4",
-          "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
-        }
-      },
-      "code": "0015M0",
-      "market": "코스닥",
-      "refundDate": "2026-10-16",
-      "demand": {
-        "bandLow": 17000,
-        "bandHigh": 18500,
-        "offerPrice": 18500,
-        "instCompetition": 983.98,
-        "lockupPct": 13.31,
-        "floatPct": null,
-        "floatShares": null,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2326&l=&page=1"
-      }
-    },
-    {
-      "id": "sk-spac14",
-      "name": "SK제14호스팩",
-      "score": null,
-      "minDeposit": "2만원",
-      "subscribeStart": "2026-10-15",
-      "subscribeEnd": "2026-10-16",
-      "listDate": "2026-10-27",
-      "brokers": [
-        "SK"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 2000,
-        "openPrice": 4065,
-        "openReturnPct": 103.25,
-        "minShares": 10,
-        "allottedShares": 10,
-        "allotmentAvg": 11.63,
-        "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주. 청약 미달(1.00:1)로 신청량 전량 배정",
-        "lottery": false,
-        "fee": 2000,
-        "feeBroker": "SK",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 18650,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%A6%9D%EA%B6%8C%EC%A0%9C14%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
-          "fee": "https://www.sks.co.kr/main/subscription/static/SB_01006_T02.htm"
-        }
-      },
-      "code": "0205H0",
-      "market": "코스닥",
-      "refundDate": "2026-10-20",
-      "demand": {
-        "bandLow": 2000,
-        "bandHigh": 2000,
-        "offerPrice": 2000,
-        "instCompetition": 1228.38,
-        "lockupPct": 0.0,
-        "floatPct": null,
-        "floatShares": null,
-        "marginPct": 100,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2319&l=&page=1"
-      }
-    },
-    {
-      "id": "tne-korea",
-      "name": "티앤이코리아",
-      "score": "B+",
-      "minDeposit": "15.3만원",
-      "subscribeStart": "2026-10-20",
-      "subscribeEnd": "2026-10-21",
-      "listDate": "2026-10-29",
-      "brokers": [
-        "신한"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 15300,
-        "openPrice": 30350,
-        "openReturnPct": 98.37,
-        "minShares": 20,
-        "allottedShares": 1.44,
-        "allotmentAvg": 1.44,
-        "allotmentNote": "균등 평균 1.44주 (1주 확정 + 44% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "신한",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 19672,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%ED%8B%B0%EC%95%A4%EC%9D%B4%EC%BD%94%EB%A6%AC%EC%95%84",
-          "fee": "https://m.shinhansec.com/mweb/pssb/pssg/ppssg0001"
-        }
-      },
-      "code": "0053F0",
-      "market": "코스닥",
-      "refundDate": "2026-10-23",
-      "demand": {
-        "bandLow": 12600,
-        "bandHigh": 15300,
-        "offerPrice": 15300,
-        "instCompetition": 1041.02,
-        "lockupPct": 29.52,
-        "floatPct": 31.29,
-        "floatShares": 3551856,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2322&l=&page=1"
-      }
-    },
-    {
-      "id": "creaits",
-      "name": "크리에이츠",
-      "score": "C+",
-      "minDeposit": "15만원",
-      "subscribeStart": "2026-10-20",
-      "subscribeEnd": "2026-10-21",
-      "listDate": "2026-10-30",
-      "brokers": [
-        "삼성"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 15000,
-        "openPrice": 12000,
-        "openReturnPct": -20.0,
-        "minShares": 20,
-        "allottedShares": 8.73,
-        "allotmentAvg": 8.73,
-        "allotmentNote": "균등 평균 8.73주 (8주 확정 + 73% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "삼성",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": -28190,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "439270",
-      "market": "코스닥",
-      "refundDate": "2026-10-23",
-      "demand": {
-        "bandLow": 15000,
-        "bandHigh": 18000,
-        "offerPrice": 15000,
-        "instCompetition": 240.46,
-        "lockupPct": 0.0,
-        "floatPct": 39.47,
-        "floatShares": 5176832,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2323&l=&page=1"
-      }
-    },
-    {
-      "id": "hanwha-plus-spac6",
-      "name": "한화플러스스팩6호",
-      "score": null,
-      "minDeposit": "2만원",
-      "subscribeStart": "2026-10-20",
-      "subscribeEnd": "2026-10-21",
-      "listDate": "2026-10-30",
-      "brokers": [
-        "한화"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 2000,
-        "openPrice": 2810,
-        "openReturnPct": 40.5,
-        "minShares": 10,
-        "allottedShares": 10,
-        "allotmentAvg": 13.77,
-        "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주 → 균등 평균(13.77주)이 신청량보다 많아 10주 전량 배정",
-        "lottery": false,
-        "fee": 2000,
-        "feeBroker": "한화",
-        "feeWaivedIfNotAllotted": true,
-        "feeExpected": 2000,
-        "profitWon": 6100,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "0127E0",
-      "market": "코스닥",
-      "refundDate": "2026-10-23",
-      "demand": {
-        "bandLow": 2000,
-        "bandHigh": 2000,
-        "offerPrice": 2000,
-        "instCompetition": 1256.48,
-        "lockupPct": 0.0,
-        "floatPct": null,
-        "floatShares": null,
-        "marginPct": 100,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2330&l=&page=1"
-      }
-    },
-    {
-      "id": "intellivix",
-      "name": "인텔리빅스",
-      "score": "B+",
-      "minDeposit": "9만원",
-      "subscribeStart": "2026-10-21",
-      "subscribeEnd": "2026-10-22",
-      "listDate": "2026-10-30",
-      "brokers": [
-        "미래"
-      ],
-      "videoUrl": null,
-      "videoStartSeconds": null,
-      "result": {
-        "offerPrice": 9000,
-        "openPrice": 19290,
-        "openReturnPct": 114.33,
-        "minShares": 20,
-        "allottedShares": 1.32,
-        "allotmentAvg": 1.32,
-        "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "미래",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 11583,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%9D%B8%ED%85%94%EB%A6%AC%EB%B9%85%EC%8A%A4",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      },
-      "code": "420610",
-      "market": "코스닥",
-      "refundDate": "2026-10-26",
-      "demand": {
-        "bandLow": 7600,
-        "bandHigh": 9000,
-        "offerPrice": 9000,
-        "instCompetition": 1234.3,
-        "lockupPct": 6.14,
-        "floatPct": 23.95,
-        "floatShares": 2715067,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2328&l=&page=1"
-      }
-    },
-    {
-      "id": "lablup",
-      "name": "래블업",
-      "score": "C+",
-      "minDeposit": "9.5만원",
-      "subscribeStart": "2026-10-22",
-      "subscribeEnd": "2026-10-23",
-      "listDate": "2026-11-03",
-      "brokers": [
-        "NH"
-      ],
-      "videoUrl": "https://youtu.be/8p-hoH6_aGY?t=362",
-      "videoStartSeconds": 362,
-      "code": "0147B0",
-      "market": "코스닥",
-      "refundDate": "2026-10-27",
-      "demand": {
-        "bandLow": 19000,
-        "bandHigh": 22000,
-        "offerPrice": 19000,
-        "instCompetition": 284.53,
-        "lockupPct": 2.09,
-        "floatPct": 35.57,
-        "floatShares": 5172746,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2335&l=&page=1"
-      },
-      "result": {
-        "offerPrice": 19000,
-        "openPrice": 19000,
-        "openReturnPct": 0.0,
-        "minShares": 10,
-        "allottedShares": 10,
-        "allotmentAvg": 12.9,
-        "allotmentNote": "10주 전량 배정 · 최소 10주(증거금 9.5만원) → 균등 평균(12.90주)이 신청량보다 많아 10주 전량 배정",
-        "lottery": false,
-        "fee": 2000,
-        "feeBroker": "NH",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": -2000,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.ajunews.com/view/20261103092537241",
-          "allotment": "https://kkigit.com/ipo/%EB%9E%98%EB%B8%94%EC%97%85",
-          "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
-        }
-      }
-    },
-    {
-      "id": "younggwang",
-      "name": "영광",
-      "score": "B",
-      "minDeposit": "17만원",
-      "subscribeStart": "2026-10-22",
-      "subscribeEnd": "2026-10-23",
-      "listDate": "2026-11-02",
-      "brokers": [
-        "한투"
-      ],
-      "videoUrl": "https://youtu.be/N7ZTr7te4MM?t=357",
-      "videoStartSeconds": 357,
-      "result": {
-        "offerPrice": 17000,
-        "openPrice": 21350,
-        "openReturnPct": 25.59,
-        "minShares": 20,
-        "allottedShares": 1.62,
-        "allotmentAvg": 1.62,
-        "allotmentNote": "균등 평균 1.62주 (1주 확정 + 62% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "한투",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 5047,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
-          "allotment": "https://kkigit.com/ipo/%EC%98%81%EA%B4%91",
-          "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
-        }
-      },
-      "subscribed": true,
-      "my": {
-        "sells": [
-          {
-            "shares": 2,
-            "price": 27450,
-            "orderNo": "3716100"
-          }
-        ],
-        "fee": 2000,
-        "broker": "한투",
-        "note": "2026-11-02 09:05 체결"
-      },
-      "code": "359410",
-      "market": "코스닥",
-      "refundDate": "2026-10-27",
-      "demand": {
-        "bandLow": 14000,
-        "bandHigh": 17000,
-        "offerPrice": 17000,
-        "instCompetition": 1000.07,
-        "lockupPct": 0.87,
-        "floatPct": 31.75,
-        "floatShares": 2870800,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2333&l=&page=1"
-      }
-    },
-    {
-      "id": "est",
-      "name": "이에스티",
-      "score": "C+",
-      "minDeposit": "12.4만원",
-      "subscribeStart": "2026-10-22",
-      "subscribeEnd": "2026-10-23",
-      "listDate": "2026-11-04",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": "https://youtu.be/v1Z-TaO-rcE?t=372",
-      "videoStartSeconds": 372,
-      "code": "495910",
-      "market": "코스닥",
-      "refundDate": "2026-10-27",
-      "demand": {
-        "bandLow": 10600,
-        "bandHigh": 12400,
-        "offerPrice": 12400,
-        "instCompetition": 630.1,
-        "lockupPct": 0.24,
-        "floatPct": 37.7,
-        "floatShares": 5243400,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2332&l=&page=1"
-      },
-      "result": {
-        "offerPrice": 12400,
-        "openPrice": 15890,
-        "openReturnPct": 28.15,
-        "minShares": 20,
-        "allottedShares": 5.45,
-        "allotmentAvg": 5.45,
-        "allotmentNote": "균등 평균 5.45주 (5주 확정 + 45% 확률로 1주 추첨)",
-        "lottery": true,
-        "fee": 2000,
-        "feeBroker": "대신",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 17021,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.yna.co.kr/view/AKR20261104035000008",
-          "allotment": "https://kkigit.com/ipo/%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0",
-          "fee": "https://money2.daishin.com/e5/mboard/ptype_basic/basic_001/DW_Basic_Read.aspx?boardseq=114&m=1108&p=1385&page=1&searchString=&seq=18364&v=2247"
-        }
-      }
-    },
-    {
-      "id": "dongwonparts",
-      "name": "동원파츠",
-      "score": "B+",
-      "minDeposit": "26.5만원",
-      "subscribeStart": "2026-11-02",
-      "subscribeEnd": "2026-11-03",
-      "listDate": "2026-11-10",
-      "brokers": [
-        "삼성"
-      ],
-      "videoUrl": "https://youtu.be/JcQx-glQAQo?t=322",
-      "videoStartSeconds": 322,
-      "code": "0162D0",
-      "market": "코스닥",
-      "refundDate": "2026-11-05",
-      "demand": {
-        "bandLow": 23000,
-        "bandHigh": 26500,
-        "offerPrice": 26500,
-        "instCompetition": 840.86,
-        "lockupPct": 16.61,
-        "floatPct": 29.47,
-        "floatShares": 2734201,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2339&l=&page=1"
-      },
-      "subscribed": true,
-      "my": {
-        "allotted": 2,
-        "equalShares": 2,
-        "proportionalShares": 0,
-        "refund": 212000,
-        "sells": [
-          {
-            "shares": 1,
-            "price": 51000
-          },
-          {
-            "shares": 1,
-            "price": 52800
-          }
-        ],
-        "fee": 2000,
-        "offerPrice": 26500
-      },
-      "result": {
-        "offerPrice": 26500,
-        "openPrice": 51100,
-        "openReturnPct": 92.83,
-        "minShares": 10,
-        "allottedShares": 2,
-        "allotmentAvg": 2,
-        "allotmentNote": "균등 2주 배정(실제, 비례 0)",
-        "lottery": false,
-        "fee": 2000,
-        "feeBroker": "삼성",
-        "feeWaivedIfNotAllotted": false,
-        "feeExpected": 2000,
-        "profitWon": 47200,
-        "profitIncludesFee": true,
-        "source": {
-          "prices": "https://www.hankyung.com/article/2026111066536"
-        }
-      }
-    },
-    {
-      "id": "barofarm",
-      "name": "바로팜",
-      "score": "C+",
-      "minDeposit": "16.4만원",
-      "subscribeStart": "2026-11-02",
-      "subscribeEnd": "2026-11-03",
-      "listDate": "2026-11-11",
-      "brokers": [
-        "미래"
-      ],
-      "videoUrl": "https://youtu.be/WUtHlTcHKhs?t=259",
-      "videoStartSeconds": 259,
-      "market": "코스닥",
-      "refundDate": "2026-11-05",
-      "demand": {
-        "bandLow": 16400,
-        "bandHigh": 20200,
-        "offerPrice": 16400,
-        "instCompetition": 152.36,
-        "lockupPct": 0.03,
-        "floatPct": 30.38,
-        "floatShares": 3629716,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2325&l=&page=1"
-      },
-      "code": "952366"
-    },
-    {
-      "id": "nexi",
-      "name": "넥스아이",
-      "score": "C+",
-      "minDeposit": "4만원",
-      "subscribeStart": "2026-11-03",
-      "subscribeEnd": "2026-11-04",
-      "listDate": "2026-11-12",
-      "brokers": [
-        "한투"
-      ],
-      "videoUrl": "https://youtu.be/5BkcP4yU59g?t=314",
-      "videoStartSeconds": 314,
-      "code": "493410",
-      "market": "코스닥",
-      "refundDate": "2026-11-06",
-      "demand": {
-        "bandLow": 10500,
-        "bandHigh": 13000,
-        "offerPrice": 8000,
-        "instCompetition": 66.58,
-        "lockupPct": 0.06,
-        "floatPct": 37.03,
-        "floatShares": 16947525,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2336&l=&page=1"
-      }
-    },
-    {
-      "id": "ykmc",
-      "name": "영광와이케이엠씨",
-      "score": "B+",
-      "minDeposit": "11만원",
-      "subscribeStart": "2026-11-04",
-      "subscribeEnd": "2026-11-05",
-      "listDate": "2026-11-16",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": "https://youtu.be/Kyc7w_C-2A8?t=300",
-      "videoStartSeconds": 300,
-      "code": "345290",
-      "market": "코스닥",
-      "refundDate": "2026-11-09",
-      "demand": {
-        "bandLow": 9400,
-        "bandHigh": 11000,
-        "offerPrice": 11000,
-        "instCompetition": 1163.34,
-        "lockupPct": 7.21,
-        "floatPct": 34.02,
-        "marginPct": 50,
-        "source": "http://www.38.co.kr/html/fund/?no=2342&o=v"
-      },
-      "listDateSource": "https://marketin.edaily.co.kr/News/ReadE?newsId=02810966645642440"
-    },
-    {
-      "id": "optonix",
-      "name": "옵토닉스",
-      "score": "A",
-      "minDeposit": "12만원",
-      "subscribeStart": "2026-11-05",
-      "subscribeEnd": "2026-11-06",
-      "listDate": "2026-11-17",
-      "brokers": [
-        "한투"
-      ],
-      "videoUrl": "https://youtu.be/cBeCc-h7CSY?t=307",
-      "videoStartSeconds": 307,
-      "code": "493260",
-      "market": "코스닥",
-      "refundDate": "2026-11-10",
-      "demand": {
-        "bandLow": 10000,
-        "bandHigh": 12000,
-        "offerPrice": 12000,
-        "instCompetition": 1201.81,
-        "lockupPct": 5.62,
-        "floatPct": 22.71,
-        "floatShares": 2172890,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2338&l=&page=1"
-      },
-      "listDateSource": "https://www.thelec.kr/news/articleView.html?idxno=64577"
-    },
-    {
-      "id": "alrobot",
-      "name": "에이엘로봇",
-      "score": "B+",
-      "minDeposit": "8.8만원",
-      "subscribeStart": "2026-11-06",
-      "subscribeEnd": "2026-11-09",
-      "listDate": "2026-11-18",
-      "brokers": [
-        "대신"
-      ],
-      "videoUrl": "https://youtu.be/GPMn-P_xkVY?t=327",
-      "videoStartSeconds": 327,
-      "code": "471800",
-      "market": "코스닥",
-      "refundDate": "2026-11-11",
-      "demand": {
-        "bandLow": 15700,
-        "bandHigh": 17600,
-        "offerPrice": 17600,
-        "instCompetition": 871.74,
-        "lockupPct": 1.13,
-        "floatPct": 35.01,
-        "floatShares": 4218360,
-        "marginPct": 50,
-        "source": "https://www.38.co.kr/html/fund/?o=v&no=2331&l=&page=1"
-      },
-      "listDateSource": "https://www.newsis.com/view/NISX20261104_0003855174"
-    },
-    {
-      "id": "hanaaero",
-      "name": "하나에어로다이내믹스",
-      "score": "A",
-      "minDeposit": "2.85만원",
-      "subscribeStart": "2026-11-10",
-      "subscribeEnd": "2026-11-11",
-      "listDate": "2026-11-20",
-      "brokers": [
-        "IBK"
-      ],
-      "videoUrl": "https://youtu.be/BjNuXyDitPU?t=283",
-      "videoStartSeconds": 283,
-      "market": "코스닥",
-      "refundDate": "2026-11-13",
-      "demand": {
-        "bandLow": 4700,
-        "bandHigh": 5700,
-        "offerPrice": 5700,
-        "instCompetition": 1051,
-        "lockupPct": 4.16,
-        "floatPct": 30.05,
-        "marginPct": 50,
-        "source": "https://youtu.be/BjNuXyDitPU"
-      }
+ "updatedAt": "2026-11-10T09:10:19+09:00",
+ "items": [
+  {
+   "id": "nhspac34",
+   "name": "NH스팩34호",
+   "score": null,
+   "minDeposit": "2만원",
+   "subscribeStart": "2026-09-01",
+   "subscribeEnd": "2026-09-02",
+   "listDate": "2026-09-10",
+   "brokers": [
+    "NH"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 2000,
+    "openPrice": 4000,
+    "openReturnPct": 100.0,
+    "minShares": 10,
+    "allottedShares": 10,
+    "allotmentAvg": 22.71,
+    "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주 → 균등 평균(22.71주)이 신청량보다 많아 10주 전량 배정",
+    "lottery": false,
+    "fee": 2000,
+    "feeBroker": "NH",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 18000,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%97%94%EC%97%90%EC%9D%B4%EC%B9%98%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%8134%ED%98%B8",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
     }
-  ]
+   },
+   "code": "0197V0",
+   "market": "코스닥",
+   "refundDate": "2026-09-04",
+   "demand": {
+    "bandLow": 2000,
+    "bandHigh": 2000,
+    "offerPrice": 2000,
+    "instCompetition": 1160.7,
+    "lockupPct": 0.0,
+    "floatPct": null,
+    "floatShares": null,
+    "marginPct": 100,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2312&l=&page=1"
+   }
+  },
+  {
+   "id": "neosapiens",
+   "name": "네오사피엔스",
+   "score": "B",
+   "minDeposit": "10만원",
+   "subscribeStart": "2026-09-10",
+   "subscribeEnd": "2026-09-11",
+   "listDate": "2026-09-21",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 10000,
+    "openPrice": 25250,
+    "openReturnPct": 152.5,
+    "minShares": 20,
+    "allottedShares": 2.33,
+    "allotmentAvg": 2.33,
+    "allotmentNote": "균등 평균 2.33주 (2주 확정 + 33% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "대신",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 33532,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EB%84%A4%EC%98%A4%EC%82%AC%ED%94%BC%EC%97%94%EC%8A%A4",
+     "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+    }
+   },
+   "code": "0161M0",
+   "market": "코스닥",
+   "refundDate": "2026-09-15",
+   "demand": {
+    "bandLow": 13800,
+    "bandHigh": 15800,
+    "offerPrice": 10000,
+    "instCompetition": 219.56,
+    "lockupPct": 8.98,
+    "floatPct": 28.66,
+    "floatShares": 3495095,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2308&l=&page=1"
+   }
+  },
+  {
+   "id": "wiseplanet",
+   "name": "와이즈플래닛컴퍼니",
+   "score": "E+",
+   "minDeposit": "6만원",
+   "subscribeStart": "2026-09-14",
+   "subscribeEnd": "2026-09-15",
+   "listDate": "2026-09-23",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 12000,
+    "openPrice": 42750,
+    "openReturnPct": 256.25,
+    "minShares": 10,
+    "allottedShares": 1.21,
+    "allotmentAvg": 1.21,
+    "allotmentNote": "균등 평균 1.21주 (1주 확정 + 21% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "대신",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 35208,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%99%80%EC%9D%B4%EC%A6%88%ED%94%8C%EB%9E%98%EB%8B%9B%EC%BB%B4%ED%8D%BC%EB%8B%88",
+     "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+    }
+   },
+   "code": "0010S0",
+   "market": "코스닥",
+   "refundDate": "2026-09-17",
+   "demand": {
+    "bandLow": 10000,
+    "bandHigh": 12000,
+    "offerPrice": 12000,
+    "instCompetition": 1248.47,
+    "lockupPct": 3.65,
+    "floatPct": 21.12,
+    "floatShares": 2112650,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2311&l=&page=1"
+   }
+  },
+  {
+   "id": "bigwave",
+   "name": "빅웨이브로보틱스",
+   "score": "A",
+   "minDeposit": "9만원",
+   "subscribeStart": "2026-09-15",
+   "subscribeEnd": "2026-09-16",
+   "listDate": "2026-09-29",
+   "brokers": [
+    "유진",
+    "미래"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 18000,
+    "openPrice": 56000,
+    "openReturnPct": 211.11,
+    "minShares": 10,
+    "allottedShares": 0.81,
+    "allotmentAvg": 0.81,
+    "allotmentNote": "균등 평균 0.81주 (81% 확률로 1주 추첨, 기대값) · 유진·미래 합산 평균(증권사별 건수 미공개). 미래 수수료는 미배정 면제 문구 미확인 → 전액 차감",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "미래",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 28780,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EB%B9%85%EC%9B%A8%EC%9D%B4%EB%B8%8C%EB%A1%9C%EB%B3%B4%ED%8B%B1%EC%8A%A4",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   },
+   "code": "0035S0",
+   "market": "코스닥",
+   "refundDate": "2026-09-18",
+   "demand": {
+    "bandLow": 15000,
+    "bandHigh": 18000,
+    "offerPrice": 18000,
+    "instCompetition": 1109.37,
+    "lockupPct": 18.14,
+    "floatPct": 30.07,
+    "floatShares": 3201985,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2294&l=&page=1"
+   }
+  },
+  {
+   "id": "globaltech",
+   "name": "글로벌테크놀로지",
+   "score": "C+",
+   "minDeposit": "10만원",
+   "subscribeStart": "2026-09-16",
+   "subscribeEnd": "2026-09-17",
+   "listDate": "2026-09-29",
+   "brokers": [
+    "한투"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 10000,
+    "openPrice": 21150,
+    "openReturnPct": 111.5,
+    "minShares": 20,
+    "allottedShares": 6.47,
+    "allotmentAvg": 6.47,
+    "allotmentNote": "균등 평균 6.47주 (6주 확정 + 47% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "한투",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 70140,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EA%B8%80%EB%A1%9C%EB%B2%8C%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80",
+     "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
+    }
+   },
+   "code": "486510",
+   "market": "코스닥",
+   "refundDate": "2026-09-21",
+   "demand": {
+    "bandLow": 13000,
+    "bandHigh": 15000,
+    "offerPrice": 10000,
+    "instCompetition": 123.19,
+    "lockupPct": 0.27,
+    "floatPct": 22.26,
+    "floatShares": 4359571,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2310&l=&page=1"
+   }
+  },
+  {
+   "id": "duksan-nepcores",
+   "name": "덕산넵코어스",
+   "score": "B",
+   "minDeposit": "7.3만원",
+   "subscribeStart": "2026-09-16",
+   "subscribeEnd": "2026-09-17",
+   "listDate": "2026-09-30",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 14600,
+    "openPrice": 27100,
+    "openReturnPct": 85.62,
+    "minShares": 10,
+    "allottedShares": 2.82,
+    "allotmentAvg": 2.82,
+    "allotmentNote": "균등 평균 2.82주 (2주 확정 + 82% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "대신",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 33250,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EB%8D%95%EC%82%B0%EB%84%B5%EC%BD%94%EC%96%B4%EC%8A%A4",
+     "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+    }
+   },
+   "code": "266690",
+   "market": "코스닥",
+   "refundDate": "2026-09-21",
+   "demand": {
+    "bandLow": 12400,
+    "bandHigh": 14600,
+    "offerPrice": 14600,
+    "instCompetition": 868.64,
+    "lockupPct": 4.05,
+    "floatPct": null,
+    "floatShares": null,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2309&l=&page=1"
+   }
+  },
+  {
+   "id": "brills",
+   "name": "브릴스",
+   "score": "A",
+   "minDeposit": "9.75만원",
+   "subscribeStart": "2026-09-17",
+   "subscribeEnd": "2026-09-18",
+   "listDate": "2026-10-01",
+   "brokers": [
+    "IBK"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 19500,
+    "openPrice": 61800,
+    "openReturnPct": 216.92,
+    "minShares": 10,
+    "allottedShares": 1.32,
+    "allotmentAvg": 1.32,
+    "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 1500,
+    "feeBroker": "IBK",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 1500,
+    "profitWon": 54336,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EB%B8%8C%EB%A6%B4%EC%8A%A4",
+     "fee": "https://m.ibks.com/ikd/IKD040101.do"
+    }
+   },
+   "code": "468670",
+   "market": "코스닥",
+   "refundDate": "2026-09-22",
+   "demand": {
+    "bandLow": 16500,
+    "bandHigh": 19500,
+    "offerPrice": 19500,
+    "instCompetition": 1187.74,
+    "lockupPct": 21.75,
+    "floatPct": null,
+    "floatShares": null,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2307&l=&page=1"
+   }
+  },
+  {
+   "id": "melcon",
+   "name": "멜콘",
+   "score": "A",
+   "minDeposit": "6.15만원",
+   "subscribeStart": "2026-10-01",
+   "subscribeEnd": "2026-10-02",
+   "listDate": "2026-10-15",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 12300,
+    "openPrice": 27400,
+    "openReturnPct": 122.76,
+    "minShares": 10,
+    "allottedShares": 1.23,
+    "allotmentAvg": 1.23,
+    "allotmentNote": "균등 평균 1.23주 (1주 확정 + 23% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "대신",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 16573,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EB%A9%9C%EC%BD%98",
+     "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+    }
+   },
+   "code": "179880",
+   "market": "코스닥",
+   "refundDate": "2026-10-07",
+   "demand": {
+    "bandLow": 10700,
+    "bandHigh": 12300,
+    "offerPrice": 12300,
+    "instCompetition": 1136.84,
+    "lockupPct": 36.07,
+    "floatPct": 34.57,
+    "floatShares": 4346680,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2315&l=&page=1"
+   }
+  },
+  {
+   "id": "jincostec",
+   "name": "진코스텍",
+   "score": "B+",
+   "minDeposit": "11.75만원",
+   "subscribeStart": "2026-10-02",
+   "subscribeEnd": "2026-10-06",
+   "listDate": "2026-10-15",
+   "brokers": [
+    "하나"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 23500,
+    "openPrice": 24000,
+    "openReturnPct": 2.13,
+    "minShares": 10,
+    "allottedShares": 0.72,
+    "allotmentAvg": 0.72,
+    "allotmentNote": "균등 평균 0.72주 (72% 확률로 1주 추첨, 기대값)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "하나",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 1440,
+    "profitWon": -1080,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%A7%84%EC%BD%94%EC%8A%A4%ED%85%8D",
+     "fee": "https://www.hanaw.com/main/bank/subscription/OB_060301_T1L.cmd"
+    }
+   },
+   "code": "250030",
+   "market": "코스닥",
+   "refundDate": "2026-10-08",
+   "demand": {
+    "bandLow": 19500,
+    "bandHigh": 23500,
+    "offerPrice": 23500,
+    "instCompetition": 1097.62,
+    "lockupPct": 5.29,
+    "floatPct": 58.44,
+    "floatShares": 2212851,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2320&l=&page=1"
+   }
+  },
+  {
+   "id": "elice-group",
+   "name": "엘리스그룹",
+   "score": "B+",
+   "minDeposit": "90.5만원",
+   "subscribeStart": "2026-10-07",
+   "subscribeEnd": "2026-10-08",
+   "listDate": "2026-10-20",
+   "brokers": [
+    "미래",
+    "삼성"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 90500,
+    "openPrice": 75700,
+    "openReturnPct": -16.35,
+    "minShares": 20,
+    "allottedShares": 0.96,
+    "allotmentAvg": 0.96,
+    "allotmentNote": "균등 평균 0.96주 (96% 확률로 1주 추첨, 기대값) · 미래·삼성 합산 평균(증권사별 건수 미공개). 미래 수수료는 미배정 면제 문구 미확인 → 전액 차감",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "미래",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": -16208,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%97%98%EB%A6%AC%EC%8A%A4%EA%B7%B8%EB%A3%B9",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   },
+   "code": "0158S0",
+   "market": "코스닥",
+   "refundDate": "2026-10-13",
+   "demand": {
+    "bandLow": 70400,
+    "bandHigh": 90500,
+    "offerPrice": 90500,
+    "instCompetition": 388.84,
+    "lockupPct": 13.7,
+    "floatPct": 20.81,
+    "floatShares": 2311880,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2316&l=&page=1"
+   }
+  },
+  {
+   "id": "msbio",
+   "name": "엠에스바이오",
+   "score": "A",
+   "minDeposit": "3.9만원",
+   "subscribeStart": "2026-10-12",
+   "subscribeEnd": "2026-10-13",
+   "listDate": "2026-10-22",
+   "brokers": [
+    "KB"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 7800,
+    "openPrice": 16000,
+    "openReturnPct": 105.13,
+    "minShares": 10,
+    "allottedShares": 1.75,
+    "allotmentAvg": 1.75,
+    "allotmentNote": "균등 평균 1.75주 (1주 확정 + 75% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 1500,
+    "feeBroker": "KB",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 1500,
+    "profitWon": 12850,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%97%A0%EC%97%90%EC%8A%A4%EB%B0%94%EC%9D%B4%EC%98%A4",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   },
+   "code": "0013Y0",
+   "market": "코스닥",
+   "refundDate": "2026-10-15",
+   "demand": {
+    "bandLow": 6800,
+    "bandHigh": 7800,
+    "offerPrice": 7800,
+    "instCompetition": 1096.56,
+    "lockupPct": 30.62,
+    "floatPct": 23.33,
+    "floatShares": 6347310,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2324&l=&page=1"
+   }
+  },
+  {
+   "brokers": [
+    "대신",
+    "유진"
+   ],
+   "id": "dts",
+   "listDate": "2026-10-23",
+   "minDeposit": "9.25만원",
+   "name": "디티에스",
+   "score": "B+",
+   "subscribeEnd": "2026-10-14",
+   "subscribeStart": "2026-10-13",
+   "videoStartSeconds": null,
+   "videoUrl": null,
+   "result": {
+    "offerPrice": 18500,
+    "openPrice": 32350,
+    "openReturnPct": 74.86,
+    "minShares": 10,
+    "allottedShares": 1.16,
+    "allotmentAvg": 1.16,
+    "allotmentNote": "균등 평균 1.16주 (1주 확정 + 16% 확률로 1주 추첨) · 대신·유진 합산 평균(증권사별 건수 미공개)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "대신",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 14066,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EB%94%94%ED%8B%B0%EC%97%90%EC%8A%A4",
+     "fee": "https://www.creontrade.com/g.ds?m=1955&p=962&v=3664"
+    }
+   },
+   "code": "0015M0",
+   "market": "코스닥",
+   "refundDate": "2026-10-16",
+   "demand": {
+    "bandLow": 17000,
+    "bandHigh": 18500,
+    "offerPrice": 18500,
+    "instCompetition": 983.98,
+    "lockupPct": 13.31,
+    "floatPct": null,
+    "floatShares": null,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2326&l=&page=1"
+   }
+  },
+  {
+   "id": "sk-spac14",
+   "name": "SK제14호스팩",
+   "score": null,
+   "minDeposit": "2만원",
+   "subscribeStart": "2026-10-15",
+   "subscribeEnd": "2026-10-16",
+   "listDate": "2026-10-27",
+   "brokers": [
+    "SK"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 2000,
+    "openPrice": 4065,
+    "openReturnPct": 103.25,
+    "minShares": 10,
+    "allottedShares": 10,
+    "allotmentAvg": 11.63,
+    "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주. 청약 미달(1.00:1)로 신청량 전량 배정",
+    "lottery": false,
+    "fee": 2000,
+    "feeBroker": "SK",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 18650,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%97%90%EC%8A%A4%EC%BC%80%EC%9D%B4%EC%A6%9D%EA%B6%8C%EC%A0%9C14%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
+     "fee": "https://www.sks.co.kr/main/subscription/static/SB_01006_T02.htm"
+    }
+   },
+   "code": "0205H0",
+   "market": "코스닥",
+   "refundDate": "2026-10-20",
+   "demand": {
+    "bandLow": 2000,
+    "bandHigh": 2000,
+    "offerPrice": 2000,
+    "instCompetition": 1228.38,
+    "lockupPct": 0.0,
+    "floatPct": null,
+    "floatShares": null,
+    "marginPct": 100,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2319&l=&page=1"
+   }
+  },
+  {
+   "id": "tne-korea",
+   "name": "티앤이코리아",
+   "score": "B+",
+   "minDeposit": "15.3만원",
+   "subscribeStart": "2026-10-20",
+   "subscribeEnd": "2026-10-21",
+   "listDate": "2026-10-29",
+   "brokers": [
+    "신한"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 15300,
+    "openPrice": 30350,
+    "openReturnPct": 98.37,
+    "minShares": 20,
+    "allottedShares": 1.44,
+    "allotmentAvg": 1.44,
+    "allotmentNote": "균등 평균 1.44주 (1주 확정 + 44% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "신한",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 19672,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%ED%8B%B0%EC%95%A4%EC%9D%B4%EC%BD%94%EB%A6%AC%EC%95%84",
+     "fee": "https://m.shinhansec.com/mweb/pssb/pssg/ppssg0001"
+    }
+   },
+   "code": "0053F0",
+   "market": "코스닥",
+   "refundDate": "2026-10-23",
+   "demand": {
+    "bandLow": 12600,
+    "bandHigh": 15300,
+    "offerPrice": 15300,
+    "instCompetition": 1041.02,
+    "lockupPct": 29.52,
+    "floatPct": 31.29,
+    "floatShares": 3551856,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2322&l=&page=1"
+   }
+  },
+  {
+   "id": "creaits",
+   "name": "크리에이츠",
+   "score": "C+",
+   "minDeposit": "15만원",
+   "subscribeStart": "2026-10-20",
+   "subscribeEnd": "2026-10-21",
+   "listDate": "2026-10-30",
+   "brokers": [
+    "삼성"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 15000,
+    "openPrice": 12000,
+    "openReturnPct": -20.0,
+    "minShares": 20,
+    "allottedShares": 8.73,
+    "allotmentAvg": 8.73,
+    "allotmentNote": "균등 평균 8.73주 (8주 확정 + 73% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "삼성",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": -28190,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%ED%81%AC%EB%A6%AC%EC%97%90%EC%9D%B4%EC%B8%A0",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   },
+   "code": "439270",
+   "market": "코스닥",
+   "refundDate": "2026-10-23",
+   "demand": {
+    "bandLow": 15000,
+    "bandHigh": 18000,
+    "offerPrice": 15000,
+    "instCompetition": 240.46,
+    "lockupPct": 0.0,
+    "floatPct": 39.47,
+    "floatShares": 5176832,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2323&l=&page=1"
+   }
+  },
+  {
+   "id": "hanwha-plus-spac6",
+   "name": "한화플러스스팩6호",
+   "score": null,
+   "minDeposit": "2만원",
+   "subscribeStart": "2026-10-20",
+   "subscribeEnd": "2026-10-21",
+   "listDate": "2026-10-30",
+   "brokers": [
+    "한화"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 2000,
+    "openPrice": 2810,
+    "openReturnPct": 40.5,
+    "minShares": 10,
+    "allottedShares": 10,
+    "allotmentAvg": 13.77,
+    "allotmentNote": "10주 전량 배정 · 증거금률 100%, 최소 10주 → 균등 평균(13.77주)이 신청량보다 많아 10주 전량 배정",
+    "lottery": false,
+    "fee": 2000,
+    "feeBroker": "한화",
+    "feeWaivedIfNotAllotted": true,
+    "feeExpected": 2000,
+    "profitWon": 6100,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%ED%95%9C%ED%99%94%ED%94%8C%EB%9F%AC%EC%8A%A4%EC%A0%9C6%ED%98%B8%EA%B8%B0%EC%97%85%EC%9D%B8%EC%88%98%EB%AA%A9%EC%A0%81",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   },
+   "code": "0127E0",
+   "market": "코스닥",
+   "refundDate": "2026-10-23",
+   "demand": {
+    "bandLow": 2000,
+    "bandHigh": 2000,
+    "offerPrice": 2000,
+    "instCompetition": 1256.48,
+    "lockupPct": 0.0,
+    "floatPct": null,
+    "floatShares": null,
+    "marginPct": 100,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2330&l=&page=1"
+   }
+  },
+  {
+   "id": "intellivix",
+   "name": "인텔리빅스",
+   "score": "B+",
+   "minDeposit": "9만원",
+   "subscribeStart": "2026-10-21",
+   "subscribeEnd": "2026-10-22",
+   "listDate": "2026-10-30",
+   "brokers": [
+    "미래"
+   ],
+   "videoUrl": null,
+   "videoStartSeconds": null,
+   "result": {
+    "offerPrice": 9000,
+    "openPrice": 19290,
+    "openReturnPct": 114.33,
+    "minShares": 20,
+    "allottedShares": 1.32,
+    "allotmentAvg": 1.32,
+    "allotmentNote": "균등 평균 1.32주 (1주 확정 + 32% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "미래",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 11583,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%9D%B8%ED%85%94%EB%A6%AC%EB%B9%85%EC%8A%A4",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   },
+   "code": "420610",
+   "market": "코스닥",
+   "refundDate": "2026-10-26",
+   "demand": {
+    "bandLow": 7600,
+    "bandHigh": 9000,
+    "offerPrice": 9000,
+    "instCompetition": 1234.3,
+    "lockupPct": 6.14,
+    "floatPct": 23.95,
+    "floatShares": 2715067,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2328&l=&page=1"
+   }
+  },
+  {
+   "id": "lablup",
+   "name": "래블업",
+   "score": "C+",
+   "minDeposit": "9.5만원",
+   "subscribeStart": "2026-10-22",
+   "subscribeEnd": "2026-10-23",
+   "listDate": "2026-11-03",
+   "brokers": [
+    "NH"
+   ],
+   "videoUrl": "https://youtu.be/8p-hoH6_aGY?t=362",
+   "videoStartSeconds": 362,
+   "code": "0147B0",
+   "market": "코스닥",
+   "refundDate": "2026-10-27",
+   "demand": {
+    "bandLow": 19000,
+    "bandHigh": 22000,
+    "offerPrice": 19000,
+    "instCompetition": 284.53,
+    "lockupPct": 2.09,
+    "floatPct": 35.57,
+    "floatShares": 5172746,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2335&l=&page=1"
+   },
+   "result": {
+    "offerPrice": 19000,
+    "openPrice": 19000,
+    "openReturnPct": 0.0,
+    "minShares": 10,
+    "allottedShares": 10,
+    "allotmentAvg": 12.9,
+    "allotmentNote": "10주 전량 배정 · 최소 10주(증거금 9.5만원) → 균등 평균(12.90주)이 신청량보다 많아 10주 전량 배정",
+    "lottery": false,
+    "fee": 2000,
+    "feeBroker": "NH",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": -2000,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.ajunews.com/view/20261103092537241",
+     "allotment": "https://kkigit.com/ipo/%EB%9E%98%EB%B8%94%EC%97%85",
+     "fee": "https://gongmoday.com/guide/%EC%B2%AD%EC%95%BD-%EC%88%98%EC%88%98%EB%A3%8C/"
+    }
+   }
+  },
+  {
+   "id": "younggwang",
+   "name": "영광",
+   "score": "B",
+   "minDeposit": "17만원",
+   "subscribeStart": "2026-10-22",
+   "subscribeEnd": "2026-10-23",
+   "listDate": "2026-11-02",
+   "brokers": [
+    "한투"
+   ],
+   "videoUrl": "https://youtu.be/N7ZTr7te4MM?t=357",
+   "videoStartSeconds": 357,
+   "result": {
+    "offerPrice": 17000,
+    "openPrice": 21350,
+    "openReturnPct": 25.59,
+    "minShares": 20,
+    "allottedShares": 1.62,
+    "allotmentAvg": 1.62,
+    "allotmentNote": "균등 평균 1.62주 (1주 확정 + 62% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "한투",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 5047,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.38.co.kr/html/fund/index.htm?o=nw",
+     "allotment": "https://kkigit.com/ipo/%EC%98%81%EA%B4%91",
+     "fee": "https://securities.koreainvestment.com/main/customer/guide/_static/TF04ae040100.shtm"
+    }
+   },
+   "subscribed": true,
+   "my": {
+    "sells": [
+     {
+      "shares": 2,
+      "price": 27450,
+      "orderNo": "3716100"
+     }
+    ],
+    "fee": 2000,
+    "broker": "한투",
+    "note": "2026-11-02 09:05 체결"
+   },
+   "code": "359410",
+   "market": "코스닥",
+   "refundDate": "2026-10-27",
+   "demand": {
+    "bandLow": 14000,
+    "bandHigh": 17000,
+    "offerPrice": 17000,
+    "instCompetition": 1000.07,
+    "lockupPct": 0.87,
+    "floatPct": 31.75,
+    "floatShares": 2870800,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2333&l=&page=1"
+   }
+  },
+  {
+   "id": "est",
+   "name": "이에스티",
+   "score": "C+",
+   "minDeposit": "12.4만원",
+   "subscribeStart": "2026-10-22",
+   "subscribeEnd": "2026-10-23",
+   "listDate": "2026-11-04",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": "https://youtu.be/v1Z-TaO-rcE?t=372",
+   "videoStartSeconds": 372,
+   "code": "495910",
+   "market": "코스닥",
+   "refundDate": "2026-10-27",
+   "demand": {
+    "bandLow": 10600,
+    "bandHigh": 12400,
+    "offerPrice": 12400,
+    "instCompetition": 630.1,
+    "lockupPct": 0.24,
+    "floatPct": 37.7,
+    "floatShares": 5243400,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2332&l=&page=1"
+   },
+   "result": {
+    "offerPrice": 12400,
+    "openPrice": 15890,
+    "openReturnPct": 28.15,
+    "minShares": 20,
+    "allottedShares": 5.45,
+    "allotmentAvg": 5.45,
+    "allotmentNote": "균등 평균 5.45주 (5주 확정 + 45% 확률로 1주 추첨)",
+    "lottery": true,
+    "fee": 2000,
+    "feeBroker": "대신",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 17021,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.yna.co.kr/view/AKR20261104035000008",
+     "allotment": "https://kkigit.com/ipo/%EC%9D%B4%EC%97%90%EC%8A%A4%ED%8B%B0",
+     "fee": "https://money2.daishin.com/e5/mboard/ptype_basic/basic_001/DW_Basic_Read.aspx?boardseq=114&m=1108&p=1385&page=1&searchString=&seq=18364&v=2247"
+    }
+   }
+  },
+  {
+   "id": "dongwonparts",
+   "name": "동원파츠",
+   "score": "B+",
+   "minDeposit": "26.5만원",
+   "subscribeStart": "2026-11-02",
+   "subscribeEnd": "2026-11-03",
+   "listDate": "2026-11-10",
+   "brokers": [
+    "삼성"
+   ],
+   "videoUrl": "https://youtu.be/JcQx-glQAQo?t=322",
+   "videoStartSeconds": 322,
+   "code": "0162D0",
+   "market": "코스닥",
+   "refundDate": "2026-11-05",
+   "demand": {
+    "bandLow": 23000,
+    "bandHigh": 26500,
+    "offerPrice": 26500,
+    "instCompetition": 840.86,
+    "lockupPct": 16.61,
+    "floatPct": 29.47,
+    "floatShares": 2734201,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2339&l=&page=1"
+   },
+   "subscribed": true,
+   "my": {
+    "allotted": 2,
+    "equalShares": 2,
+    "proportionalShares": 0,
+    "refund": 212000,
+    "sells": [
+     {
+      "shares": 1,
+      "price": 51000
+     },
+     {
+      "shares": 1,
+      "price": 52800
+     }
+    ],
+    "fee": 2000,
+    "offerPrice": 26500
+   },
+   "result": {
+    "offerPrice": 26500,
+    "openPrice": 51100,
+    "openReturnPct": 92.83,
+    "minShares": 10,
+    "allottedShares": 2,
+    "allotmentAvg": 2,
+    "allotmentNote": "균등 2주 배정(실제, 비례 0)",
+    "lottery": false,
+    "fee": 2000,
+    "feeBroker": "삼성",
+    "feeWaivedIfNotAllotted": false,
+    "feeExpected": 2000,
+    "profitWon": 47200,
+    "profitIncludesFee": true,
+    "source": {
+     "prices": "https://www.hankyung.com/article/2026111066536"
+    }
+   }
+  },
+  {
+   "id": "barofarm",
+   "name": "바로팜",
+   "score": "C+",
+   "minDeposit": "16.4만원",
+   "subscribeStart": "2026-11-02",
+   "subscribeEnd": "2026-11-03",
+   "listDate": "2026-11-11",
+   "brokers": [
+    "미래"
+   ],
+   "videoUrl": "https://youtu.be/WUtHlTcHKhs?t=259",
+   "videoStartSeconds": 259,
+   "market": "코스닥",
+   "refundDate": "2026-11-05",
+   "demand": {
+    "bandLow": 16400,
+    "bandHigh": 20200,
+    "offerPrice": 16400,
+    "instCompetition": 152.36,
+    "lockupPct": 0.03,
+    "floatPct": 30.38,
+    "floatShares": 3629716,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2325&l=&page=1"
+   },
+   "code": "952366",
+   "result": {
+    "offerPrice": 16400,
+    "openPrice": 16000,
+    "openReturnPct": -2.44,
+    "minShares": 20,
+    "allottedShares": null,
+    "allotmentNote": "균등 배정 주수 확인중",
+    "profitWon": null,
+    "fee": 2000,
+    "feeBroker": "미래",
+    "source": {
+     "prices": "https://www.mt.co.kr/stock/2026/11/11/2026111109242171044"
+    }
+   }
+  },
+  {
+   "id": "nexi",
+   "name": "넥스아이",
+   "score": "C+",
+   "minDeposit": "4만원",
+   "subscribeStart": "2026-11-03",
+   "subscribeEnd": "2026-11-04",
+   "listDate": "2026-11-12",
+   "brokers": [
+    "한투"
+   ],
+   "videoUrl": "https://youtu.be/5BkcP4yU59g?t=314",
+   "videoStartSeconds": 314,
+   "code": "493410",
+   "market": "코스닥",
+   "refundDate": "2026-11-06",
+   "demand": {
+    "bandLow": 10500,
+    "bandHigh": 13000,
+    "offerPrice": 8000,
+    "instCompetition": 66.58,
+    "lockupPct": 0.06,
+    "floatPct": 37.03,
+    "floatShares": 16947525,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2336&l=&page=1"
+   }
+  },
+  {
+   "id": "ykmc",
+   "name": "영광와이케이엠씨",
+   "score": "B+",
+   "minDeposit": "11만원",
+   "subscribeStart": "2026-11-04",
+   "subscribeEnd": "2026-11-05",
+   "listDate": "2026-11-16",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": "https://youtu.be/Kyc7w_C-2A8?t=300",
+   "videoStartSeconds": 300,
+   "code": "345290",
+   "market": "코스닥",
+   "refundDate": "2026-11-09",
+   "demand": {
+    "bandLow": 9400,
+    "bandHigh": 11000,
+    "offerPrice": 11000,
+    "instCompetition": 1163.34,
+    "lockupPct": 7.21,
+    "floatPct": 34.02,
+    "marginPct": 50,
+    "source": "http://www.38.co.kr/html/fund/?no=2342&o=v"
+   },
+   "listDateSource": "https://marketin.edaily.co.kr/News/ReadE?newsId=02810966645642440"
+  },
+  {
+   "id": "optonix",
+   "name": "옵토닉스",
+   "score": "A",
+   "minDeposit": "12만원",
+   "subscribeStart": "2026-11-05",
+   "subscribeEnd": "2026-11-06",
+   "listDate": "2026-11-17",
+   "brokers": [
+    "한투"
+   ],
+   "videoUrl": "https://youtu.be/cBeCc-h7CSY?t=307",
+   "videoStartSeconds": 307,
+   "code": "493260",
+   "market": "코스닥",
+   "refundDate": "2026-11-10",
+   "demand": {
+    "bandLow": 10000,
+    "bandHigh": 12000,
+    "offerPrice": 12000,
+    "instCompetition": 1201.81,
+    "lockupPct": 5.62,
+    "floatPct": 22.71,
+    "floatShares": 2172890,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2338&l=&page=1"
+   },
+   "listDateSource": "https://www.thelec.kr/news/articleView.html?idxno=64577"
+  },
+  {
+   "id": "alrobot",
+   "name": "에이엘로봇",
+   "score": "B+",
+   "minDeposit": "8.8만원",
+   "subscribeStart": "2026-11-06",
+   "subscribeEnd": "2026-11-09",
+   "listDate": "2026-11-18",
+   "brokers": [
+    "대신"
+   ],
+   "videoUrl": "https://youtu.be/GPMn-P_xkVY?t=327",
+   "videoStartSeconds": 327,
+   "code": "471800",
+   "market": "코스닥",
+   "refundDate": "2026-11-11",
+   "demand": {
+    "bandLow": 15700,
+    "bandHigh": 17600,
+    "offerPrice": 17600,
+    "instCompetition": 871.74,
+    "lockupPct": 1.13,
+    "floatPct": 35.01,
+    "floatShares": 4218360,
+    "marginPct": 50,
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2331&l=&page=1"
+   },
+   "listDateSource": "https://www.newsis.com/view/NISX20261104_0003855174"
+  },
+  {
+   "id": "hanaaero",
+   "name": "하나에어로다이내믹스",
+   "score": "A",
+   "minDeposit": "2.85만원",
+   "subscribeStart": "2026-11-10",
+   "subscribeEnd": "2026-11-11",
+   "listDate": "2026-11-20",
+   "brokers": [
+    "IBK"
+   ],
+   "videoUrl": "https://youtu.be/BjNuXyDitPU?t=283",
+   "videoStartSeconds": 283,
+   "market": "코스닥",
+   "refundDate": "2026-11-13",
+   "demand": {
+    "bandLow": 4700,
+    "bandHigh": 5700,
+    "offerPrice": 5700,
+    "instCompetition": 1051,
+    "lockupPct": 4.16,
+    "floatPct": 30.05,
+    "marginPct": 50,
+    "source": "https://youtu.be/BjNuXyDitPU"
+   }
+  },
+  {
+   "id": "mbd",
+   "name": "엠비디",
+   "score": "C+",
+   "minDeposit": "7만원",
+   "subscribeStart": "2026-11-12",
+   "subscribeEnd": "2026-11-13",
+   "listDate": "2026-11-24",
+   "brokers": [
+    "하나"
+   ],
+   "videoUrl": "https://youtu.be/r5VWJnbwzLo?t=273",
+   "videoStartSeconds": 273,
+   "market": "코스닥",
+   "refundDate": "2026-11-17",
+   "demand": {
+    "bandLow": 9600,
+    "bandHigh": 11700,
+    "offerPrice": 7000,
+    "instCompetition": 187,
+    "lockupPct": 0,
+    "floatPct": 34.06,
+    "marginPct": 50,
+    "source": "https://youtu.be/r5VWJnbwzLo"
+   }
+  }
+ ]
 }

@@ -789,9 +789,10 @@ DTSTAMP:20261110T001019Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:[상장] 바로팜
-DESCRIPTION:상장일 2026-11-11\n종합점수 C+\n최소증거금 16.4만
- 원\n주관사 미래\n확정공모가 16\,400원\n기관경쟁률 152.36:
- 1\n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-11\n시초가 수익률 -2.4%\n종합점수 C
+ +\n최소증거금 16.4만원\n주관사 미래\n확정공모가 16\,400
+ 원\n기관경쟁률 152.36:1\n달력 https://vincent533.github.io/ipo-cal
+ endar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -972,6 +973,41 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:하나에어로다이내믹스 오늘 상장
+TRIGGER;RELATED=START:PT8H30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbd-sub@vincent533.github.io
+DTSTAMP:20261110T001019Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261114
+SUMMARY:[청약] 엠비디
+DESCRIPTION:청약 2026-11-12 ~ 2026-11-13\n환불일 2026-11-17\n상장일
+  2026-11-24\n종합점수 C+\n최소증거금 7만원\n주관사 하나\n
+ 확정공모가 7\,000원\n기관경쟁률 187:1\n달력 https://vincent53
+ 3.github.io/ipo-calendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:엠비디 청약 마감일
+TRIGGER;RELATED=START:P1DT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mbd-list@vincent533.github.io
+DTSTAMP:20261110T001019Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:[상장] 엠비디
+DESCRIPTION:상장일 2026-11-24\n종합점수 C+\n최소증거금 7만원\
+ n주관사 하나\n확정공모가 7\,000원\n기관경쟁률 187:1\n달
+ 력 https://vincent533.github.io/ipo-calendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:엠비디 오늘 상장
 TRIGGER;RELATED=START:PT8H30M
 END:VALARM
 END:VEVENT
