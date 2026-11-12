@@ -825,9 +825,9 @@ DTSTAMP:20261110T001019Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:[상장] 넥스아이
-DESCRIPTION:상장일 2026-11-12\n종합점수 C+\n최소증거금 4만원\
- n주관사 한투\n확정공모가 8\,000원\n기관경쟁률 66.58:1\n달
- 력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-12\n시초가 수익률 -4.8%\n종합점수 C
+ +\n최소증거금 4만원\n주관사 한투\n확정공모가 8\,000원\n
+ 기관경쟁률 66.58:1\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
