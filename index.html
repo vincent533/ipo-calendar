@@ -807,7 +807,7 @@
     }
 
     function displayScore(score) {
-      if (score === null || score === undefined || score === "" || score === "없음") return "없음";
+      if (score === null || score === undefined || score === "" || score === "없음") return "분석 전";
       return String(score);
     }
 
@@ -831,9 +831,12 @@
         [/삼성/, "삼성"],
         [/유안타/, "유안타"],
         [/상상인/, "상상인"],
-        [/IBK/, "IBK"],
+        [/IBK|아이비케이/, "IBK"],
         [/하나/, "하나"],
         [/한양/, "한양"],
+        [/신영/, "신영"],
+        [/우리투자|^우리$/, "우리"],
+        [/BNK/, "BNK"],
       ];
       for (const [re, short] of map) {
         if (re.test(s)) return short;
@@ -1003,9 +1006,9 @@
       let info = "";
       if (type === "subscribe") {
         const r = recInfo(item);
-        const sc = item.score ? escapeHtml(String(item.score)) : "";
+        const sc = escapeHtml(displayScore(item.score));
         info = `<span class="rec-badge ${r.cls}">${escapeHtml(r.short)}</span>` +
-          (sc ? `<span class="sc">${sc}</span>` : "") +
+          `<span class="sc">${sc}</span>` +
           (r.account ? "" : `<span class="noacct" title="계좌 없음 (${escapeHtml(r.brokers.join("·"))})">계좌X</span>`);
       } else if (my && my.ok) {
         info = `<span class="my-chip ${my.profit > 0 ? "gain" : my.profit < 0 ? "loss" : ""}" title="내 실제 손익 ${escapeHtml(fmtWon(my.profit))}">내 ${escapeHtml(fmtWonShort(my.profit))}</span>`;
@@ -1255,7 +1258,7 @@
         add("확정 공모가", `${W(o)}원 · ${pos} (${band})`, o >= hi ? 1 : o < lo ? -2 : o === lo ? -1 : 0);
       }
       const sc = item.score == null || item.score === "" ? null : String(item.score).trim();
-      add("종합점수", sc || "없음", sc && SCORE_PT[sc] != null ? SCORE_PT[sc] : 0);
+      add("종합점수", sc || "분석 전", sc && SCORE_PT[sc] != null ? SCORE_PT[sc] : 0);
       const total = rows.reduce((s, r) => s + r.pt, 0);
       let label, cls;
       if (comp == null) { label = "확인중"; cls = "tbd"; }

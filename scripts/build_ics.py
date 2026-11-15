@@ -73,7 +73,7 @@ def describe(it, kind):
         r = it.get("result") or {}
         if r.get("openReturnPct") is not None:
             lines.append(f"시초가 수익률 {r['openReturnPct']:+.1f}%")
-    lines.append(f"종합점수 {it.get('score') or '없음'}")
+    lines.append(f"종합점수 {it.get('score') or '분석 전'}")
     lines.append(f"최소증거금 {it.get('minDeposit') or '확인중'}")
     lines.append(f"주관사 {brokers_text(it)}")
     dm = it.get("demand") or {}

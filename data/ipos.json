@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T09:10:19+09:00",
+  "updatedAt": "2026-11-15T22:29:52+09:00",
   "items": [
     {
       "id": "nhspac34",
@@ -1286,6 +1286,492 @@
         "marginPct": 50,
         "source": "https://youtu.be/r5VWJnbwzLo"
       }
+    },
+    {
+      "id": "sfc",
+      "name": "에스에프씨",
+      "score": null,
+      "minDeposit": "15.8만원~",
+      "subscribeStart": "2026-11-18",
+      "subscribeEnd": "2026-11-19",
+      "listDate": "2026-11-27",
+      "brokers": [
+        "미래",
+        "한투",
+        "삼성"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스피",
+      "refundDate": "2026-11-23",
+      "code": "083030",
+      "demand": {
+        "bandLow": 31600,
+        "bandHigh": 36100,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1"
+      },
+      "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1",
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1"
+    },
+    {
+      "id": "ucast",
+      "name": "유캐스트",
+      "score": null,
+      "minDeposit": "9.5만원~",
+      "subscribeStart": "2026-11-18",
+      "subscribeEnd": "2026-11-19",
+      "listDate": "2026-11-30",
+      "brokers": [
+        "유진",
+        "신영"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-11-23",
+      "code": "0175C0",
+      "demand": {
+        "bandLow": 19000,
+        "bandHigh": 23000,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1"
+      },
+      "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1",
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1"
+    },
+    {
+      "id": "adel",
+      "name": "아델",
+      "score": null,
+      "minDeposit": "9만원~",
+      "subscribeStart": "2026-11-23",
+      "subscribeEnd": "2026-11-24",
+      "listDate": "2026-12-02",
+      "brokers": [
+        "삼성",
+        "미래"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-11-26",
+      "code": "0181E0",
+      "demand": {
+        "bandLow": 18000,
+        "bandHigh": 25000,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1"
+      },
+      "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1",
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1"
+    },
+    {
+      "id": "shinyoung-spac12",
+      "name": "신영스팩12호",
+      "score": null,
+      "minDeposit": "2만원",
+      "subscribeStart": "2026-11-24",
+      "subscribeEnd": "2026-11-25",
+      "listDate": null,
+      "brokers": [
+        "신영"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-11-27",
+      "code": "0231Y0",
+      "demand": {
+        "bandLow": 2000,
+        "bandHigh": 2000,
+        "offerPrice": 2000,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 100,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2357&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2357&l=&page=1"
+    },
+    {
+      "id": "kmf",
+      "name": "케이엠에프",
+      "score": null,
+      "minDeposit": "7.5만원~",
+      "subscribeStart": "2026-11-24",
+      "subscribeEnd": "2026-11-25",
+      "listDate": null,
+      "brokers": [
+        "IBK"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-11-27",
+      "code": "0103V0",
+      "demand": {
+        "bandLow": 15000,
+        "bandHigh": 17800,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2340&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2340&l=&page=1"
+    },
+    {
+      "id": "anh-structure",
+      "name": "에이엔에이치스트럭쳐",
+      "score": null,
+      "minDeposit": "5.6만원~",
+      "subscribeStart": "2026-11-27",
+      "subscribeEnd": "2026-11-30",
+      "listDate": null,
+      "brokers": [
+        "NH"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-02",
+      "code": "0111R0",
+      "demand": {
+        "bandLow": 11200,
+        "bandHigh": 13600,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2350&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2350&l=&page=1"
+    },
+    {
+      "id": "nkey-whitehat",
+      "name": "엔키화이트햇",
+      "score": null,
+      "minDeposit": "6.5만원~",
+      "subscribeStart": "2026-12-01",
+      "subscribeEnd": "2026-12-02",
+      "listDate": null,
+      "brokers": [
+        "신영"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-04",
+      "code": "0091L0",
+      "demand": {
+        "bandLow": 13000,
+        "bandHigh": 16500,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2343&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2343&l=&page=1"
+    },
+    {
+      "id": "woori-spac1",
+      "name": "우리투자스팩1호",
+      "score": null,
+      "minDeposit": "2만원",
+      "subscribeStart": "2026-12-02",
+      "subscribeEnd": "2026-12-03",
+      "listDate": null,
+      "brokers": [
+        "우리"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-07",
+      "code": "0227D0",
+      "demand": {
+        "bandLow": 2000,
+        "bandHigh": 2000,
+        "offerPrice": 2000,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 100,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2354&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2354&l=&page=1"
+    },
+    {
+      "id": "innovo",
+      "name": "이노보테라퓨틱스",
+      "score": null,
+      "minDeposit": "10만원~",
+      "subscribeStart": "2026-12-07",
+      "subscribeEnd": "2026-12-08",
+      "listDate": null,
+      "brokers": [
+        "한투"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-10",
+      "code": "464570",
+      "demand": {
+        "bandLow": 20000,
+        "bandHigh": 24000,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2351&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2351&l=&page=1"
+    },
+    {
+      "id": "mothers-pharm",
+      "name": "마더스제약",
+      "score": null,
+      "minDeposit": "5.5만원~",
+      "subscribeStart": "2026-12-08",
+      "subscribeEnd": "2026-12-09",
+      "listDate": null,
+      "brokers": [
+        "KB",
+        "NH"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-11",
+      "code": "363170",
+      "demand": {
+        "bandLow": 11000,
+        "bandHigh": 14500,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2359&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2359&l=&page=1"
+    },
+    {
+      "id": "davio",
+      "name": "다비오",
+      "score": null,
+      "minDeposit": "6.15만원~",
+      "subscribeStart": "2026-12-09",
+      "subscribeEnd": "2026-12-10",
+      "listDate": null,
+      "brokers": [
+        "대신"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-14",
+      "code": "0012G0",
+      "demand": {
+        "bandLow": 12300,
+        "bandHigh": 16600,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2358&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2358&l=&page=1"
+    },
+    {
+      "id": "interx",
+      "name": "인터엑스",
+      "score": null,
+      "minDeposit": "5만원~",
+      "subscribeStart": "2026-12-09",
+      "subscribeEnd": "2026-12-10",
+      "listDate": null,
+      "brokers": [
+        "한투",
+        "BNK"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-14",
+      "code": "480200",
+      "demand": {
+        "bandLow": 10000,
+        "bandHigh": 13000,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2353&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2353&l=&page=1"
+    },
+    {
+      "id": "cis-chemical",
+      "name": "씨아이에스케미칼",
+      "score": null,
+      "minDeposit": "2.7만원~",
+      "subscribeStart": "2026-12-10",
+      "subscribeEnd": "2026-12-11",
+      "listDate": null,
+      "brokers": [
+        "KB"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-15",
+      "code": "459650",
+      "demand": {
+        "bandLow": 5400,
+        "bandHigh": 6800,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2348&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2348&l=&page=1"
+    },
+    {
+      "id": "destin-power",
+      "name": "데스틴파워",
+      "score": null,
+      "minDeposit": "4만원~",
+      "subscribeStart": "2026-12-14",
+      "subscribeEnd": "2026-12-15",
+      "listDate": null,
+      "brokers": [
+        "한투"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-17",
+      "code": "273940",
+      "demand": {
+        "bandLow": 8000,
+        "bandHigh": 11000,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2356&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2356&l=&page=1"
+    },
+    {
+      "id": "xenon",
+      "name": "제논",
+      "score": null,
+      "minDeposit": "4.85만원~",
+      "subscribeStart": "2026-12-14",
+      "subscribeEnd": "2026-12-15",
+      "listDate": null,
+      "brokers": [
+        "삼성"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-17",
+      "code": "0158J0",
+      "demand": {
+        "bandLow": 9700,
+        "bandHigh": 12200,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2341&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2341&l=&page=1"
+    },
+    {
+      "id": "taeseok-optics",
+      "name": "태석광학",
+      "score": null,
+      "minDeposit": "8.75만원~",
+      "subscribeStart": "2026-12-14",
+      "subscribeEnd": "2026-12-15",
+      "listDate": null,
+      "brokers": [
+        "신한",
+        "대신"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-17",
+      "code": "0221D0",
+      "demand": {
+        "bandLow": 17500,
+        "bandHigh": 20200,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2360&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2360&l=&page=1"
+    },
+    {
+      "id": "kte",
+      "name": "KTE",
+      "score": null,
+      "minDeposit": "9.5만원~",
+      "subscribeStart": "2026-12-14",
+      "subscribeEnd": "2026-12-15",
+      "listDate": null,
+      "brokers": [
+        "NH"
+      ],
+      "videoUrl": null,
+      "videoStartSeconds": null,
+      "market": "코스닥",
+      "refundDate": "2026-12-17",
+      "code": "103060",
+      "demand": {
+        "bandLow": 19000,
+        "bandHigh": 23000,
+        "offerPrice": null,
+        "instCompetition": null,
+        "lockupPct": null,
+        "floatPct": null,
+        "marginPct": 50,
+        "source": "https://www.38.co.kr/html/fund/?o=v&no=2355&l=&page=1"
+      },
+      "source": "https://www.38.co.kr/html/fund/?o=v&no=2355&l=&page=1"
     }
   ]
 }
