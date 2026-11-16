@@ -1175,7 +1175,18 @@
         "marginPct": 50,
         "source": "http://www.38.co.kr/html/fund/?no=2342&o=v"
       },
-      "listDateSource": "https://marketin.edaily.co.kr/News/ReadE?newsId=02810966645642440"
+      "listDateSource": "https://marketin.edaily.co.kr/News/ReadE?newsId=02810966645642440",
+      "subscribed": true,
+      "my": {
+        "allotted": 2,
+        "sells": [
+          {
+            "shares": 2,
+            "price": 14010
+          }
+        ],
+        "fee": 2000
+      }
     },
     {
       "id": "optonix",
