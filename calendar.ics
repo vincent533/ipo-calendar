@@ -860,9 +860,10 @@ DTSTAMP:20261115T132952Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[상장] 영광와이케이엠씨
-DESCRIPTION:상장일 2026-11-16\n종합점수 B+\n최소증거금 11만원
- \n주관사 대신\n확정공모가 11\,000원\n기관경쟁률 1\,163.34:
- 1\n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-16\n시초가 수익률 +47.0%\n종합점수 
+ B+\n최소증거금 11만원\n주관사 대신\n확정공모가 11\,000원
+ \n기관경쟁률 1\,163.34:1\n달력 https://vincent533.github.io/ipo-cal
+ endar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
