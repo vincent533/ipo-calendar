@@ -1244,6 +1244,16 @@
         ],
         "fee": 2000,
         "allotted": 1
+      },
+      "result": {
+        "offerPrice": 12000,
+        "openPrice": 31000,
+        "openReturnPct": 158.33,
+        "minShares": 20,
+        "allotShares": 1,
+        "fee": 2000,
+        "profitWon": 17000,
+        "source": "https://biz.newdaily.co.kr/site/data/html/2026/11/17/2026111750074.html"
       }
     },
     {

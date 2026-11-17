@@ -896,9 +896,10 @@ DTSTAMP:20261115T132952Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:[상장] 옵토닉스
-DESCRIPTION:상장일 2026-11-17\n종합점수 A\n최소증거금 12만원\
- n주관사 한투\n확정공모가 12\,000원\n기관경쟁률 1\,201.81:1
- \n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-17\n시초가 수익률 +158.3%\n종합점수
+  A\n최소증거금 12만원\n주관사 한투\n확정공모가 12\,000원
+ \n기관경쟁률 1\,201.81:1\n달력 https://vincent533.github.io/ipo-cal
+ endar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
