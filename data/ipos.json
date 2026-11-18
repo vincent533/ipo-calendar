@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T22:29:52+09:00",
+ "updatedAt": "2026-11-18T22:05:26+09:00",
  "items": [
   {
    "id": "nhspac34",
@@ -1396,13 +1396,21 @@
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1"
    },
    "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1",
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1",
+   "withdrawn": true,
+   "withdrawnDate": "2026-11-17",
+   "withdrawnSource": "https://www.mt.co.kr/stock/2026/11/17/2026111718140892887",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "11/17 수요예측 부진으로 공모 철회, 기관경쟁률 미공시"
+   }
   },
   {
    "id": "ucast",
    "name": "유캐스트",
-   "score": null,
-   "minDeposit": "9.5만원~",
+   "score": "C+",
+   "minDeposit": "9.5만원",
    "subscribeStart": "2026-11-18",
    "subscribeEnd": "2026-11-19",
    "listDate": "2026-11-30",
@@ -1410,23 +1418,29 @@
     "유진",
     "신영"
    ],
-   "videoUrl": null,
-   "videoStartSeconds": null,
+   "videoUrl": "https://youtu.be/6kO_QxLx4cE?t=297",
+   "videoStartSeconds": 297,
    "market": "코스닥",
    "refundDate": "2026-11-23",
    "code": "0175C0",
    "demand": {
     "bandLow": 19000,
     "bandHigh": 23000,
-    "offerPrice": null,
-    "instCompetition": null,
-    "lockupPct": null,
-    "floatPct": null,
+    "offerPrice": 19000,
+    "instCompetition": 173.42,
+    "lockupPct": 0.57,
+    "floatPct": 36.76,
     "marginPct": 50,
-    "source": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1"
+    "source": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1",
+    "floatShares": 2167869
    },
    "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1",
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2352&l=&page=1",
+   "selfScore": {
+    "grade": "D",
+    "points": -4,
+    "basis": "기관 173.42:1(−1), 확약 0.57%(−1), 유통 36.76%(−1), 공모가 하단 19,000원(−1)"
+   }
   },
   {
    "id": "adel",
@@ -1456,7 +1470,12 @@
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1"
    },
    "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1",
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2345&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "shinyoung-spac12",
@@ -1484,7 +1503,12 @@
     "marginPct": 100,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2357&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2357&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2357&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "kmf",
@@ -1512,7 +1536,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2340&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2340&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2340&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "anh-structure",
@@ -1540,7 +1569,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2350&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2350&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2350&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "nkey-whitehat",
@@ -1568,7 +1602,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2343&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2343&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2343&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "woori-spac1",
@@ -1596,7 +1635,12 @@
     "marginPct": 100,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2354&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2354&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2354&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "innovo",
@@ -1624,7 +1668,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2351&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2351&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2351&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "mothers-pharm",
@@ -1653,7 +1702,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2359&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2359&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2359&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "davio",
@@ -1681,7 +1735,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2358&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2358&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2358&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "interx",
@@ -1710,7 +1769,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2353&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2353&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2353&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "cis-chemical",
@@ -1738,7 +1802,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2348&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2348&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2348&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "destin-power",
@@ -1766,7 +1835,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2356&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2356&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2356&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "xenon",
@@ -1794,7 +1868,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2341&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2341&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2341&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "taeseok-optics",
@@ -1823,7 +1902,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2360&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2360&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2360&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   },
   {
    "id": "kte",
@@ -1851,7 +1935,12 @@
     "marginPct": 50,
     "source": "https://www.38.co.kr/html/fund/?o=v&no=2355&l=&page=1"
    },
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2355&l=&page=1"
+   "source": "https://www.38.co.kr/html/fund/?o=v&no=2355&l=&page=1",
+   "selfScore": {
+    "grade": "예비",
+    "points": 0,
+    "basis": "수요예측 결과 전 · 희망밴드만 확인"
+   }
   }
  ]
 }

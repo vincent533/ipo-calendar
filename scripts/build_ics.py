@@ -73,7 +73,13 @@ def describe(it, kind):
         r = it.get("result") or {}
         if r.get("openReturnPct") is not None:
             lines.append(f"시초가 수익률 {r['openReturnPct']:+.1f}%")
-    lines.append(f"종합점수 {it.get('score') or '분석 전'}")
+    parts = []
+    if it.get("score"):
+        parts.append(f"영상 {it.get('score')}")
+    ss = it.get("selfScore") or {}
+    if ss.get("grade"):
+        parts.append(f"자체 {ss.get('grade')}")
+    lines.append(f"종합점수 {(' · '.join(parts) if parts else '분석 전')}")
     lines.append(f"최소증거금 {it.get('minDeposit') or '확인중'}")
     lines.append(f"주관사 {brokers_text(it)}")
     dm = it.get("demand") or {}
@@ -98,6 +104,8 @@ def build():
     n = 0
     for it in sorted(data["items"], key=lambda x: x.get("subscribeStart") or ""):
         iid, name = it["id"], it["name"]
+        if it.get("withdrawn") or it.get("cancelled"):
+            continue
         if it.get("subscribeStart") and it.get("subscribeEnd"):
             s, e = d(it["subscribeStart"]), d(it["subscribeEnd"])
             days = (e - s).days

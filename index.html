@@ -421,6 +421,8 @@
     }
     .type-badge.subscribe { background: var(--subscribe-strong); }
     .type-badge.listing { background: var(--listing-strong); }
+    .type-badge.withdrawn { background: #64748b; }
+    .ipo-card.withdrawn { border-left: 3px solid #64748b; background: #f8fafc; }
     .type-badge .b-short { display: none; }
     .ipo-card.mine {
       border-color: var(--mine);
@@ -637,7 +639,8 @@
     .ipo-card .l3 { font-size: 0.68rem; color: #1e3a8a; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 0.05rem; }
     .ipo-card .l2 { display: flex; align-items: center; justify-content: space-between; gap: 0.2rem; min-width: 0; margin-top: 0.05rem; }
     .ipo-card .l2 .info { display: flex; align-items: center; gap: 0.2rem; min-width: 0; overflow: hidden; white-space: nowrap; font-weight: 650; }
-    .ipo-card .sc { opacity: 0.85; font-weight: 600; }
+    .ipo-card .sc { opacity: 0.85; font-weight: 600; letter-spacing: -0.03em; }
+    .self-basis { margin-top: 0.25rem; font-size: 0.74rem; color: var(--muted); line-height: 1.4; }
     .ipo-card .ret.gain { color: #dc2626; font-weight: 800; }
     .ipo-card .ret.loss { color: #2563eb; font-weight: 800; }
     .ipo-card .rec-badge, .ipo-card .noacct { font-size: 0.66rem; padding: 0 0.2rem; line-height: 1.35; vertical-align: 0; }
@@ -810,6 +813,17 @@
       if (score === null || score === undefined || score === "" || score === "없음") return "분석 전";
       return String(score);
     }
+    function isWithdrawn(item) {
+      return !!(item && (item.withdrawn || item.cancelled));
+    }
+    function scorePairText(item) {
+      const parts = [];
+      const v = item && item.score;
+      if (v != null && v !== "" && v !== "없음") parts.push("영상 " + String(v));
+      const g = item && item.selfScore && item.selfScore.grade;
+      if (g) parts.push("자체 " + String(g));
+      return parts.length ? parts.join(" · ") : "분석 전";
+    }
 
     function displayDeposit(dep) {
       if (dep === null || dep === undefined || dep === "" || dep === "미확인") return "미확인";
@@ -867,6 +881,10 @@
       const events = [];
       for (const item of items) {
         if (mineOnly && !isMine(item)) continue;
+        if (isWithdrawn(item)) {
+          if (item.subscribeEnd === dateKey) events.push({ type: "subscribe", item });
+          continue;
+        }
         // 청약은 기간의 마지막 날만 표시
         if (item.subscribeEnd === dateKey) {
           events.push({ type: "subscribe", item });
@@ -999,6 +1017,15 @@
       return sign + a.toLocaleString("ko-KR");
     }
     function cardHtml(type, item) {
+      if (isWithdrawn(item)) {
+        const tip = `[공모 철회] ${item.name}` + (item.withdrawnDate ? ` · ${item.withdrawnDate}` : "") + " · 탭하면 상세";
+        return (
+          `<div class="ipo-card withdrawn${isMine(item) ? " mine" : ""}" role="button" tabindex="0" data-open="${escapeHtml(itemKey(item))}" data-type="subscribe" title="${escapeHtml(tip)}">` +
+          `<div class="l1"><span class="type-badge withdrawn">철</span><span class="nm">${escapeHtml(item.name)}</span></div>` +
+          `<div class="l2"><span class="info"><span class="sc">공모 철회</span></span>${toggleHtml(item)}</div>` +
+          `</div>`
+        );
+      }
       const cls = (type === "subscribe" ? "subscribe" : "listing") + (isMine(item) ? " mine" : "");
       const res = type === "listing" ? resultInfo(item) : null;
       const my = type === "listing" && isMine(item) ? myCalc(item) : null;
@@ -1006,7 +1033,7 @@
       let info = "";
       if (type === "subscribe") {
         const r = recInfo(item);
-        const sc = escapeHtml(displayScore(item.score));
+        const sc = escapeHtml(scorePairText(item));
         info = `<span class="rec-badge ${r.cls}">${escapeHtml(r.short)}</span>` +
           `<span class="sc">${sc}</span>` +
           (r.account ? "" : `<span class="noacct" title="계좌 없음 (${escapeHtml(r.brokers.join("·"))})">계좌X</span>`);
@@ -1101,6 +1128,7 @@
 
       for (const item of items) {
         if (mineOnly && !isMine(item)) continue;
+        if (isWithdrawn(item)) continue;
         const subStart = parseYMD(item.subscribeStart);
         const subEnd = parseYMD(item.subscribeEnd);
         if (subEnd >= today) {
@@ -1127,7 +1155,7 @@
             return (
               `<li class="upcoming-item${isMine(item) ? " mine" : ""}">${item.videoUrl ? `<a href="${escapeHtml(youtubeAppHref(item.videoUrl, item))}" data-yt="${escapeHtml(item.videoUrl)}" data-id="${escapeHtml(item.id || "")}" style="color:inherit;text-decoration:none;display:block">` : ""}` +
               `<div class="u-head"><div class="u-name">${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
-              `<div class="u-detail">${range} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(displayScore(item.score))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}${item.refundDate ? " · 환불 " + formatYMDKo(item.refundDate) : ""}</div>` +
+              `<div class="u-detail">${range} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(scorePairText(item))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}${item.refundDate ? " · 환불 " + formatYMDKo(item.refundDate) : ""}</div>` +
               `<div class="rec-line" style="margin-top:0.2rem;display:flex;gap:0.2rem">${recBadgeHtml(item, false)}</div>` +
               `${item.videoUrl ? `</a>` : ""}</li>`
             );
@@ -1139,7 +1167,7 @@
             return (
               `<li class="upcoming-item${isMine(item) ? " mine" : ""}">${item.videoUrl ? `<a href="${escapeHtml(youtubeAppHref(item.videoUrl, item))}" data-yt="${escapeHtml(item.videoUrl)}" data-id="${escapeHtml(item.id || "")}" style="color:inherit;text-decoration:none;display:block">` : ""}` +
               `<div class="u-head"><div class="u-name">${escapeHtml(item.name)}</div>${toggleHtml(item)}</div>` +
-              `<div class="u-detail">${formatYMDKo(item.listDate)} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(displayScore(item.score))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}</div>` +
+              `<div class="u-detail">${formatYMDKo(item.listDate)} · ${escapeHtml(displayDeposit(item.minDeposit))} · ${escapeHtml(scorePairText(item))}${displayBrokers(item) ? " · " + escapeHtml(displayBrokers(item)) : ""}</div>` +
               `${item.videoUrl ? `</a>` : ""}</li>`
             );
           }).join("")
@@ -1307,7 +1335,7 @@
     function moneyByDate() {
       const tied = {}, refund = {};
       for (const it of items) {
-        if (!isMine(it) || !it.subscribeEnd || !it.refundDate) continue;
+        if (isWithdrawn(it) || !isMine(it) || !it.subscribeEnd || !it.refundDate) continue;
         const dep = depositOf(it);
         if (dep == null) continue;
         let k = it.subscribeEnd;
@@ -1322,9 +1350,9 @@
     }
     function reuseHint(item) {
       if (!item.refundDate) return "환불일 확인중";
-      const later = items.filter((o) => o !== item && o.subscribeEnd && o.subscribeEnd >= item.refundDate && o.subscribeStart <= addDays(item.refundDate, 14))
+      const later = items.filter((o) => o !== item && !isWithdrawn(o) && o.subscribeEnd && o.subscribeEnd >= item.refundDate && o.subscribeStart <= addDays(item.refundDate, 14))
         .sort((a, b) => a.subscribeEnd.localeCompare(b.subscribeEnd));
-      const blocked = items.filter((o) => o !== item && o.subscribeEnd && o.subscribeEnd > item.subscribeEnd && o.subscribeEnd < item.refundDate);
+      const blocked = items.filter((o) => o !== item && !isWithdrawn(o) && o.subscribeEnd && o.subscribeEnd > item.subscribeEnd && o.subscribeEnd < item.refundDate);
       const parts = [];
       if (blocked.length) parts.push(`환불 전 마감이라 같은 돈 못 씀: ${blocked.map((o) => `${o.name}(${formatYMDKo(o.subscribeEnd)} 마감)`).join(", ")}`);
       if (later.length) parts.push(`환불금 재사용 가능: ${later.slice(0, 3).map((o) => `${o.name}(${formatYMDKo(o.subscribeStart)}~${formatYMDKo(o.subscribeEnd)})`).join(", ")}`);
@@ -1583,6 +1611,7 @@
       if (sheetMode === "cal") return renderCal(el);
       const item = items.find((it) => itemKey(it) === sheetKey);
       if (!item) { el.innerHTML = ""; return; }
+      const withdrawn = isWithdrawn(item);
       const isSub = sheetType === "subscribe";
       const range = item.subscribeStart === item.subscribeEnd ? formatYMDKo(item.subscribeStart) : `${formatYMDKo(item.subscribeStart)}~${formatYMDKo(item.subscribeEnd)}`;
       const res = resultInfo(item);
@@ -1592,16 +1621,20 @@
       const defFee = defaultSubFee(item);
       const offer = offerOf(item, rec);
       let html = `<div class="sheet-head">` +
-        `<span class="type-badge ${isSub ? "subscribe" : "listing"}"><span class="b-long">${isSub ? "청약" : "상장"}</span><span class="b-short">${isSub ? "청" : "상"}</span></span>` +
+        `<span class="type-badge ${withdrawn ? "withdrawn" : isSub ? "subscribe" : "listing"}"><span class="b-long">${withdrawn ? "철회" : isSub ? "청약" : "상장"}</span><span class="b-short">${withdrawn ? "철" : isSub ? "청" : "상"}</span></span>` +
         `<h3 id="sheetTitle">${escapeHtml(item.name)}</h3>${toggleHtml(item)}` +
         `<button type="button" class="sheet-close" aria-label="닫기">×</button></div>` +
         `<div class="kv">청약 <b>${escapeHtml(range)}</b> · 환불 <b>${escapeHtml(item.refundDate ? formatYMDKo(item.refundDate) : "확인중")}</b> · 상장 <b>${escapeHtml(item.listDate ? formatYMDKo(item.listDate) : "미정")}</b><br>` +
-        `최소증거금 <b>${escapeHtml(displayDeposit(item.minDeposit))}</b> · 점수 <b>${escapeHtml(displayScore(item.score))}</b>${displayBrokers(item) ? ` · <b>${escapeHtml(displayBrokers(item))}</b>` : ""}</div>`;
+        `최소증거금 <b>${escapeHtml(displayDeposit(item.minDeposit))}</b> · 점수 <b>${escapeHtml(scorePairText(item))}</b>${displayBrokers(item) ? ` · <b>${escapeHtml(displayBrokers(item))}</b>` : ""}</div>`;
+      if (withdrawn) {
+        html += `<div class="disclaim">공모 철회${item.withdrawnDate ? " · " + escapeHtml(formatYMDKo(item.withdrawnDate)) : ""}${item.withdrawnSource ? ` · <a href="${escapeHtml(item.withdrawnSource)}" target="_blank" rel="noopener">기사</a>` : ""}</div>`;
+      }
       if (url) {
         html += `<a class="yt-btn" href="${escapeHtml(youtubeAppHref(url, item))}" data-yt-btn="${escapeHtml(url)}">▶ 공모주린이 종합점수 영상</a>`;
       }
       const listed = item.listDate && item.listDate <= toDateKey(new Date());
-      if (!listed) html += recSectionHtml(item) + moneySectionHtml(item, rec);
+      if (withdrawn) html += recSectionHtml(item);
+      else if (!listed) html += recSectionHtml(item) + moneySectionHtml(item, rec);
       html += `<div class="sheet-sec"><h4>상장 결과 (예상 · 최소청약 기준)</h4>`;
       if (res && r) {
         html += `<ul class="lines">${res.detail.split("\n").map((l) => `<li>${escapeHtml(l)}</li>`).join("")}</ul>`;
@@ -1679,9 +1712,14 @@
     function recSectionHtml(item) {
       const r = recInfo(item);
       const d = item.demand || {};
+      const ss = item.selfScore || {};
+      const selfLine = ss.grade
+        ? `<div class="self-basis">자체 평가 <b>${escapeHtml(String(ss.grade))}</b>${ss.points != null ? ` (${ss.points > 0 ? "+" : ""}${ss.points}점)` : ""}${ss.basis ? " · " + escapeHtml(ss.basis) : ""}</div>`
+        : "";
       return `<div class="sheet-sec"><h4>청약 판단 (단순 규칙)</h4>` +
         `<div class="rec-head"><span class="rec-badge ${r.cls}">${escapeHtml(r.label)}</span><b>${r.total > 0 ? "+" : ""}${r.total}점</b>` +
         (r.account ? `<span class="kv">${escapeHtml(r.brokers.join("·"))} 계좌 있음</span>` : `<span class="noacct">계좌 없음 (${escapeHtml(r.brokers.join("·"))})</span>`) + `</div>` +
+        selfLine +
         `<table class="rec-tbl">${r.rows.map((x) => `<tr><td>${escapeHtml(x.k)}</td><td>${escapeHtml(x.val)}</td><td class="pt ${x.pt > 0 ? "plus" : x.pt < 0 ? "minus" : ""}">${x.pt > 0 ? "+" : ""}${x.pt}</td></tr>`).join("")}</table>` +
         `<details class="rule"><summary>규칙 보기</summary>${REC_RULE_HTML}</details>` +
         (d.source ? `<div class="src">출처: <a href="${escapeHtml(d.source)}" target="_blank" rel="noopener">38커뮤니케이션</a>${item.listDateSource ? ` · <a href="${escapeHtml(item.listDateSource)}" target="_blank" rel="noopener">상장일 기사</a>` : ""}</div>` : "") +

@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:nhspac34-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260903
 SUMMARY:[청약] NH스팩34호
@@ -29,7 +29,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nhspac34-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:[상장] NH스팩34호
@@ -47,14 +47,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neosapiens-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260912
 SUMMARY:[청약] 네오사피엔스
 DESCRIPTION:청약 2026-09-10 ~ 2026-09-11\n환불일 2026-09-15\n상장일
-  2026-09-21\n종합점수 B\n최소증거금 10만원\n주관사 대신\n
- 확정공모가 10\,000원\n기관경쟁률 219.56:1\n달력 https://vince
- nt533.github.io/ipo-calendar/
+  2026-09-21\n종합점수 영상 B\n최소증거금 10만원\n주관사 
+ 대신\n확정공모가 10\,000원\n기관경쟁률 219.56:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -65,14 +65,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:neosapiens-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:[상장] 네오사피엔스
 DESCRIPTION:상장일 2026-09-21\n시초가 수익률 +152.5%\n종합점수
-  B\n최소증거금 10만원\n주관사 대신\n확정공모가 10\,000원
- \n기관경쟁률 219.56:1\n달력 https://vincent533.github.io/ipo-calend
- ar/
+  영상 B\n최소증거금 10만원\n주관사 대신\n확정공모가 10\
+ ,000원\n기관경쟁률 219.56:1\n달력 https://vincent533.github.io/ipo
+ -calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -83,14 +83,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wiseplanet-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260916
 SUMMARY:[청약] 와이즈플래닛컴퍼니
 DESCRIPTION:청약 2026-09-14 ~ 2026-09-15\n환불일 2026-09-17\n상장일
-  2026-09-23\n종합점수 E+\n최소증거금 6만원\n주관사 대신\n
- 확정공모가 12\,000원\n기관경쟁률 1\,248.47:1\n달력 https://vi
- ncent533.github.io/ipo-calendar/
+  2026-09-23\n종합점수 영상 E+\n최소증거금 6만원\n주관사 
+ 대신\n확정공모가 12\,000원\n기관경쟁률 1\,248.47:1\n달력 ht
+ tps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -101,14 +101,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:wiseplanet-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:[상장] 와이즈플래닛컴퍼니
 DESCRIPTION:상장일 2026-09-23\n시초가 수익률 +256.2%\n종합점수
-  E+\n최소증거금 6만원\n주관사 대신\n확정공모가 12\,000원
- \n기관경쟁률 1\,248.47:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+  영상 E+\n최소증거금 6만원\n주관사 대신\n확정공모가 12\
+ ,000원\n기관경쟁률 1\,248.47:1\n달력 https://vincent533.github.io/
+ ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -119,14 +119,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bigwave-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260917
 SUMMARY:[청약] 빅웨이브로보틱스
 DESCRIPTION:청약 2026-09-15 ~ 2026-09-16\n환불일 2026-09-18\n상장일
-  2026-09-29\n종합점수 A\n최소증거금 9만원\n주관사 유진\, 
- 미래\n확정공모가 18\,000원\n기관경쟁률 1\,109.37:1\n달력 ht
- tps://vincent533.github.io/ipo-calendar/
+  2026-09-29\n종합점수 영상 A\n최소증거금 9만원\n주관사 유
+ 진\, 미래\n확정공모가 18\,000원\n기관경쟁률 1\,109.37:1\n달
+ 력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -137,14 +137,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bigwave-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:[상장] 빅웨이브로보틱스
 DESCRIPTION:상장일 2026-09-29\n시초가 수익률 +211.1%\n종합점수
-  A\n최소증거금 9만원\n주관사 유진\, 미래\n확정공모가 18
- \,000원\n기관경쟁률 1\,109.37:1\n달력 https://vincent533.github.io
- /ipo-calendar/
+  영상 A\n최소증거금 9만원\n주관사 유진\, 미래\n확정공
+ 모가 18\,000원\n기관경쟁률 1\,109.37:1\n달력 https://vincent533.
+ github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -155,14 +155,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:globaltech-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260918
 SUMMARY:[청약] 글로벌테크놀로지
 DESCRIPTION:청약 2026-09-16 ~ 2026-09-17\n환불일 2026-09-21\n상장일
-  2026-09-29\n종합점수 C+\n최소증거금 10만원\n주관사 한투\n
- 확정공모가 10\,000원\n기관경쟁률 123.19:1\n달력 https://vince
- nt533.github.io/ipo-calendar/
+  2026-09-29\n종합점수 영상 C+\n최소증거금 10만원\n주관사 
+ 한투\n확정공모가 10\,000원\n기관경쟁률 123.19:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -173,14 +173,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:globaltech-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:[상장] 글로벌테크놀로지
 DESCRIPTION:상장일 2026-09-29\n시초가 수익률 +111.5%\n종합점수
-  C+\n최소증거금 10만원\n주관사 한투\n확정공모가 10\,000
- 원\n기관경쟁률 123.19:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+  영상 C+\n최소증거금 10만원\n주관사 한투\n확정공모가 10
+ \,000원\n기관경쟁률 123.19:1\n달력 https://vincent533.github.io/ip
+ o-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -191,14 +191,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:duksan-nepcores-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260918
 SUMMARY:[청약] 덕산넵코어스
 DESCRIPTION:청약 2026-09-16 ~ 2026-09-17\n환불일 2026-09-21\n상장일
-  2026-09-30\n종합점수 B\n최소증거금 7.3만원\n주관사 대신\n
- 확정공모가 14\,600원\n기관경쟁률 868.64:1\n달력 https://vince
- nt533.github.io/ipo-calendar/
+  2026-09-30\n종합점수 영상 B\n최소증거금 7.3만원\n주관사 
+ 대신\n확정공모가 14\,600원\n기관경쟁률 868.64:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -209,14 +209,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:duksan-nepcores-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:[상장] 덕산넵코어스
 DESCRIPTION:상장일 2026-09-30\n시초가 수익률 +85.6%\n종합점수 
- B\n최소증거금 7.3만원\n주관사 대신\n확정공모가 14\,600원
- \n기관경쟁률 868.64:1\n달력 https://vincent533.github.io/ipo-calend
- ar/
+ 영상 B\n최소증거금 7.3만원\n주관사 대신\n확정공모가 14\
+ ,600원\n기관경쟁률 868.64:1\n달력 https://vincent533.github.io/ipo
+ -calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -227,14 +227,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:brills-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260919
 SUMMARY:[청약] 브릴스
 DESCRIPTION:청약 2026-09-17 ~ 2026-09-18\n환불일 2026-09-22\n상장일
-  2026-10-01\n종합점수 A\n최소증거금 9.75만원\n주관사 IBK\n
- 확정공모가 19\,500원\n기관경쟁률 1\,187.74:1\n달력 https://vi
- ncent533.github.io/ipo-calendar/
+  2026-10-01\n종합점수 영상 A\n최소증거금 9.75만원\n주관사 
+ IBK\n확정공모가 19\,500원\n기관경쟁률 1\,187.74:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -245,14 +245,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:brills-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:[상장] 브릴스
 DESCRIPTION:상장일 2026-10-01\n시초가 수익률 +216.9%\n종합점수
-  A\n최소증거금 9.75만원\n주관사 IBK\n확정공모가 19\,500원\
- n기관경쟁률 1\,187.74:1\n달력 https://vincent533.github.io/ipo-cale
- ndar/
+  영상 A\n최소증거금 9.75만원\n주관사 IBK\n확정공모가 19\,
+ 500원\n기관경쟁률 1\,187.74:1\n달력 https://vincent533.github.io/i
+ po-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -263,14 +263,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:melcon-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261003
 SUMMARY:[청약] 멜콘
 DESCRIPTION:청약 2026-10-01 ~ 2026-10-02\n환불일 2026-10-07\n상장일
-  2026-10-15\n종합점수 A\n최소증거금 6.15만원\n주관사 대신\
- n확정공모가 12\,300원\n기관경쟁률 1\,136.84:1\n달력 https://v
- incent533.github.io/ipo-calendar/
+  2026-10-15\n종합점수 영상 A\n최소증거금 6.15만원\n주관사 
+ 대신\n확정공모가 12\,300원\n기관경쟁률 1\,136.84:1\n달력 ht
+ tps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -281,14 +281,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:melcon-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:[상장] 멜콘
 DESCRIPTION:상장일 2026-10-15\n시초가 수익률 +122.8%\n종합점수
-  A\n최소증거금 6.15만원\n주관사 대신\n확정공모가 12\,300
- 원\n기관경쟁률 1\,136.84:1\n달력 https://vincent533.github.io/ipo-
- calendar/
+  영상 A\n최소증거금 6.15만원\n주관사 대신\n확정공모가 1
+ 2\,300원\n기관경쟁률 1\,136.84:1\n달력 https://vincent533.github.i
+ o/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -299,14 +299,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jincostec-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261007
 SUMMARY:[청약] 진코스텍
 DESCRIPTION:청약 2026-10-02 ~ 2026-10-06\n환불일 2026-10-08\n상장일
-  2026-10-15\n종합점수 B+\n최소증거금 11.75만원\n주관사 하
- 나\n확정공모가 23\,500원\n기관경쟁률 1\,097.62:1\n달력 https
- ://vincent533.github.io/ipo-calendar/
+  2026-10-15\n종합점수 영상 B+\n최소증거금 11.75만원\n주관
+ 사 하나\n확정공모가 23\,500원\n기관경쟁률 1\,097.62:1\n달
+ 력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -317,14 +317,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:jincostec-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:[상장] 진코스텍
-DESCRIPTION:상장일 2026-10-15\n시초가 수익률 +2.1%\n종합점수 B
- +\n최소증거금 11.75만원\n주관사 하나\n확정공모가 23\,500
- 원\n기관경쟁률 1\,097.62:1\n달력 https://vincent533.github.io/ipo-
- calendar/
+DESCRIPTION:상장일 2026-10-15\n시초가 수익률 +2.1%\n종합점수 
+ 영상 B+\n최소증거금 11.75만원\n주관사 하나\n확정공모가 
+ 23\,500원\n기관경쟁률 1\,097.62:1\n달력 https://vincent533.github.
+ io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -335,14 +335,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:elice-group-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261009
 SUMMARY:[청약] 엘리스그룹
 DESCRIPTION:청약 2026-10-07 ~ 2026-10-08\n환불일 2026-10-13\n상장일
-  2026-10-20\n종합점수 B+\n최소증거금 90.5만원\n주관사 미래
- \, 삼성\n확정공모가 90\,500원\n기관경쟁률 388.84:1\n달력 ht
- tps://vincent533.github.io/ipo-calendar/
+  2026-10-20\n종합점수 영상 B+\n최소증거금 90.5만원\n주관사
+  미래\, 삼성\n확정공모가 90\,500원\n기관경쟁률 388.84:1\n
+ 달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -353,14 +353,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:elice-group-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:[상장] 엘리스그룹
 DESCRIPTION:상장일 2026-10-20\n시초가 수익률 -16.4%\n종합점수 
- B+\n최소증거금 90.5만원\n주관사 미래\, 삼성\n확정공모가
-  90\,500원\n기관경쟁률 388.84:1\n달력 https://vincent533.github.io
- /ipo-calendar/
+ 영상 B+\n최소증거금 90.5만원\n주관사 미래\, 삼성\n확정
+ 공모가 90\,500원\n기관경쟁률 388.84:1\n달력 https://vincent533.
+ github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -371,14 +371,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msbio-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261014
 SUMMARY:[청약] 엠에스바이오
 DESCRIPTION:청약 2026-10-12 ~ 2026-10-13\n환불일 2026-10-15\n상장일
-  2026-10-22\n종합점수 A\n최소증거금 3.9만원\n주관사 KB\n확
- 정공모가 7\,800원\n기관경쟁률 1\,096.56:1\n달력 https://vincen
- t533.github.io/ipo-calendar/
+  2026-10-22\n종합점수 영상 A\n최소증거금 3.9만원\n주관사 K
+ B\n확정공모가 7\,800원\n기관경쟁률 1\,096.56:1\n달력 https://
+ vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -389,14 +389,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:msbio-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:[상장] 엠에스바이오
 DESCRIPTION:상장일 2026-10-22\n시초가 수익률 +105.1%\n종합점수
-  A\n최소증거금 3.9만원\n주관사 KB\n확정공모가 7\,800원\n
- 기관경쟁률 1\,096.56:1\n달력 https://vincent533.github.io/ipo-calen
- dar/
+  영상 A\n최소증거금 3.9만원\n주관사 KB\n확정공모가 7\,800
+ 원\n기관경쟁률 1\,096.56:1\n달력 https://vincent533.github.io/ipo-
+ calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -407,14 +407,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dts-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261015
 SUMMARY:[청약] 디티에스
 DESCRIPTION:청약 2026-10-13 ~ 2026-10-14\n환불일 2026-10-16\n상장일
-  2026-10-23\n종합점수 B+\n최소증거금 9.25만원\n주관사 대신
- \, 유진\n확정공모가 18\,500원\n기관경쟁률 983.98:1\n달력 ht
- tps://vincent533.github.io/ipo-calendar/
+  2026-10-23\n종합점수 영상 B+\n최소증거금 9.25만원\n주관사
+  대신\, 유진\n확정공모가 18\,500원\n기관경쟁률 983.98:1\n
+ 달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -425,14 +425,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dts-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:[상장] 디티에스
 DESCRIPTION:상장일 2026-10-23\n시초가 수익률 +74.9%\n종합점수 
- B+\n최소증거금 9.25만원\n주관사 대신\, 유진\n확정공모가
-  18\,500원\n기관경쟁률 983.98:1\n달력 https://vincent533.github.io
- /ipo-calendar/
+ 영상 B+\n최소증거금 9.25만원\n주관사 대신\, 유진\n확정
+ 공모가 18\,500원\n기관경쟁률 983.98:1\n달력 https://vincent533.
+ github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -443,7 +443,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-spac14-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261017
 SUMMARY:[청약] SK제14호스팩
@@ -461,7 +461,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:sk-spac14-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:[상장] SK제14호스팩
@@ -479,14 +479,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tne-korea-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261022
 SUMMARY:[청약] 티앤이코리아
 DESCRIPTION:청약 2026-10-20 ~ 2026-10-21\n환불일 2026-10-23\n상장일
-  2026-10-29\n종합점수 B+\n최소증거금 15.3만원\n주관사 신한
- \n확정공모가 15\,300원\n기관경쟁률 1\,041.02:1\n달력 https://
- vincent533.github.io/ipo-calendar/
+  2026-10-29\n종합점수 영상 B+\n최소증거금 15.3만원\n주관사
+  신한\n확정공모가 15\,300원\n기관경쟁률 1\,041.02:1\n달력 h
+ ttps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -497,14 +497,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:tne-korea-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:[상장] 티앤이코리아
 DESCRIPTION:상장일 2026-10-29\n시초가 수익률 +98.4%\n종합점수 
- B+\n최소증거금 15.3만원\n주관사 신한\n확정공모가 15\,300
- 원\n기관경쟁률 1\,041.02:1\n달력 https://vincent533.github.io/ipo-
- calendar/
+ 영상 B+\n최소증거금 15.3만원\n주관사 신한\n확정공모가 1
+ 5\,300원\n기관경쟁률 1\,041.02:1\n달력 https://vincent533.github.i
+ o/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -515,14 +515,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:creaits-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261022
 SUMMARY:[청약] 크리에이츠
 DESCRIPTION:청약 2026-10-20 ~ 2026-10-21\n환불일 2026-10-23\n상장일
-  2026-10-30\n종합점수 C+\n최소증거금 15만원\n주관사 삼성\n
- 확정공모가 15\,000원\n기관경쟁률 240.46:1\n달력 https://vince
- nt533.github.io/ipo-calendar/
+  2026-10-30\n종합점수 영상 C+\n최소증거금 15만원\n주관사 
+ 삼성\n확정공모가 15\,000원\n기관경쟁률 240.46:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -533,14 +533,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:creaits-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[상장] 크리에이츠
 DESCRIPTION:상장일 2026-10-30\n시초가 수익률 -20.0%\n종합점수 
- C+\n최소증거금 15만원\n주관사 삼성\n확정공모가 15\,000원
- \n기관경쟁률 240.46:1\n달력 https://vincent533.github.io/ipo-calend
- ar/
+ 영상 C+\n최소증거금 15만원\n주관사 삼성\n확정공모가 15\
+ ,000원\n기관경쟁률 240.46:1\n달력 https://vincent533.github.io/ipo
+ -calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -551,7 +551,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hanwha-plus-spac6-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261022
 SUMMARY:[청약] 한화플러스스팩6호
@@ -569,7 +569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hanwha-plus-spac6-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[상장] 한화플러스스팩6호
@@ -587,14 +587,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:intellivix-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261023
 SUMMARY:[청약] 인텔리빅스
 DESCRIPTION:청약 2026-10-21 ~ 2026-10-22\n환불일 2026-10-26\n상장일
-  2026-10-30\n종합점수 B+\n최소증거금 9만원\n주관사 미래\n
- 확정공모가 9\,000원\n기관경쟁률 1\,234.3:1\n달력 https://vinc
- ent533.github.io/ipo-calendar/
+  2026-10-30\n종합점수 영상 B+\n최소증거금 9만원\n주관사 
+ 미래\n확정공모가 9\,000원\n기관경쟁률 1\,234.3:1\n달력 http
+ s://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -605,14 +605,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:intellivix-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:[상장] 인텔리빅스
 DESCRIPTION:상장일 2026-10-30\n시초가 수익률 +114.3%\n종합점수
-  B+\n최소증거금 9만원\n주관사 미래\n확정공모가 9\,000원\
- n기관경쟁률 1\,234.3:1\n달력 https://vincent533.github.io/ipo-calen
- dar/
+  영상 B+\n최소증거금 9만원\n주관사 미래\n확정공모가 9\,
+ 000원\n기관경쟁률 1\,234.3:1\n달력 https://vincent533.github.io/ip
+ o-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -623,14 +623,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lablup-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261024
 SUMMARY:[청약] 래블업
 DESCRIPTION:청약 2026-10-22 ~ 2026-10-23\n환불일 2026-10-27\n상장일
-  2026-11-03\n종합점수 C+\n최소증거금 9.5만원\n주관사 NH\n확
- 정공모가 19\,000원\n기관경쟁률 284.53:1\n달력 https://vincent5
- 33.github.io/ipo-calendar/
+  2026-11-03\n종합점수 영상 C+\n최소증거금 9.5만원\n주관사 
+ NH\n확정공모가 19\,000원\n기관경쟁률 284.53:1\n달력 https://v
+ incent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -641,14 +641,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:lablup-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:[상장] 래블업
-DESCRIPTION:상장일 2026-11-03\n시초가 수익률 +0.0%\n종합점수 C
- +\n최소증거금 9.5만원\n주관사 NH\n확정공모가 19\,000원\n
- 기관경쟁률 284.53:1\n달력 https://vincent533.github.io/ipo-calendar
- /
+DESCRIPTION:상장일 2026-11-03\n시초가 수익률 +0.0%\n종합점수 
+ 영상 C+\n최소증거금 9.5만원\n주관사 NH\n확정공모가 19\,00
+ 0원\n기관경쟁률 284.53:1\n달력 https://vincent533.github.io/ipo-ca
+ lendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -659,14 +659,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:younggwang-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261024
 SUMMARY:[청약] 영광
 DESCRIPTION:청약 2026-10-22 ~ 2026-10-23\n환불일 2026-10-27\n상장일
-  2026-11-02\n종합점수 B\n최소증거금 17만원\n주관사 한투\n
- 확정공모가 17\,000원\n기관경쟁률 1\,000.07:1\n달력 https://vi
- ncent533.github.io/ipo-calendar/
+  2026-11-02\n종합점수 영상 B\n최소증거금 17만원\n주관사 
+ 한투\n확정공모가 17\,000원\n기관경쟁률 1\,000.07:1\n달력 ht
+ tps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -677,14 +677,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:younggwang-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:[상장] 영광
 DESCRIPTION:상장일 2026-11-02\n시초가 수익률 +25.6%\n종합점수 
- B\n최소증거금 17만원\n주관사 한투\n확정공모가 17\,000원\
- n기관경쟁률 1\,000.07:1\n달력 https://vincent533.github.io/ipo-cale
- ndar/
+ 영상 B\n최소증거금 17만원\n주관사 한투\n확정공모가 17\,
+ 000원\n기관경쟁률 1\,000.07:1\n달력 https://vincent533.github.io/i
+ po-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -695,14 +695,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:est-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261024
 SUMMARY:[청약] 이에스티
 DESCRIPTION:청약 2026-10-22 ~ 2026-10-23\n환불일 2026-10-27\n상장일
-  2026-11-04\n종합점수 C+\n최소증거금 12.4만원\n주관사 대신
- \n확정공모가 12\,400원\n기관경쟁률 630.1:1\n달력 https://vinc
- ent533.github.io/ipo-calendar/
+  2026-11-04\n종합점수 영상 C+\n최소증거금 12.4만원\n주관사
+  대신\n확정공모가 12\,400원\n기관경쟁률 630.1:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -713,14 +713,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:est-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:[상장] 이에스티
 DESCRIPTION:상장일 2026-11-04\n시초가 수익률 +28.1%\n종합점수 
- C+\n최소증거금 12.4만원\n주관사 대신\n확정공모가 12\,400
- 원\n기관경쟁률 630.1:1\n달력 https://vincent533.github.io/ipo-cale
- ndar/
+ 영상 C+\n최소증거금 12.4만원\n주관사 대신\n확정공모가 1
+ 2\,400원\n기관경쟁률 630.1:1\n달력 https://vincent533.github.io/ip
+ o-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -731,14 +731,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dongwonparts-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261104
 SUMMARY:[청약] 동원파츠
 DESCRIPTION:청약 2026-11-02 ~ 2026-11-03\n환불일 2026-11-05\n상장일
-  2026-11-10\n종합점수 B+\n최소증거금 26.5만원\n주관사 삼성
- \n확정공모가 26\,500원\n기관경쟁률 840.86:1\n달력 https://vin
- cent533.github.io/ipo-calendar/
+  2026-11-10\n종합점수 영상 B+\n최소증거금 26.5만원\n주관사
+  삼성\n확정공모가 26\,500원\n기관경쟁률 840.86:1\n달력 http
+ s://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -749,14 +749,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dongwonparts-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:[상장] 동원파츠
 DESCRIPTION:상장일 2026-11-10\n시초가 수익률 +92.8%\n종합점수 
- B+\n최소증거금 26.5만원\n주관사 삼성\n확정공모가 26\,500
- 원\n기관경쟁률 840.86:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+ 영상 B+\n최소증거금 26.5만원\n주관사 삼성\n확정공모가 2
+ 6\,500원\n기관경쟁률 840.86:1\n달력 https://vincent533.github.io/i
+ po-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -767,14 +767,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:barofarm-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261104
 SUMMARY:[청약] 바로팜
 DESCRIPTION:청약 2026-11-02 ~ 2026-11-03\n환불일 2026-11-05\n상장일
-  2026-11-11\n종합점수 C+\n최소증거금 16.4만원\n주관사 미래
- \n확정공모가 16\,400원\n기관경쟁률 152.36:1\n달력 https://vin
- cent533.github.io/ipo-calendar/
+  2026-11-11\n종합점수 영상 C+\n최소증거금 16.4만원\n주관사
+  미래\n확정공모가 16\,400원\n기관경쟁률 152.36:1\n달력 http
+ s://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -785,14 +785,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:barofarm-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:[상장] 바로팜
-DESCRIPTION:상장일 2026-11-11\n시초가 수익률 -2.4%\n종합점수 C
- +\n최소증거금 16.4만원\n주관사 미래\n확정공모가 16\,400
- 원\n기관경쟁률 152.36:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+DESCRIPTION:상장일 2026-11-11\n시초가 수익률 -2.4%\n종합점수 
+ 영상 C+\n최소증거금 16.4만원\n주관사 미래\n확정공모가 1
+ 6\,400원\n기관경쟁률 152.36:1\n달력 https://vincent533.github.io/i
+ po-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -803,14 +803,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nexi-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261105
 SUMMARY:[청약] 넥스아이
 DESCRIPTION:청약 2026-11-03 ~ 2026-11-04\n환불일 2026-11-06\n상장일
-  2026-11-12\n종합점수 C+\n최소증거금 4만원\n주관사 한투\n
- 확정공모가 8\,000원\n기관경쟁률 66.58:1\n달력 https://vincent
- 533.github.io/ipo-calendar/
+  2026-11-12\n종합점수 영상 C+\n최소증거금 4만원\n주관사 
+ 한투\n확정공모가 8\,000원\n기관경쟁률 66.58:1\n달력 https:/
+ /vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -821,13 +821,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nexi-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:[상장] 넥스아이
-DESCRIPTION:상장일 2026-11-12\n시초가 수익률 -4.8%\n종합점수 C
- +\n최소증거금 4만원\n주관사 한투\n확정공모가 8\,000원\n
- 기관경쟁률 66.58:1\n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-12\n시초가 수익률 -4.8%\n종합점수 
+ 영상 C+\n최소증거금 4만원\n주관사 한투\n확정공모가 8\,0
+ 00원\n기관경쟁률 66.58:1\n달력 https://vincent533.github.io/ipo-ca
+ lendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -838,14 +839,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ykmc-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261106
 SUMMARY:[청약] 영광와이케이엠씨
 DESCRIPTION:청약 2026-11-04 ~ 2026-11-05\n환불일 2026-11-09\n상장일
-  2026-11-16\n종합점수 B+\n최소증거금 11만원\n주관사 대신\n
- 확정공모가 11\,000원\n기관경쟁률 1\,163.34:1\n달력 https://vi
- ncent533.github.io/ipo-calendar/
+  2026-11-16\n종합점수 영상 B+\n최소증거금 11만원\n주관사 
+ 대신\n확정공모가 11\,000원\n기관경쟁률 1\,163.34:1\n달력 ht
+ tps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -856,14 +857,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ykmc-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:[상장] 영광와이케이엠씨
 DESCRIPTION:상장일 2026-11-16\n시초가 수익률 +47.0%\n종합점수 
- B+\n최소증거금 11만원\n주관사 대신\n확정공모가 11\,000원
- \n기관경쟁률 1\,163.34:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+ 영상 B+\n최소증거금 11만원\n주관사 대신\n확정공모가 11\
+ ,000원\n기관경쟁률 1\,163.34:1\n달력 https://vincent533.github.io/
+ ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -874,14 +875,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:optonix-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261107
 SUMMARY:[청약] 옵토닉스
 DESCRIPTION:청약 2026-11-05 ~ 2026-11-06\n환불일 2026-11-10\n상장일
-  2026-11-17\n종합점수 A\n최소증거금 12만원\n주관사 한투\n
- 확정공모가 12\,000원\n기관경쟁률 1\,201.81:1\n달력 https://vi
- ncent533.github.io/ipo-calendar/
+  2026-11-17\n종합점수 영상 A\n최소증거금 12만원\n주관사 
+ 한투\n확정공모가 12\,000원\n기관경쟁률 1\,201.81:1\n달력 ht
+ tps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -892,14 +893,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:optonix-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:[상장] 옵토닉스
 DESCRIPTION:상장일 2026-11-17\n시초가 수익률 +158.3%\n종합점수
-  A\n최소증거금 12만원\n주관사 한투\n확정공모가 12\,000원
- \n기관경쟁률 1\,201.81:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+  영상 A\n최소증거금 12만원\n주관사 한투\n확정공모가 12\
+ ,000원\n기관경쟁률 1\,201.81:1\n달력 https://vincent533.github.io/
+ ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -910,14 +911,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alrobot-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261110
 SUMMARY:[청약] 에이엘로봇
 DESCRIPTION:청약 2026-11-06 ~ 2026-11-09\n환불일 2026-11-11\n상장일
-  2026-11-18\n종합점수 B+\n최소증거금 8.8만원\n주관사 대신\
- n확정공모가 17\,600원\n기관경쟁률 871.74:1\n달력 https://vinc
- ent533.github.io/ipo-calendar/
+  2026-11-18\n종합점수 영상 B+\n최소증거금 8.8만원\n주관사 
+ 대신\n확정공모가 17\,600원\n기관경쟁률 871.74:1\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -928,14 +929,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:alrobot-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:[상장] 에이엘로봇
 DESCRIPTION:상장일 2026-11-18\n시초가 수익률 -14.2%\n종합점수 
- B+\n최소증거금 8.8만원\n주관사 대신\n확정공모가 17\,600
- 원\n기관경쟁률 871.74:1\n달력 https://vincent533.github.io/ipo-cal
- endar/
+ 영상 B+\n최소증거금 8.8만원\n주관사 대신\n확정공모가 17
+ \,600원\n기관경쟁률 871.74:1\n달력 https://vincent533.github.io/ip
+ o-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -946,14 +947,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hanaaero-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261112
 SUMMARY:[청약] 하나에어로다이내믹스
 DESCRIPTION:청약 2026-11-10 ~ 2026-11-11\n환불일 2026-11-13\n상장일
-  2026-11-20\n종합점수 A\n최소증거금 2.85만원\n주관사 IBK\n
- 확정공모가 5\,700원\n기관경쟁률 1\,051:1\n달력 https://vincen
- t533.github.io/ipo-calendar/
+  2026-11-20\n종합점수 영상 A\n최소증거금 2.85만원\n주관사 
+ IBK\n확정공모가 5\,700원\n기관경쟁률 1\,051:1\n달력 https://v
+ incent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -964,13 +965,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:hanaaero-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[상장] 하나에어로다이내믹스
-DESCRIPTION:상장일 2026-11-20\n종합점수 A\n최소증거금 2.85만
- 원\n주관사 IBK\n확정공모가 5\,700원\n기관경쟁률 1\,051:1\n
- 달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-20\n종합점수 영상 A\n최소증거금 2.
+ 85만원\n주관사 IBK\n확정공모가 5\,700원\n기관경쟁률 1\,051
+ :1\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -981,14 +982,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mbd-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261114
 SUMMARY:[청약] 엠비디
 DESCRIPTION:청약 2026-11-12 ~ 2026-11-13\n환불일 2026-11-17\n상장일
-  2026-11-24\n종합점수 C+\n최소증거금 7만원\n주관사 하나\n
- 확정공모가 7\,000원\n기관경쟁률 187:1\n달력 https://vincent53
- 3.github.io/ipo-calendar/
+  2026-11-24\n종합점수 영상 C+\n최소증거금 7만원\n주관사 
+ 하나\n확정공모가 7\,000원\n기관경쟁률 187:1\n달력 https://v
+ incent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -999,13 +1000,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mbd-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[상장] 엠비디
-DESCRIPTION:상장일 2026-11-24\n종합점수 C+\n최소증거금 7만원\
- n주관사 하나\n확정공모가 7\,000원\n기관경쟁률 187:1\n달
- 력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-24\n종합점수 영상 C+\n최소증거금 7
+ 만원\n주관사 하나\n확정공모가 7\,000원\n기관경쟁률 187:1
+ \n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1015,49 +1016,15 @@ TRIGGER;RELATED=START:PT8H30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:sfc-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261120
-SUMMARY:[청약] 에스에프씨
-DESCRIPTION:청약 2026-11-18 ~ 2026-11-19\n환불일 2026-11-23\n상장일
-  2026-11-27\n종합점수 분석 전\n최소증거금 15.8만원~\n주관
- 사 미래\, 한투\, 삼성\n달력 https://vincent533.github.io/ipo-cale
- ndar/
-URL:https://vincent533.github.io/ipo-calendar/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:에스에프씨 청약 마감일
-TRIGGER;RELATED=START:P1DT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:sfc-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:[상장] 에스에프씨
-DESCRIPTION:상장일 2026-11-27\n종합점수 분석 전\n최소증거금 
- 15.8만원~\n주관사 미래\, 한투\, 삼성\n달력 https://vincent533
- .github.io/ipo-calendar/
-URL:https://vincent533.github.io/ipo-calendar/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:에스에프씨 오늘 상장
-TRIGGER;RELATED=START:PT8H30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:ucast-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261120
 SUMMARY:[청약] 유캐스트
 DESCRIPTION:청약 2026-11-18 ~ 2026-11-19\n환불일 2026-11-23\n상장일
-  2026-11-30\n종합점수 분석 전\n최소증거금 9.5만원~\n주관
- 사 유진\, 신영\n달력 https://vincent533.github.io/ipo-calendar/
+  2026-11-30\n종합점수 영상 C+ · 자체 D\n최소증거금 9.5만원
+ \n주관사 유진\, 신영\n확정공모가 19\,000원\n기관경쟁률 1
+ 73.42:1\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1068,13 +1035,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ucast-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:[상장] 유캐스트
-DESCRIPTION:상장일 2026-11-30\n종합점수 분석 전\n최소증거금 
- 9.5만원~\n주관사 유진\, 신영\n달력 https://vincent533.github.io
- /ipo-calendar/
+DESCRIPTION:상장일 2026-11-30\n종합점수 영상 C+ · 자체 D\n최
+ 소증거금 9.5만원\n주관사 유진\, 신영\n확정공모가 19\,000
+ 원\n기관경쟁률 173.42:1\n달력 https://vincent533.github.io/ipo-cal
+ endar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1085,13 +1053,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adel-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261125
 SUMMARY:[청약] 아델
 DESCRIPTION:청약 2026-11-23 ~ 2026-11-24\n환불일 2026-11-26\n상장일
-  2026-12-02\n종합점수 분석 전\n최소증거금 9만원~\n주관사 
- 삼성\, 미래\n달력 https://vincent533.github.io/ipo-calendar/
+  2026-12-02\n종합점수 자체 예비\n최소증거금 9만원~\n주관
+ 사 삼성\, 미래\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1102,13 +1070,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:adel-list@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:[상장] 아델
-DESCRIPTION:상장일 2026-12-02\n종합점수 분석 전\n최소증거금 
- 9만원~\n주관사 삼성\, 미래\n달력 https://vincent533.github.io/i
- po-calendar/
+DESCRIPTION:상장일 2026-12-02\n종합점수 자체 예비\n최소증거
+ 금 9만원~\n주관사 삼성\, 미래\n달력 https://vincent533.github.
+ io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1119,13 +1087,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:shinyoung-spac12-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261126
 SUMMARY:[청약] 신영스팩12호
 DESCRIPTION:청약 2026-11-24 ~ 2026-11-25\n환불일 2026-11-27\n종합점
- 수 분석 전\n최소증거금 2만원\n주관사 신영\n확정공모가
-  2\,000원\n달력 https://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 2만원\n주관사 신영\n확정공모
+ 가 2\,000원\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1136,13 +1104,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kmf-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261126
 SUMMARY:[청약] 케이엠에프
 DESCRIPTION:청약 2026-11-24 ~ 2026-11-25\n환불일 2026-11-27\n종합점
- 수 분석 전\n최소증거금 7.5만원~\n주관사 IBK\n달력 https://
- vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 7.5만원~\n주관사 IBK\n달력 https
+ ://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1153,13 +1121,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:anh-structure-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261201
 SUMMARY:[청약] 에이엔에이치스트럭쳐
 DESCRIPTION:청약 2026-11-27 ~ 2026-11-30\n환불일 2026-12-02\n종합점
- 수 분석 전\n최소증거금 5.6만원~\n주관사 NH\n달력 https://v
- incent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 5.6만원~\n주관사 NH\n달력 https:
+ //vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1170,13 +1138,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:nkey-whitehat-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261203
 SUMMARY:[청약] 엔키화이트햇
 DESCRIPTION:청약 2026-12-01 ~ 2026-12-02\n환불일 2026-12-04\n종합점
- 수 분석 전\n최소증거금 6.5만원~\n주관사 신영\n달력 https
- ://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 6.5만원~\n주관사 신영\n달력 ht
+ tps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1187,13 +1155,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:woori-spac1-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261204
 SUMMARY:[청약] 우리투자스팩1호
 DESCRIPTION:청약 2026-12-02 ~ 2026-12-03\n환불일 2026-12-07\n종합점
- 수 분석 전\n최소증거금 2만원\n주관사 우리\n확정공모가
-  2\,000원\n달력 https://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 2만원\n주관사 우리\n확정공모
+ 가 2\,000원\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1204,13 +1172,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:innovo-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261209
 SUMMARY:[청약] 이노보테라퓨틱스
 DESCRIPTION:청약 2026-12-07 ~ 2026-12-08\n환불일 2026-12-10\n종합점
- 수 분석 전\n최소증거금 10만원~\n주관사 한투\n달력 https:
- //vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 10만원~\n주관사 한투\n달력 htt
+ ps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1221,13 +1189,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:mothers-pharm-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261210
 SUMMARY:[청약] 마더스제약
 DESCRIPTION:청약 2026-12-08 ~ 2026-12-09\n환불일 2026-12-11\n종합점
- 수 분석 전\n최소증거금 5.5만원~\n주관사 KB\, NH\n달력 http
- s://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 5.5만원~\n주관사 KB\, NH\n달력 h
+ ttps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1238,13 +1206,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:davio-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
 SUMMARY:[청약] 다비오
 DESCRIPTION:청약 2026-12-09 ~ 2026-12-10\n환불일 2026-12-14\n종합점
- 수 분석 전\n최소증거금 6.15만원~\n주관사 대신\n달력 http
- s://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 6.15만원~\n주관사 대신\n달력 h
+ ttps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1255,13 +1223,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:interx-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
 SUMMARY:[청약] 인터엑스
 DESCRIPTION:청약 2026-12-09 ~ 2026-12-10\n환불일 2026-12-14\n종합점
- 수 분석 전\n최소증거금 5만원~\n주관사 한투\, BNK\n달력 h
- ttps://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 5만원~\n주관사 한투\, BNK\n달
+ 력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1272,13 +1240,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cis-chemical-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261212
 SUMMARY:[청약] 씨아이에스케미칼
 DESCRIPTION:청약 2026-12-10 ~ 2026-12-11\n환불일 2026-12-15\n종합점
- 수 분석 전\n최소증거금 2.7만원~\n주관사 KB\n달력 https://v
- incent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 2.7만원~\n주관사 KB\n달력 https:
+ //vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1289,13 +1257,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:destin-power-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:[청약] 데스틴파워
 DESCRIPTION:청약 2026-12-14 ~ 2026-12-15\n환불일 2026-12-17\n종합점
- 수 분석 전\n최소증거금 4만원~\n주관사 한투\n달력 https:/
- /vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 4만원~\n주관사 한투\n달력 http
+ s://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1306,13 +1274,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:xenon-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:[청약] 제논
 DESCRIPTION:청약 2026-12-14 ~ 2026-12-15\n환불일 2026-12-17\n종합점
- 수 분석 전\n최소증거금 4.85만원~\n주관사 삼성\n달력 http
- s://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 4.85만원~\n주관사 삼성\n달력 h
+ ttps://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1323,13 +1291,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:taeseok-optics-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:[청약] 태석광학
 DESCRIPTION:청약 2026-12-14 ~ 2026-12-15\n환불일 2026-12-17\n종합점
- 수 분석 전\n최소증거금 8.75만원~\n주관사 신한\, 대신\n
- 달력 https://vincent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 8.75만원~\n주관사 신한\, 대신\
+ n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1340,13 +1308,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:kte-sub@vincent533.github.io
-DTSTAMP:20261115T132952Z
+DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261216
 SUMMARY:[청약] KTE
 DESCRIPTION:청약 2026-12-14 ~ 2026-12-15\n환불일 2026-12-17\n종합점
- 수 분석 전\n최소증거금 9.5만원~\n주관사 NH\n달력 https://v
- incent533.github.io/ipo-calendar/
+ 수 자체 예비\n최소증거금 9.5만원~\n주관사 NH\n달력 https:
+ //vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
