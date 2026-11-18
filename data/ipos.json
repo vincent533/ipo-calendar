@@ -1287,7 +1287,19 @@
         "marginPct": 50,
         "source": "https://www.38.co.kr/html/fund/?o=v&no=2331&l=&page=1"
       },
-      "listDateSource": "https://www.newsis.com/view/NISX20261104_0003855174"
+      "listDateSource": "https://www.newsis.com/view/NISX20261104_0003855174",
+      "subscribed": true,
+      "my": {
+        "allotted": 1,
+        "sells": [
+          {
+            "shares": 1,
+            "price": 14010
+          }
+        ],
+        "fee": 2000,
+        "note": "앱 실현손익 -3,620원(-20.56%) 기준 매도가 추정"
+      }
     },
     {
       "id": "hanaaero",
