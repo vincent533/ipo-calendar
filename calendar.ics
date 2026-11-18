@@ -932,9 +932,10 @@ DTSTAMP:20261115T132952Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:[상장] 에이엘로봇
-DESCRIPTION:상장일 2026-11-18\n종합점수 B+\n최소증거금 8.8만
- 원\n주관사 대신\n확정공모가 17\,600원\n기관경쟁률 871.74:
- 1\n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-18\n시초가 수익률 -14.2%\n종합점수 
+ B+\n최소증거금 8.8만원\n주관사 대신\n확정공모가 17\,600
+ 원\n기관경쟁률 871.74:1\n달력 https://vincent533.github.io/ipo-cal
+ endar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
