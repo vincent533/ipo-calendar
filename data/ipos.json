@@ -1368,45 +1368,6 @@
    }
   },
   {
-   "id": "sfc",
-   "name": "에스에프씨",
-   "score": null,
-   "minDeposit": "15.8만원~",
-   "subscribeStart": "2026-11-18",
-   "subscribeEnd": "2026-11-19",
-   "listDate": "2026-11-27",
-   "brokers": [
-    "미래",
-    "한투",
-    "삼성"
-   ],
-   "videoUrl": null,
-   "videoStartSeconds": null,
-   "market": "코스피",
-   "refundDate": "2026-11-23",
-   "code": "083030",
-   "demand": {
-    "bandLow": 31600,
-    "bandHigh": 36100,
-    "offerPrice": null,
-    "instCompetition": null,
-    "lockupPct": null,
-    "floatPct": null,
-    "marginPct": 50,
-    "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1"
-   },
-   "listDateSource": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1",
-   "source": "https://www.38.co.kr/html/fund/?o=v&no=2349&l=&page=1",
-   "withdrawn": true,
-   "withdrawnDate": "2026-11-17",
-   "withdrawnSource": "https://www.mt.co.kr/stock/2026/11/17/2026111718140892887",
-   "selfScore": {
-    "grade": "예비",
-    "points": 0,
-    "basis": "11/17 수요예측 부진으로 공모 철회, 기관경쟁률 미공시"
-   }
-  },
-  {
    "id": "ucast",
    "name": "유캐스트",
    "score": "C+",
