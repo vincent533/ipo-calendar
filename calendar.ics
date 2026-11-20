@@ -969,9 +969,10 @@ DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:[상장] 하나에어로다이내믹스
-DESCRIPTION:상장일 2026-11-20\n종합점수 영상 A\n최소증거금 2.
- 85만원\n주관사 IBK\n확정공모가 5\,700원\n기관경쟁률 1\,051
- :1\n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-20\n시초가 수익률 +77.7%\n종합점수 
+ 영상 A\n최소증거금 2.85만원\n주관사 IBK\n확정공모가 5\,70
+ 0원\n기관경쟁률 1\,051:1\n달력 https://vincent533.github.io/ipo-ca
+ lendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
