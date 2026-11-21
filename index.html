@@ -711,7 +711,7 @@
             <span class="badge-sample"><span class="type-badge listing">상</span> 상장일 (초록)</span>
             <span><i class="dot mine"></i> 주황 테두리 = 내가 청약 (✓ 눌러 표시)</span>
             <span><span class="rec-badge buy">추천</span><span class="rec-badge small">소액</span><span class="rec-badge hold">보류</span> 청약 판단 (투자 권유 아님)</span>
-            <span>🔒 묶인 증거금 · ↩ 환불 (✓ 종목 합계)</span>
+            <span>↩ 환불 금액·증권사 (✓ 종목 합계)</span>
             <span>카드 탭 → 상세 · 예상 손익 · 내 매도 입력</span>
           </div>
         </details>
@@ -1106,11 +1106,11 @@
           const events = eventsForDate(key);
           const tied = money.tied[key], rf = money.refund[key];
           const man = (n) => fmtMan(n).replace(/원$/, "");
+          const rfBrokers = (r) => [...new Set(r.items.flatMap((x) => { const b = brokerList(x); const m = b.filter((y) => MY_BROKERS.includes(y)); return m.length ? m : b; }))].join("·");
           if (!events.length) cell.classList.add("empty");
           cell.innerHTML =
             `<div class="day-head"><span class="day-num">${d.getDate()}</span>` +
-            (tied ? `<span class="day-money tied" title="묶인 돈 ${escapeHtml(fmtMan(tied.sum))} · ${escapeHtml(tied.items.map((x) => x.name).join(", "))}">🔒${escapeHtml(man(tied.sum))}</span>` : "") +
-            (rf ? `<span class="day-money refund" title="환불 ${escapeHtml(fmtMan(rf.sum))} · ${escapeHtml(rf.items.map((x) => x.name).join(", "))}">↩${escapeHtml(man(rf.sum))}</span>` : "") +
+            (rf ? `<span class="day-money refund" title="환불 ${escapeHtml(fmtMan(rf.sum))} · ${escapeHtml(rf.items.map((x) => x.name).join(", "))}">↩${escapeHtml(man(rf.sum))}${rfBrokers(rf) ? " " + escapeHtml(rfBrokers(rf)) : ""}</span>` : "") +
             `</div>` +
             `<div class="cards">${events.map((e) => cardHtml(e.type, e.item)).join("")}</div>`;
           cal.appendChild(cell);
