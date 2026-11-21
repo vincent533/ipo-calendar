@@ -704,6 +704,7 @@
         <button type="button" class="act-btn" data-tool="paste" title="체결 문자 붙여넣기">📋<span class="t">문자</span></button>
         <button type="button" class="act-btn" data-tool="cal" title="내 캘린더에 추가">📅<span class="t">캘린더</span></button>
         <button type="button" class="act-btn filter-toggle" id="mineOnly" aria-pressed="false" title="청약한 종목만 보기">✓<span class="t">청약만</span></button>
+        <button type="button" class="act-btn filter-toggle" id="noSpac" aria-pressed="false" title="스팩 종목 숨기기 (청약 표시한 스팩은 계속 보임)">🚫<span class="t">스팩 제외</span></button>
         <details class="legend-d">
           <summary class="act-btn" title="범례">ⓘ</summary>
           <div class="legend">
@@ -762,6 +763,11 @@
     let mineMap = loadMine();
     let mineOnly = false;
     try { mineOnly = localStorage.getItem(MINE_FILTER_KEY) === "1"; } catch {}
+    const SPAC_FILTER_KEY = "ipoCalendar.noSpac.v1";
+    let noSpac = false;
+    try { noSpac = localStorage.getItem(SPAC_FILTER_KEY) === "1"; } catch {}
+    const isSpac = (item) => /스팩|SPAC/i.test(item.name || "");
+    const spacHidden = (item) => noSpac && isSpac(item) && !isMine(item);
     function itemKey(item) { return String((item && (item.id || item.name)) || ""); }
     function isMine(item) {
       const k = itemKey(item);
@@ -881,6 +887,7 @@
       const events = [];
       for (const item of items) {
         if (mineOnly && !isMine(item)) continue;
+        if (spacHidden(item)) continue;
         if (isWithdrawn(item)) {
           if (item.subscribeEnd === dateKey) events.push({ type: "subscribe", item });
           continue;
@@ -1128,6 +1135,7 @@
 
       for (const item of items) {
         if (mineOnly && !isMine(item)) continue;
+        if (spacHidden(item)) continue;
         if (isWithdrawn(item)) continue;
         const subStart = parseYMD(item.subscribeStart);
         const subEnd = parseYMD(item.subscribeEnd);
@@ -1855,10 +1863,12 @@
       }
       const f = document.getElementById("mineOnly");
       f.setAttribute("aria-pressed", String(mineOnly));
+      document.getElementById("noSpac").setAttribute("aria-pressed", String(noSpac));
       const st = document.getElementById("status");
       if (items.length && !st.classList.contains("error")) {
         const n = items.filter(isMine).length;
-        st.textContent = mineOnly ? `청약한 종목 ${n}개만 표시 중` : `${items.length}개 종목 표시 중 · 내가 청약 ${n}개`;
+        const shown = items.filter((it) => !spacHidden(it)).length;
+        st.textContent = (mineOnly ? `청약한 종목 ${n}개만 표시 중` : `${shown}개 종목 표시 중 · 내가 청약 ${n}개`) + (noSpac ? " · 스팩 제외" : "");
       }
     }
 
@@ -1888,6 +1898,12 @@
     document.getElementById("mineOnly").addEventListener("click", () => {
       mineOnly = !mineOnly;
       try { localStorage.setItem(MINE_FILTER_KEY, mineOnly ? "1" : "0"); } catch {}
+      renderAll();
+    });
+
+    document.getElementById("noSpac").addEventListener("click", () => {
+      noSpac = !noSpac;
+      try { localStorage.setItem(SPAC_FILTER_KEY, noSpac ? "1" : "0"); } catch {}
       renderAll();
     });
 
