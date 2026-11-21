@@ -1038,7 +1038,7 @@
           `<span class="sc">${sc}</span>` +
           (r.account ? "" : `<span class="noacct" title="계좌 없음 (${escapeHtml(r.brokers.join("·"))})">계좌X</span>`);
       } else if (my && my.ok) {
-        info = `<span class="my-chip ${my.profit > 0 ? "gain" : my.profit < 0 ? "loss" : ""}" title="내 실제 손익 ${escapeHtml(fmtWon(my.profit))}">내 ${escapeHtml(fmtWonShort(my.profit))}</span>`;
+        info = `<span class="my-chip ${my.profit > 0 ? "gain" : my.profit < 0 ? "loss" : ""}" title="내 실제 손익 ${escapeHtml(fmtWon(my.profit))}">${escapeHtml(fmtWonShort(my.profit))}</span>`;
       } else if (item.result && item.result.openReturnPct != null) {
         const p = item.result.openReturnPct;
         info = `<span class="ret ${p > 0 ? "gain" : p < 0 ? "loss" : ""}"><span class="lab">시초 </span>${escapeHtml(fmtPct(p))}</span>`;
