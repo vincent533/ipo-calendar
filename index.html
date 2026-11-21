@@ -1254,7 +1254,7 @@
     }
 
     // ---- 청약 추천 (단순 규칙 · 투자 권유 아님) ----
-    const MY_BROKERS = ["한투", "대신", "신한", "KB", "NH", "미래", "유진", "키움", "삼성"];
+    const MY_BROKERS = ["한투", "대신", "신한", "KB", "NH", "미래", "유진", "키움", "삼성", "하나"];
     function brokerList(item) {
       const raw = Array.isArray(item.brokers) ? item.brokers : String(item.brokers || "").split(/[,·\/]/);
       return [...new Set(raw.map(abbreviateBroker).filter(Boolean))];
