@@ -1,6 +1,6 @@
 /* 공모주 달력 — network-first service worker.
    Enables "install app" / WebAPK on Android. IPO data is never cached. */
-const CACHE_NAME = "ipo-calendar-v1";
+const CACHE_NAME = "ipo-calendar-v2";
 const PRECACHE = [
   "./",
   "./index.html",
