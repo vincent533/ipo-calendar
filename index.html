@@ -1061,6 +1061,7 @@
         `<div class="l1">${badge}<span class="nm">${escapeHtml(item.name)}</span></div>` +
         `<div class="l2"><span class="info">${info}</span>${toggleHtml(item)}</div>` +
         (type === "subscribe" ? `<div class="l3">${escapeHtml((recInfo(item).brokers || []).join("·") || "증권사 확인중")} · ${escapeHtml(displayDeposit(item.minDeposit))}</div>` : "") +
+        (type === "listing" ? (() => { const b = brokerList(item); const m = b.filter((y) => MY_BROKERS.includes(y)); const t = (m.length ? m : b).join("·"); return t ? `<div class="l3">${escapeHtml(t)}</div>` : ""; })() : "") +
         `</div>`
       );
     }
