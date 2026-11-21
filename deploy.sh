@@ -5,7 +5,8 @@ set -euo pipefail
 cd "$(dirname "$0")"
 python3 scripts/build_ics.py
 FILES=()
-for f in data/ipos.json calendar.ics index.html scripts deploy.sh README.md; do
+for f in data/ipos.json calendar.ics index.html scripts deploy.sh README.md \
+         manifest.webmanifest sw.js favicon.svg favicon-32.png apple-touch-icon.png icons; do
   [ -e "$f" ] && FILES+=("$f")
 done
 git add -- "${FILES[@]}"

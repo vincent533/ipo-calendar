@@ -4,6 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>공모주 달력</title>
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="application-name" content="공모주 달력" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="공모주 달력" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
   <style>
     :root {
       --bg: #f4f6f9;
@@ -1959,6 +1968,12 @@
     });
 
     loadData();
+
+    if ("serviceWorker" in navigator) {
+      const register = () => navigator.serviceWorker.register("./sw.js").catch(() => {});
+      if (document.readyState === "complete") register();
+      else window.addEventListener("load", register);
+    }
   </script>
 </body>
 </html>
