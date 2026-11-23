@@ -1053,70 +1053,20 @@ TRIGGER;RELATED=START:PT8H30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:adel-sub@vincent533.github.io
-DTSTAMP:20261118T130526Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261125
-SUMMARY:[청약] 아델
-DESCRIPTION:청약 2026-11-23 ~ 2026-11-24\n환불일 2026-11-26\n상장일
-  2026-12-02\n종합점수 자체 예비\n최소증거금 9만원~\n주관
- 사 삼성\, 미래\n달력 https://vincent533.github.io/ipo-calendar/
-URL:https://vincent533.github.io/ipo-calendar/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:아델 청약 마감일
-TRIGGER;RELATED=START:P1DT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:adel-list@vincent533.github.io
-DTSTAMP:20261118T130526Z
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-SUMMARY:[상장] 아델
-DESCRIPTION:상장일 2026-12-02\n종합점수 자체 예비\n최소증거
- 금 9만원~\n주관사 삼성\, 미래\n달력 https://vincent533.github.
- io/ipo-calendar/
-URL:https://vincent533.github.io/ipo-calendar/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:아델 오늘 상장
-TRIGGER;RELATED=START:PT8H30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:shinyoung-spac12-sub@vincent533.github.io
 DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261126
 SUMMARY:[청약] 신영스팩12호
 DESCRIPTION:청약 2026-11-24 ~ 2026-11-25\n환불일 2026-11-27\n종합점
- 수 자체 예비\n최소증거금 2만원\n주관사 신영\n확정공모
- 가 2\,000원\n달력 https://vincent533.github.io/ipo-calendar/
+ 수 자체 C\n최소증거금 2만원\n주관사 신영\n확정공모가 2
+ \,000원\n기관경쟁률 1\,275.8:1\n달력 https://vincent533.github.io/
+ ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:신영스팩12호 청약 마감일
-TRIGGER;RELATED=START:P1DT9H
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:kmf-sub@vincent533.github.io
-DTSTAMP:20261118T130526Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261126
-SUMMARY:[청약] 케이엠에프
-DESCRIPTION:청약 2026-11-24 ~ 2026-11-25\n환불일 2026-11-27\n종합점
- 수 자체 예비\n최소증거금 7.5만원~\n주관사 IBK\n달력 https
- ://vincent533.github.io/ipo-calendar/
-URL:https://vincent533.github.io/ipo-calendar/
-TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:케이엠에프 청약 마감일
 TRIGGER;RELATED=START:P1DT9H
 END:VALARM
 END:VEVENT
