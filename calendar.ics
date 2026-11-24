@@ -1005,9 +1005,10 @@ DTSTAMP:20261118T130526Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:[상장] 엠비디
-DESCRIPTION:상장일 2026-11-24\n종합점수 영상 C+\n최소증거금 7
- 만원\n주관사 하나\n확정공모가 7\,000원\n기관경쟁률 187:1
- \n달력 https://vincent533.github.io/ipo-calendar/
+DESCRIPTION:상장일 2026-11-24\n시초가 수익률 -15.3%\n종합점수 
+ 영상 C+\n최소증거금 7만원\n주관사 하나\n확정공모가 7\,0
+ 00원\n기관경쟁률 187:1\n달력 https://vincent533.github.io/ipo-cale
+ ndar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
@@ -1209,18 +1210,35 @@ END:VEVENT
 BEGIN:VEVENT
 UID:destin-power-sub@vincent533.github.io
 DTSTAMP:20261118T130526Z
-DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261216
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261215
 SUMMARY:[청약] 데스틴파워
-DESCRIPTION:청약 2026-12-14 ~ 2026-12-15\n환불일 2026-12-17\n종합점
- 수 자체 예비\n최소증거금 4만원~\n주관사 한투\n달력 http
- s://vincent533.github.io/ipo-calendar/
+DESCRIPTION:청약 2026-12-11 ~ 2026-12-14\n환불일 2026-12-16\n상장일
+  2026-12-23\n종합점수 자체 예비\n최소증거금 4만원~\n주관
+ 사 한투\n달력 https://vincent533.github.io/ipo-calendar/
 URL:https://vincent533.github.io/ipo-calendar/
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:데스틴파워 청약 마감일
-TRIGGER;RELATED=START:P1DT9H
+TRIGGER;RELATED=START:P3DT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:destin-power-list@vincent533.github.io
+DTSTAMP:20261118T130526Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:[상장] 데스틴파워
+DESCRIPTION:상장일 2026-12-23\n종합점수 자체 예비\n최소증거
+ 금 4만원~\n주관사 한투\n달력 https://vincent533.github.io/ipo-ca
+ lendar/
+URL:https://vincent533.github.io/ipo-calendar/
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:데스틴파워 오늘 상장
+TRIGGER;RELATED=START:PT8H30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
