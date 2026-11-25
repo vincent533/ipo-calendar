@@ -1384,9 +1384,10 @@
     "minShares": 20,
     "fee": 2000,
     "feeBroker": "하나",
-    "profitWon": "확인중",
-    "allotmentNote": "균등 배정 주수 확인중",
-    "source": "https://gaemilab.com/ipo/01705740"
+    "profitWon": -9104,
+    "allotmentNote": "균등 6주+추첨 평균 6.64주(경쟁률 172.9:1)",
+    "source": "https://gaemilab.com/ipo/01705740",
+    "allotShares": 6.64
    }
   },
   {
